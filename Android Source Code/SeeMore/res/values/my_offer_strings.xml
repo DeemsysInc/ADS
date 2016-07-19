@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="brand">Brand</string>
+    <string name="expiration">Expiration</string>
+    <string name="value">Value</string>
+    <string name="most_recent">Most Recent</string>
+    <string name="closet">Favorite</string>
+    
+    <string name="redeem_string"></string>
+    <string name="redeem_string1">Details about the offer fill up this space.</string>
+    <string name="redeem_string2">Details about the offer fill up this space.</string>
+    <string name="expire_date">Exp. 12/31/2013</string>
+    <string name="no_offers_msg">There are no Offer(s) available.</string>
+    
+    <string name="img_offer_url" type="id">imgOfferUrl</string>
+    <string name="img_offer_id" type="id">imgOfferId</string>
+    <string name="my_offer_string">My Offers</string>
+    
+</resources>

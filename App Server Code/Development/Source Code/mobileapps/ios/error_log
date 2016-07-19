@@ -1,0 +1,2 @@
+[04-Jun-2015 06:10:54 America/Denver] PHP Parse error:  syntax error, unexpected ''shippingAdd' (T_ENCAPSED_AND_WHITESPACE), expecting ']' in /home/devarapps/public_html/mobileapps/ios/classes/store.class.php on line 427
+[04-Jun-2015 06:14:23 America/Denver] PHP Parse error:  syntax error, unexpected end of file in /home/devarapps/public_html/mobileapps/ios/classes/store.class.php on line 1114

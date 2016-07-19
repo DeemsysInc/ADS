@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      android:id="@+id/bgRelativeLayout"
+      android:layout_width="match_parent"
+      android:layout_height="fill_parent"
+      android:background="@drawable/bg_closet"
+      android:orientation="vertical" >
+ 
+     <include
+         android:id="@+id/include1"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentTop="true"
+         layout="@layout/layout_header" />
+
+
+      <ProgressBar
+          android:id="@+id/closetProgressBar"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignBottom="@+id/txtvHeadTitle"
+          android:layout_alignParentRight="true" />
+     
+			
+     <TextView
+         android:id="@+id/txtvVersion"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_alignParentBottom="true"
+         android:text="Version 2.0"
+         android:gravity="center_horizontal"
+         android:textAppearance="?android:attr/textAppearanceLarge"
+         android:textSize="30sp" />
+
+       <ScrollView
+           android:id="@+id/scrollView1"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_alignParentLeft="true"
+           android:layout_below="@+id/include1" >
+           
+           <RelativeLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent" >
+			
+			       <TextView
+			           android:id="@+id/TextView01"
+			           android:layout_width="match_parent"
+			           android:layout_height="wrap_content"
+			           android:layout_below="@+id/btnCheckoutConfirm"
+			           android:layout_marginTop="100dp"
+			           android:gravity="center_horizontal"
+			           android:text="@string/about_desc2"
+			           android:textAppearance="?android:attr/textAppearanceLarge"
+			           android:textSize="30sp" />
+			
+			       <TextView
+			           android:id="@+id/Button01"
+			           android:layout_width="fill_parent"
+			           android:layout_height="wrap_content"
+			           android:layout_below="@+id/TextView01"
+			           android:clickable="true"
+			           android:gravity="center_horizontal|center_vertical"
+			           android:linksClickable="true"
+			           android:text="http://www.metaio.com/imprint/"
+			           android:textColor="#40E0D0"
+			           android:textSize="25sp" />
+
+			       <TextView
+			           android:id="@+id/btnCheckoutConfirm"
+			           android:layout_width="fill_parent"
+			           android:layout_height="wrap_content"
+			           android:layout_alignParentLeft="true"
+			           android:layout_below="@+id/txtvPoweredBy"
+			           android:clickable="true"
+			           android:gravity="center_horizontal|center_vertical"
+			           android:linksClickable="true"
+			           android:text="http://www.seemoreinteractive.com"
+			           android:textColor="#40E0D0"
+			           android:textSize="25sp" />
+
+			       <TextView
+			           android:id="@+id/txtvPoweredBy"
+			           android:layout_width="match_parent"
+			           android:layout_height="wrap_content"
+			           android:layout_alignParentLeft="true"
+			           android:layout_alignParentTop="true"
+			           android:layout_marginTop="358dp"
+			           android:gravity="center_horizontal"
+			           android:text="@string/about_desc"
+			           android:textAppearance="?android:attr/textAppearanceLarge"
+			           android:textSize="30sp" />
+
+           </RelativeLayout>
+       </ScrollView>
+        <include
+	      android:id="@+id/include_layout"
+	      android:layout_width="wrap_content"
+	      android:layout_height="wrap_content"
+	      android:layout_alignParentLeft="true"
+	      android:layout_alignParentTop="true"
+	      layout="@layout/instruction_layout" />
+	
+</RelativeLayout>

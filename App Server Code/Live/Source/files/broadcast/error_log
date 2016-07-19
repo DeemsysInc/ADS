@@ -1,0 +1,5 @@
+[26-Jan-2012 00:29:41] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/wikiwest/public_html/YouTubeAPI/index.php on line 186
+[26-Jan-2012 04:56:26] PHP Parse error:  syntax error, unexpected T_VAR in /home/wikiwest/public_html/broadcast/index.php on line 186
+[26-Jan-2012 04:56:29] PHP Parse error:  syntax error, unexpected T_VAR in /home/wikiwest/public_html/broadcast/index.php on line 186
+[26-Jan-2012 05:46:08] PHP Fatal error:  Call to undefined function now() in /home/wikiwest/public_html/broadcast/index.php on line 177
+[26-Jan-2012 05:46:12] PHP Fatal error:  Call to undefined function now() in /home/wikiwest/public_html/broadcast/index.php on line 177

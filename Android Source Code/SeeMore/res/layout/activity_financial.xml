@@ -1,0 +1,196 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <include
+        android:id="@+id/include1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        layout="@layout/layout_header" />
+
+    <include
+        android:id="@+id/include2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        layout="@layout/layout_footer_menu" />
+
+  <!--   <ImageView
+        android:id="@+id/imgvBackToOffer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/include1"
+        android:layout_marginTop="18dp"
+        android:src="@drawable/btn_back_to_offer"
+        android:visibility="invisible" /> -->
+
+    <RelativeLayout
+        android:id="@+id/llForBigImgBg"
+        android:layout_width="518dp"
+        android:layout_height="443dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/include1"
+        android:layout_marginLeft="41dp"
+        android:layout_marginTop="18dp"
+        android:background="@color/WhiteColor"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/rlForImgs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/rlForBtns"   
+            android:layout_marginLeft="5dp"                 
+            android:layout_marginRight="5dp"    
+            android:layout_marginBottom="10dp"
+            android:visibility="invisible" >
+
+            <ImageView
+                android:id="@+id/imgvForPd"
+                android:layout_width="510dp"
+                android:layout_height="356dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="4dp"
+                android:visibility="invisible"
+                android:scaleType="fitXY" />
+            
+            <Button
+                android:id="@+id/btnSeeItLive"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:layout_alignRight="@+id/imgvForPd"
+                android:layout_alignTop="@+id/imgvForPd"
+                android:background="@drawable/see_it_live"
+                android:gravity="right|top"
+                android:paddingRight="20dp"
+                android:text="@string/see_it_live_multi_line"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:typeface="serif"
+                android:visibility="invisible" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlForVideos"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_height="356dp"
+            android:layout_marginBottom="8dp"
+            android:layout_above="@+id/rlForBtns"
+            android:visibility="invisible"
+            android:background="#000000" >
+
+            <ImageView
+                android:id="@+id/imgvStop"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@+id/imgvPlayPause"
+                android:layout_marginRight="71dp"
+                android:src="@drawable/stop_player_button" />
+
+            <ImageView
+                android:id="@+id/imgvPlayPause"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="71dp"
+                android:src="@drawable/pause_player_button" />
+
+            <VideoView
+                android:id="@+id/playersurface"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_above="@+id/imgvStop"
+                android:layout_alignParentRight="true"
+                android:visibility="invisible" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlForBtns"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true" >
+
+            <TextView
+                android:id="@+id/txtvForValue"
+                android:layout_width="215dp"
+                android:layout_height="69dp"
+                android:layout_alignParentTop="false"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/imgvBtnStar"
+                android:gravity="center_vertical|center_horizontal"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#1d9b1b"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <com.seemoreinteractive.seemoreinteractive.helper.PressedBgButton
+                android:id="@+id/imgvBtnFinancial"
+                android:layout_width="187dp"
+                android:layout_height="69dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="false"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/btn_financial_button"
+                android:gravity="center_vertical|center_horizontal"
+                android:scaleType="fitXY"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:text=""
+                android:textColor="@color/WhiteColor"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <com.seemoreinteractive.seemoreinteractive.helper.PressedBgImageView
+                android:id="@+id/imgvBtnStar"
+                android:layout_width="100dp"
+                android:layout_height="69dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="false"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:scaleType="fitStart"
+                android:src="@drawable/btn_unsaved_heart" 
+                android:layout_marginBottom="10dp"/>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlForCarousel"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:layout_above="@+id/include2"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentLeft="true" >
+
+        <com.seemoreinteractive.seemoreinteractive.fancycoverflow.FancyCoverFlow
+            android:id="@+id/fancyCoverFlowForPds"
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:layout_alignParentLeft="true" />
+    </RelativeLayout>
+
+     <include
+                android:id="@+id/include_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                layout="@layout/instruction_layout" />
+</RelativeLayout>

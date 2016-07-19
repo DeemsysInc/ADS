@@ -1,0 +1,104 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical|center_horizontal">
+
+ <RelativeLayout
+        android:id="@+id/bgRelativeLayout"
+        android:layout_width="525dp"
+        android:layout_height="480dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="18dp"
+        android:background="@color/WhiteColor"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="vertical" >
+
+      <!--   <RelativeLayout
+            android:id="@+id/rlForImgs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp">
+
+        </RelativeLayout> -->
+        
+        
+        
+    <com.seemoreinteractive.seemoreinteractive.helper.BounceListView
+        android:id="@+id/listViewScratch"
+        android:layout_width="495dp"
+        android:layout_height="230dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/txtvMess"
+        android:scrollbars="vertical" >
+    </com.seemoreinteractive.seemoreinteractive.helper.BounceListView>
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="480dp"
+        android:layout_height="1dp"
+        android:background="#B3B3B2"
+        android:layout_below="@+id/listViewScratch"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:visibility="visible"/>
+
+    <TextView
+        android:id="@+id/txtvMess"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:text="Congratulations!"
+        android:textColor="#000000"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/txtvDisclaimer"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/listViewScratch"
+        android:layout_alignRight="@+id/listViewScratch"
+        android:layout_marginTop="20dp"
+        android:maxLength="80"
+        android:text=" "        
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#000000" />
+
+    <com.seemoreinteractive.seemoreinteractive.helper.PressedBgButton
+        android:id="@+id/btnOffer"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_alignLeft="@+id/listViewScratch"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/button_saveprize" />
+
+    <com.seemoreinteractive.seemoreinteractive.helper.PressedBgButton
+        android:id="@+id/btnGameRules"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:layout_alignBaseline="@+id/btnOffer"
+        android:layout_alignBottom="@+id/btnOffer"
+        android:layout_toRightOf="@+id/btnOffer"
+        android:background="@drawable/button_rules"
+        android:layout_marginLeft="20dp" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imgvClose"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="60dp"
+        android:src="@drawable/playnow_close_btn" />
+
+</RelativeLayout>

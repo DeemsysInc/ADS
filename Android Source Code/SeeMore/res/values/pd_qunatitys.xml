@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="product_qunatity_id" type="id">dynamicProdQunatityIds</item>
+    <item name="product_color_id" type="id">dynamicProdColorIds</item>
+    <item name="product_color_linearLayot_id" type="id">dynamicProdColorLlayoutIds</item>
+    <item name="product_size_id" type="id">dynamicProdSizeIds</item>
+</resources>

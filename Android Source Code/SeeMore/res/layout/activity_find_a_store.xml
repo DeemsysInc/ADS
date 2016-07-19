@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bgRelativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/WhiteColor"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/bar_top_plain" >
+
+        <com.seemoreinteractive.seemoreinteractive.helper.PressedBgImageView
+            android:id="@+id/imgvBtnCameraIcon"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/gradient_bg_for_left_right"
+            android:src="@drawable/camera_icon_1" />
+
+        <TextView
+            android:id="@+id/txtvHeaderTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="Find a store"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FFFFFF"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            android:typeface="normal" />
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/etxtFindaStore"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/relativeLayout1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/find_store_edittext"
+        android:ems="10"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:singleLine="true"
+        android:textSize="20sp" >
+
+    </EditText>
+
+    <Spinner
+        android:id="@+id/spinnerFindAStore"
+        style="?android:attr/spinnerItemStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_alignBottom="@+id/etxtFindaStore"
+        android:layout_alignTop="@+id/etxtFindaStore"
+        android:layout_marginLeft="10dp"
+        android:layout_toLeftOf="@+id/btnSearchIcon"
+        android:layout_toRightOf="@+id/etxtFindaStore"
+        android:background="@drawable/spinner_bg"
+        android:entries="@array/spinnerItems"
+        android:paddingLeft="10dp"
+        android:prompt="@string/find_prompt" />
+
+	<fragment
+	    android:id="@+id/map"
+	    android:layout_width="match_parent"
+	    android:layout_height="400dp"
+	    android:layout_alignParentLeft="true"
+	    android:layout_below="@+id/etxtFindaStore"
+	    android:layout_marginTop="10dp"
+	    class="com.google.android.gms.maps.MapFragment" />
+
+	<ListView
+	    android:id="@+id/lvForMapView"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentLeft="true"
+	    android:layout_below="@+id/map"
+	    android:layout_marginTop="10dp" >
+	</ListView>
+
+	<com.seemoreinteractive.seemoreinteractive.helper.PressedBgButton
+	    android:id="@+id/btnSearchIcon"
+	    android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/etxtFindaStore"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:scaleType="fitCenter"
+	    android:background="@drawable/search_icon" />
+
+	<include
+	    android:id="@+id/include_layout"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentLeft="true"
+	    android:layout_alignParentTop="true"
+	    layout="@layout/instruction_layout" />
+
+</RelativeLayout>

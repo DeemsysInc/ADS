@@ -1,0 +1,28 @@
+newmtl blueRing_Diamonds:lambert13SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd blueRing_diamonds_0208.png
+Ni 1.00
+newmtl blueRing_base:lambert1SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd blueRing_Base_0208.png
+Ni 1.00
+newmtl blueRing_frame:baked_diamondFrame_lambert5SG_ringMiddle1SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd blueRing_frame_0208.png
+Ni 1.00
+newmtl blueRing_jewel:lambert12SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd BlueJewel_Jewel_0208.png
+Ni 1.00

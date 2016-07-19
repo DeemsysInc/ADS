@@ -1,0 +1,115 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF" >
+
+    <include
+        android:id="@+id/include1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        layout="@layout/layout_header" />
+
+    <include
+        android:id="@+id/include2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        layout="@layout/layout_footer_menu" />
+
+    <TextView
+        android:id="@+id/txtMess"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/include1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="56dp"
+        android:text="Congratulations!"
+        android:textColor="#000000" 
+        android:textSize="30dp"/>
+
+    <ImageView
+        android:id="@+id/imgvGameOffer"
+        android:layout_width="500dp"
+        android:layout_height="250dp"
+        android:layout_below="@+id/txtMess"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="55dp"
+        android:scaleType="fitXY" 
+        />
+
+    <!-- <TextView
+        android:id="@+id/txtValue"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtofferDesc"
+        android:layout_alignTop="@+id/txtofferShortDesc"
+        android:text=""
+        android:textColor="#000000"
+        android:textSize="25sp" /> -->
+
+    <com.seemoreinteractive.seemoreinteractive.helper.PressedBgButton
+        android:id="@+id/btnGameRules"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:layout_alignBaseline="@+id/btnOffer"
+        android:layout_alignBottom="@+id/btnOffer"
+        android:layout_toRightOf="@+id/btnOffer"
+        android:background="@drawable/button_rules"
+        android:layout_marginLeft="20dp" />
+
+    <TextView
+        android:id="@+id/txtofferDesc"
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imgvGameOffer"
+        android:layout_below="@+id/imgvGameOffer"
+        android:text="buy one item and get 5% discount on iten"
+        android:textColor="#000"
+        android:textSize="25sp"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/txtofferShortDesc"
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtofferDesc"
+        android:layout_below="@+id/txtofferDesc"
+        android:layout_marginTop="22dp"
+        android:text="offer expires on april 5,2015 .not valid with any others"
+        android:textColor="#000"
+        android:textSize="18sp" />
+
+    <com.seemoreinteractive.seemoreinteractive.helper.PressedBgButton
+        android:id="@+id/btnOffer"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_above="@+id/include2"
+        android:layout_alignLeft="@+id/txtofferShortDesc"
+        android:layout_marginBottom="31dp"
+        android:background="@drawable/button_saveprize" />
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="480dp"
+        android:layout_height="1dp"
+        android:layout_above="@+id/btnGameRules"
+        android:layout_alignLeft="@+id/btnOffer"
+        android:layout_marginBottom="90dp"
+        android:background="#000000" />
+
+    <TextView
+        android:id="@+id/txtvDisclaimer"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnGameRules"
+        android:layout_alignRight="@+id/btnGameRules"
+        android:layout_marginBottom="48dp"
+        android:maxLength="80"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#000000" />
+
+</RelativeLayout>

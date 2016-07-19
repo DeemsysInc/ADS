@@ -1,0 +1,96 @@
+#settings-page .large-area {
+	font-size: 120%;
+	padding: 20px 20px 20px 35px;
+}
+#settings-page .large-area label {
+	width: 80px;
+	display: inline-block;
+}
+#settings-page .large-area input {
+	width: 60%;
+	margin-right: 20px;
+	padding: 5px 10px;
+	max-width: 530px;
+}
+#settings-page .large-area span.error {
+	color: red;
+}
+#settings-page .form-large {
+	border:solid 1px #ccc;
+	margin: 20px 30px;
+	width:800px;
+	font-size: 14px;
+}
+
+#settings-page .heading {
+	background: #ddd;
+	padding: 15px;
+	width: 100%;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+#settings-page .form-body {
+	padding: 10px;
+}
+#settings-page .form-body>div {
+	padding: 15px 0;
+}
+#settings-page .form-body>div label {
+	width: 70%;
+	display: inline-block;
+	vertical-align: middle;
+	max-width: 385px;
+	padding-right: 18px;
+	text-align: right;
+
+}
+#settings-page .form-body>div label.large {
+	width: 100%;
+	max-width: 580px;
+}
+#settings-page .form-body>div label.or {
+	text-align: center;
+}
+.form-body>div input {
+	display: inline-block;
+	vertical-align: middle;
+}
+#settings-page .button.right-btn {
+}
+#settings-page .clearall {
+	clear: both;
+	text-align: center;
+}
+#settings-page .clearall:after {
+	clear: both;
+	content: "";
+	display: block;
+}
+#settings-page .alert {
+	padding: 10px;
+	margin: 0 30px 15px;
+	border: 1px solid rgba(0, 0, 0, 0);
+	border-radius: 4px;
+	max-width: 780px;
+}
+#settings-page .alert.alert-danger { 
+	color: #A94442;
+	background-color: #F2DEDE;
+	border-color: #EBCCD1;
+}
+#settings-page .alert.alert-info { 
+	color: #31708F;
+	background-color: #D9EDF7;
+	border-color: #BCE8F1;
+}
+#settings-page .alert.alert-warning { 
+	color: #8A6D3B;
+	background-color: #FCF8E3;
+	border-color: #FAEBCC;
+}
+#settings-page .alert.alert-success {
+	color: #3C763D;
+	background-color: #DFF0D8;
+	border-color: #D6E9C6;
+}

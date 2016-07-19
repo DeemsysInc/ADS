@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>    
+    <string name="imageUrl" type="id">imageUrl</string>
+    <string name="imageName" type="id">imageName</string>
+    <string name="imageLink" type="id">imageLink</string>
+    <string name="imageDesc" type="id">imageDesc</string>
+    <string name="imagePrice" type="id">imagePrice</string>
+    
+</resources>

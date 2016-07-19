@@ -1,0 +1,148 @@
+<!--
+ <?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/include1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        layout="@layout/layout_header" />
+
+ 
+    <include
+        android:id="@+id/include2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        layout="@layout/layout_footer_menu" />
+
+    
+     <LinearLayout
+    	android:layout_weight="0.5"
+    	android:padding="5dip"
+    	android:gravity="top"    	
+    	android:layout_marginTop="20dp"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"	    
+        android:layout_below="@+id/include1" 
+        android:id="@+id/lin"
+    	>
+
+       <com.seemoreinteractive.seemoreinteractive.wheel.Carousel 
+            android:id="@+id/carouselRelativeLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="700dp"
+            android:animationDuration="200">
+        
+        </com.seemoreinteractive.seemoreinteractive.wheel.Carousel>
+ 
+	</LinearLayout>
+    
+         
+    
+     <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@xml/custom_border"
+        android:indeterminateDrawable="@xml/my_progress_indeterminate"       
+        android:visibility="visible"
+         />
+
+    <ImageView
+        android:id="@+id/pointer"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/sm_wod_pointer" />
+
+    <com.seemoreinteractive.seemoreinteractive.helper.PressedBgImageView
+        android:id="@+id/btnSpin"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:scaleType="fitXY"
+        android:layout_below="@+id/lin"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/wod_spinnow_btn" />
+
+</RelativeLayout>
+-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff" >
+
+    <include
+        android:id="@+id/include2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        layout="@layout/layout_footer_menu" />
+
+    <include
+        android:id="@+id/include1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        layout="@layout/layout_header" />
+
+ <!--   <RelativeLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="700dp"
+    android:id="@+id/caroselLayout"    
+    android:layout_above="@+id/btnSpin"
+     ></RelativeLayout>   -->  
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@xml/custom_border"
+        android:indeterminateDrawable="@xml/my_progress_indeterminate"
+        android:visibility="visible" />
+
+    <com.seemoreinteractive.seemoreinteractive.wheel.Carousel
+        android:id="@+id/carousel"
+        android:layout_width="fill_parent"
+        android:layout_height="750dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/include1"
+        android:animationDuration="400"
+        >
+    </com.seemoreinteractive.seemoreinteractive.wheel.Carousel>
+
+    <com.seemoreinteractive.seemoreinteractive.helper.PressedBgImageView
+        android:id="@+id/btnSpin"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_above="@+id/include2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="35dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/wod_spinnow_btn" />
+
+    <ImageView
+        android:id="@+id/pointer"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignBottom="@+id/progressBar"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:src="@drawable/sm_wod_pointer" />
+
+</RelativeLayout>

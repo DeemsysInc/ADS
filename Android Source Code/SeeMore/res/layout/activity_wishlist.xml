@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true" >
+
+    <RelativeLayout
+	    android:id="@+id/bgRelativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/bg_closet" >
+
+        <include
+            android:id="@+id/include1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            layout="@layout/layout_header" />
+
+        <include
+            android:id="@+id/include2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            layout="@layout/layout_footer_menu" />
+        
+        <TextView
+            android:id="@+id/txtvProdNotAvail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="There are no products available."
+            android:textSize="30sp"
+            android:visibility="invisible"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+       <TextView
+           android:id="@+id/offerLabel"
+           android:layout_width="460dp"
+           android:layout_height="wrap_content"
+           android:layout_below="@+id/include1"
+           android:layout_centerHorizontal="true"
+           android:layout_marginBottom="10dp"
+           android:layout_marginTop="10dp"
+           android:gravity="center_horizontal"
+           android:textAppearance="?android:attr/textAppearanceLarge"
+           android:textSize="30sp" />
+
+       <com.seemoreinteractive.seemoreinteractive.fancycoverflow.FancyCoverFlow
+           android:id="@+id/fancyCoverFlow1"
+           android:layout_width="match_parent"
+           android:layout_height="500dp"
+           android:layout_alignParentLeft="true"
+           android:layout_below="@+id/offerLabel"
+           android:spacing="-100dip" />
+
+		<com.seemoreinteractive.seemoreinteractive.helper.PressedBgImageView
+		    android:id="@+id/imgvAddWishList"
+		    android:layout_width="280dp"
+		    android:layout_height="64dp"
+		    android:layout_above="@+id/include2"
+		    android:layout_alignParentLeft="true"
+		    android:layout_marginBottom="20dp"
+		    android:layout_marginLeft="15dp"
+		    android:scaleType="fitXY"
+		    android:background="@drawable/btn_addwishlist" />
+
+		<com.seemoreinteractive.seemoreinteractive.helper.PressedBgImageView
+		    android:id="@+id/imgvSeeFrndWishList"
+		    android:layout_width="280dp"
+		    android:layout_height="64dp"
+		    android:layout_above="@+id/include2"
+		    android:layout_alignParentRight="true"
+		    android:layout_marginBottom="20dp"
+		    android:layout_marginRight="15dp"
+		    android:scaleType="fitXY"
+		    android:background="@drawable/btn_seefriendswishlist" />
+
+		<com.seemoreinteractive.seemoreinteractive.helper.PressedBgImageView
+		    android:id="@+id/imgvSelectWishList"
+		    android:layout_width="280dp"
+		    android:layout_height="64dp"
+		    android:layout_above="@+id/imgvAddWishList"
+		    android:layout_alignParentLeft="true"
+		    android:layout_marginBottom="10dp"
+		    android:layout_marginLeft="15dp"
+		    android:scaleType="fitXY"
+		    android:background="@drawable/btn_selectwishlist" />
+
+		<com.seemoreinteractive.seemoreinteractive.helper.PressedBgImageView
+		    android:id="@+id/imgvAddItemToWishList"
+		    android:layout_width="280dp"
+		    android:layout_height="64dp"
+		    android:layout_above="@+id/imgvSeeFrndWishList"
+		    android:layout_alignParentRight="true"
+		    android:layout_marginBottom="10dp"
+		    android:layout_marginRight="15dp"
+		    android:scaleType="fitXY"
+		    android:background="@drawable/btn_additemtowishlist" />
+
+		<ImageView
+		    android:id="@+id/imgvHelp"
+		    android:layout_width="50dp"
+		    android:layout_height="50dp"
+		    android:layout_alignParentRight="true"
+		    android:layout_alignTop="@+id/offerLabel"
+		    android:src="@drawable/help_icon" />
+		
+		 <include
+            android:id="@+id/include_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/include1"
+            layout="@layout/instruction_layout" />
+		
+
+    </RelativeLayout>
+	
+</ScrollView>

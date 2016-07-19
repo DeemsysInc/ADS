@@ -1,0 +1,6358 @@
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) {
+
+#main-menu > li.menu-home-icon > a {
+	background:url(../images/icons/home@2x.png) no-repeat center center;
+}
+#main-menu > li.menu-home-icon.current-menu-item > a {
+	background:url(../images/icons/home-hover@2x.png) no-repeat center center;
+}
+.kp-filter div > a,
+.isotop-header > a {
+	background:url(../images/background/filter-arrow@2x.png) no-repeat center center #a1d952;
+	background-size:11px 6px;
+}
+
+.sf-arrows li ul li .sf-with-ul:after {
+	background-image:url(../images/background/menu-arrow@2x.png);
+	background-size:7px 10px;
+}
+
+.sf-arrows li ul li .sf-with-ul:after {
+	background-image:url(../images/icons/search-icon@2x.png);
+	background-size:20px 21px;
+}
+/*
+.more-link,
+#sequence li .more-link {
+	background-image:url(../images/icons/arrow-icon@2x.png);
+	background-size:10px 10px;
+}
+
+.more-link:hover,
+#sequence li .more-link:hover {
+	background-image:url(../images/icons/arrow-icon-hover@2x.png);
+	background-size:10px 10px;
+}
+*/
+#back-top a {
+	background-image:url(../images/icons/arrow-up@2x.png);
+	background-size:20px 20px;
+}
+
+.carousel-nav .carousel-next,
+.kp-our-work .carousel-nav .carousel-next:hover,
+.kp-testimonial .carousel-nav .carousel-next:hover,
+.pf-detail-nav .pf-detail-next:hover {
+	background-image:url(../images/slider/carousel-next@2x.png);
+	background-size:6px 9px;
+}
+
+.carousel-nav .carousel-prev,
+.kp-our-work .carousel-nav .carousel-prev:hover,
+.kp-testimonial .carousel-nav .carousel-prev:hover,
+.pf-detail-nav .pf-detail-prev:hover {
+	background-image:url(../images/slider/carousel-prev@2x.png);
+	background-size:6px 9px;
+}
+
+.carousel-nav .carousel-next:hover,
+.kp-our-work .carousel-nav .carousel-next,
+.kp-testimonial .carousel-nav .carousel-next,
+.pf-detail-nav .pf-detail-next {
+	background-image:url(../images/slider/carousel-next-hover@2x.png);
+	background-size:6px 9px;
+}
+
+.carousel-nav .carousel-prev:hover,
+.kp-our-work .carousel-nav .carousel-prev,
+.kp-testimonial .carousel-nav .carousel-prev,
+.pf-detail-nav .pf-detail-prev {
+	background-image:url(../images/slider/carousel-prev-hover@2x.png);
+	background-size:6px 9px;
+}
+
+.kp-testimonial .testimonial-content .quote-icon {
+	background-image:url(../images/icons/dark-quote-icon@2x.png);
+	background-size:21px 16px;
+}
+
+.bottom-twitter .tweet_list li .tweet_avatar {
+	background-image:url(../images/icons/twitter-icon@2x.png);
+	background-size:24px 19px;
+}
+
+.kp-testimonial .testimonial-content .arrow {
+	background-image:url(../images/background/testimonial-arrow@2x.png);
+	background-size:26px 34px;
+}
+
+.pf-detail-slider .flex-direction-nav .flex-next,
+.blogpost-slider .flex-direction-nav .flex-next,
+.kp-single-slider .flex-direction-nav .flex-next,
+.kp-single-carousel .flex-direction-nav .flex-next,
+.next {
+	background-image:url(../images/slider/sequencel-next@2x.png);
+	background-size:10px 15px;
+}
+
+.pf-detail-slider .flex-direction-nav .flex-prev,
+.blogpost-slider .flex-direction-nav .flex-prev,
+.kp-single-slider .flex-direction-nav .flex-prev,
+.kp-single-carousel .flex-direction-nav .flex-prev,
+.prev {
+	background-image:url(../images/slider/sequencel-prev@2x.png);
+	background-size:10px 15px;
+}
+
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1043px) {
+	
+/* =========================================================
+Colunms
+============================================================ */
+.wrapper{
+    width:980px;
+}
+#main-col {
+	width:660px;
+	margin-right:20px;
+}
+.kp-left-sidebar #main-col {
+	width:660px;
+	margin-left:20px;
+}
+.two-sidebar .sidebar {
+	width:200px;
+}
+.two-sidebar #main-col {
+	width:540px;
+	margin:0 20px;
+}
+
+/* =========================================================
+Header
+============================================================ */
+/*---Main Menu---*/
+.sf-arrows ul li > .sf-with-ul:focus:after, 
+.sf-arrows ul li:hover > .sf-with-ul:after, 
+.sf-arrows ul .sfHover > .sf-with-ul:after {
+	border-left-color:transparent;
+}
+
+/*---Header Bottom---*/
+/*---Logo---*/
+/*- Search Box -*/
+
+/* =========================================================
+Home page slider
+============================================================ */
+.ei-slider{
+	height: 343px;
+	margin: 0 auto 20px;
+}
+.ei-slider-loading{
+	line-height: 343px;
+}
+.ei-title{
+	left: 20px;
+	bottom: 20px;
+}
+/* =========================================================
+Main content
+============================================================ */
+#main-content {
+	padding-top:20px;
+}
+
+/*-Tabs-*/
+.list-container-1 ul li {
+	width:49.926%;
+}
+
+/*---Timeline---*/
+.timeline-item .entry-body {
+	width:550px;
+}
+.timeline-item .entry-body .kp-thumb {
+	width:220px;
+}
+.timeline-item .entry-body header {
+	width:268px;
+}
+.timeline-item .entry-body .entry-title {
+	font-size:26px;
+	line-height:28px;
+}
+
+.timeline-item.gallery-post .older-gallery-img li,
+.timeline-item.gallery-post #more-gallery-img li {
+	width:162px;
+}
+.kp-filter {
+	/*left:217px;*/
+}
+.kp-filter ul.ss-links {
+	right:-12px;
+}
+
+/* =========================================================
+Sidebar
+============================================================ */
+.sidebar .widget {
+	margin-bottom:30px;
+}
+
+/*---Twitter---*/
+
+/* =========================================================
+Bottom Sidebar
+============================================================ */
+#bottom-sidebar {
+	padding-top:30px;
+}
+#bottom-sidebar .widget .widget-title {
+	margin:0 0 20px;
+}
+
+/*---Flickr---*/
+.flickr-wrap {
+	margin:-5px;
+}
+.flickr-badge-image {
+	margin:5px;
+	width:69px;
+}
+.kp-tagcloud {
+	margin-left:15px;
+}
+
+/* =========================================================
+Footer
+============================================================ */
+
+/*----------------Back to top-----------------*/
+
+/**** Isotope Filtering ****/
+#isotop-container{
+    margin-top: 20px;
+}
+.isotop-header {
+	top:-58px;
+}
+
+.kp-home-1 #portfolio-items article{
+    width:210px;
+}
+.kp-pf-3col #pf-items article {
+	width:203px;
+}
+.kp-pf-2col #pf-items article {
+	width:317px;
+}
+.kp-pf-1col #pf-items article {
+	width:660px;
+}
+
+#portfolio-items article .mask a.kp-pf-gallery {
+	top:40px;
+}
+#portfolio-items article .mask a.kp-pf-detail {
+	top:60px;
+}
+#portfolio-items article .mask .portfolio-caption h3 {
+	margin:0;
+}
+
+.kp-pf-3col #pf-items article .mask a.kp-pf-gallery {
+	top:50px;
+	right:100%;
+}
+.kp-pf-2col #pf-items article .mask a.kp-pf-gallery {
+	top:90px;
+	right:100%;
+}
+.kp-pf-1col #pf-items article .mask a.kp-pf-gallery {
+	top:200px;
+	right:100%;
+}
+
+.kp-pf-3col #pf-items article .mask a.kp-pf-detail {
+	top:70px;
+	left:100%;
+}
+.kp-pf-2col #pf-items article .mask a.kp-pf-detail {
+	top:110px;
+	left:100%;
+}
+.kp-pf-1col #pf-items article .mask a.kp-pf-detail {
+	top:230px;
+	left:100%;
+}
+#portfolio-items article .mask .portfolio-caption,
+#pf-items article .mask .portfolio-caption {
+	bottom:20px;
+}
+
+#pf-filters li a {
+	font-size:16px;
+}
+
+.pf-thumb-1col {
+	width:425px;
+}
+
+/* =========================================================
+Elements page
+============================================================ */
+.elements-box .list-container-3 ul li {
+	width:86px;
+}
+
+/*-------------Toggle Boxes-----------*/
+
+/************Accordion**************/
+
+/* =========================================================
+Category page 1
+============================================================ */
+.article-list li article .entry-header {
+	width:350px;
+}
+.article-list li article .entry-date, 
+.article-list li article .entry-author, 
+.article-list li article .entry-category {
+	margin-right:10px;
+}
+.two-sidebar.kp-cat-1 .article-list li article .entry-thumb {
+	margin-right:0;
+	width:100%;
+	margin-bottom:15px;
+}
+.two-sidebar.kp-cat-1 .article-list li article .entry-thumb img {	
+	width:100%;
+}
+.two-sidebar .article-list li article .entry-header {
+	width:100%;
+}
+
+/* =========================================================
+Category page 2
+============================================================ */
+.kp-cat-2 .article-list li article .entry-content {
+	width:325px;
+}
+.kp-cat-2 .article-list li article .entry-thumb {
+	width:250px;
+}
+.kp-cat-2 .article-list li article .entry-title {
+	margin-bottom:0;
+}
+
+/* =========================================================
+Singe page 1
+============================================================ */
+/*---About Author---*/
+.about-author .author-content {
+	width:528px;
+}
+.kp-single-4 .about-author .author-content {
+	width:848px;
+}
+
+/*---Comments List---*/
+#comments .comment-body {
+	width:585px;
+}
+.kp-single-4 #comments .comment-body {
+	width:905px;
+}
+#comments .comments-list .children {
+	margin-left:60px;
+}
+#comments .comments-list .children .comment-body {
+	width:525px;
+}
+.kp-single-4 #comments .comments-list .children .comment-body {
+	width:845px;
+}
+.kp-single-4 #comments-form .comment-left {
+	width:410px;
+}
+.kp-single-4 #comments-form .comment-right {
+	width:550px;
+}
+
+/*---Comment form---*/
+#comments-form .comment-left {
+	width:245px;
+}
+#comments-form .comment-right {
+	width:395px;
+}
+#comments-form #comment_message {
+	height:195px;
+}
+
+/* =========================================================
+Singe page 2
+============================================================ */
+.kp-single-2 .entry-box .entry-thumb {
+	width:300px;
+}
+.kp-single-2 .entry-box .entry-title {
+	font-size:28px;
+	line-height:28px;
+}
+.kp-single-2 .about-author .author-content {
+	width:463px;
+}
+.kp-single-2 #comments-form .comment-left {
+	width:220px;
+}
+.kp-single-2 #comments-form .comment-right {
+	width:355px;
+}
+.kp-single-2 #comments .comment-body {
+	width:520px;
+}
+.kp-single-2 #comments .comments-list .children .comment-body {
+	width:460px;
+}
+.related-article .entry-item .entry-content{
+	margin:10px 15px;
+}
+.kp-single-2 .related-article .entry-comment {
+	display:none;
+}
+
+
+/* =========================================================
+Singe page 3
+============================================================ */
+.kp-single-carousel {
+	display:none;
+}
+.kp-single-carousel li {
+	width:162px !important;
+}
+.kp-single-3 .entry-box #carousel img {
+	margin:0;
+	width:690px;
+}
+
+/* =========================================================
+Home page 2
+============================================================ */
+.widget-area-3,
+.widget-area-4 {
+	width:320px;
+}
+.widget-area-3 {
+	margin-right:20px;
+}
+
+#main-col .widget .entry-content .entry-title {
+	font-size:22px;
+	line-height:24px;
+}
+
+#main-col .widget .older-post li .entry-content {
+	width:220px;
+}
+
+#main-col .widget-area-5 .widget .entry-thumb {
+	margin-right:20px;
+}
+
+/* =========================================================
+Contact page
+============================================================ */
+#contact-info address p {
+	line-height:22px;
+}
+
+/* =========================================================
+Home page 3
+============================================================ */
+#sequence li h2 {
+	font-size:30px;
+	line-height:32px;
+	padding:5px 15px;
+}
+.animate-in .title,
+.animate-in .subtitle {
+	left:20px;
+}
+.model {
+	width:490px;
+}
+.animate-in .model {
+	right:10px;
+}
+#sequence li#creative h2 {
+	font-size:30px;
+	line-height:32px;
+}
+.model-2-1,
+.model-2-2,
+.model-2-3 {
+	width:280px;
+}
+
+
+.kp-home-3 .list-carousel.responsive {
+	margin:0;
+}
+
+
+.kp-our-work ul li .entry-item .entry-content {
+	margin:0 15px 10px;
+}
+
+.kp-our-experient .widget-area-4 .widget-title {
+	margin-left:15px;
+}
+
+.kp-our-experient .entry-item {
+	margin-right:15px;
+}
+.kp-our-experient .entry-item .entry-date {
+	margin-right:15px;
+}
+.kp-our-experient .entry-item .entry-content {
+	width:386px;
+}
+.kp-testimonial .testimonial-author a {
+	line-height:20px;
+}
+.bottom-twitter .twitter-widget {
+	padding:10px 20px;
+}
+
+/* =========================================================
+About page
+============================================================ */
+
+/* =========================================================
+Portfolio detail page
+============================================================ */
+.portfolio-detail .entry-meta-box {
+	width:190px;
+	margin-right:20px;
+}
+.portfolio-detail .pf-detail-content {
+	width:450px;
+}
+.pf-box li {
+	width:206px;
+	margin-left:20px;
+}
+#pf-items .pf-info .entry-view, 
+#pf-items .pf-info .entry-like, 
+.pf-box li .pf-info .entry-view, 
+.pf-box li .pf-info .entry-like {
+	width:48.9%;
+}
+
+/* =========================================================
+Blog page style 3
+============================================================ */
+.kp-cat-3 .entry-meta-column {
+	margin-right:20px;
+}
+.kp-cat-3 .entry-item {
+	width:535px;
+}
+.kp-cat-3.two-sidebar .entry-item {
+	width:440px;
+}
+.kp-cat-3 .sidebar .widget .kp-popular-post li .entry-thumb, 
+.kp-cat-3 .sidebar .widget .kp-latest-post li .entry-thumb {
+	width:45px;
+}
+.kp-cat-3 .sidebar .widget ul li .entry-thumb img {
+	width:100%;
+	display:block;
+}
+.kp-cat-3 .sidebar .widget .entry-comment {
+	display:none;
+}
+
+/* =========================================================
+404 Page
+============================================================ */
+
+
+}
+
+@media only screen and (min-width: 980px) and (max-width: 1023px) {
+	
+/* =========================================================
+Colunms
+============================================================ */
+.wrapper{
+    width:940px;
+}
+#main-col {
+	width:620px;
+	margin-right:20px;
+}
+.kp-left-sidebar #main-col {
+	width:620px;
+	margin-left:20px;
+}
+.two-sidebar .sidebar {
+	width:200px;
+}
+.two-sidebar #main-col {
+	width:500px;
+	margin:0 20px;
+}
+
+/* =========================================================
+Header
+============================================================ */
+/*---Main Menu---*/
+.sf-arrows ul li > .sf-with-ul:focus:after, 
+.sf-arrows ul li:hover > .sf-with-ul:after, 
+.sf-arrows ul .sfHover > .sf-with-ul:after {
+	border-left-color:transparent;
+}
+
+/*---Header Bottom---*/
+/*---Logo---*/
+/*- Search Box -*/
+
+/* =========================================================
+Home page slider
+============================================================ */
+.ei-slider{
+	height: 322px;
+	margin: 0 auto 20px;
+}
+.ei-slider-loading{
+	line-height: 343px;
+}
+.ei-title{
+	left: 20px;
+	bottom: 20px;
+}
+/* =========================================================
+Main content
+============================================================ */
+#main-content {
+	padding-top:20px;
+}
+
+/*-Tabs-*/
+.list-container-1 ul li {
+	width:49.922%;
+}
+
+/*---Timeline---*/
+.timeline-item .entry-body {
+	width:510px;
+}
+.timeline-item .entry-body .kp-thumb {
+	width:200px;
+}
+.timeline-item .entry-body header {
+	width:248px;
+}
+.timeline-item .entry-body .entry-title {
+	font-size:24px;
+	line-height:24px;
+}
+
+.timeline-item.gallery-post .older-gallery-img li,
+.timeline-item.gallery-post #more-gallery-img li {
+	width:149px;
+}
+.kp-filter {
+	/*left:217px;*/
+}
+.kp-filter ul.ss-links {
+	right:-12px;
+}
+
+/* =========================================================
+Sidebar
+============================================================ */
+.sidebar .widget {
+	margin-bottom:30px;
+}
+
+/*---Twitter---*/
+
+/* =========================================================
+Bottom Sidebar
+============================================================ */
+#bottom-sidebar {
+	padding-top:30px;
+}
+#bottom-sidebar .widget .widget-title {
+	margin:0 0 20px;
+}
+
+/*---Flickr---*/
+.flickr-wrap {
+	margin:-5px;
+}
+.flickr-badge-image {
+	margin:5px;
+	width:66px;
+}
+.kp-tagcloud {
+	margin-left:15px;
+}
+#bottom-sidebar .widget ul li .entry-thumb {
+	width:45px;
+	margin-right:10px;
+}
+
+/* =========================================================
+
+Footer
+============================================================ */
+
+/*----------------Back to top-----------------*/
+
+/**** Isotope Filtering ****/
+#isotop-container{
+    margin-top: 20px;
+}
+.isotop-header {
+	top:-58px;
+}
+
+.kp-home-1 #portfolio-items article{
+    width:196px;
+}
+.kp-pf-3col #pf-items article {
+	width:190px;
+}
+.kp-pf-2col #pf-items article {
+	width:297px;
+}
+.kp-pf-1col #pf-items article {
+	width:620px;
+}
+
+#portfolio-items article .mask a.kp-pf-gallery {
+	top:30px;
+}
+#portfolio-items article .mask a.kp-pf-detail {
+	top:50px;
+}
+#portfolio-items article .mask .portfolio-caption h3 {
+	margin:0;
+}
+
+.kp-pf-3col #pf-items article .mask a.kp-pf-gallery {
+	top:50px;
+	right:100%;
+}
+.kp-pf-2col #pf-items article .mask a.kp-pf-gallery {
+	top:90px;
+	right:100%;
+}
+.kp-pf-1col #pf-items article .mask a.kp-pf-gallery {
+	top:200px;
+	right:100%;
+}
+
+.kp-pf-3col #pf-items article .mask a.kp-pf-detail {
+	top:70px;
+	left:100%;
+}
+.kp-pf-2col #pf-items article .mask a.kp-pf-detail {
+	top:110px;
+	left:100%;
+}
+.kp-pf-1col #pf-items article .mask a.kp-pf-detail {
+	top:230px;
+	left:100%;
+}
+#portfolio-items article .mask .portfolio-caption,
+#pf-items article .mask .portfolio-caption {
+	bottom:20px;
+}
+
+#pf-filters li a {
+	font-size:16px;
+}
+
+.pf-thumb-1col {
+	width:400px;
+}
+.pf-des-1col {
+	width:200px;
+}
+.entry-date, .entry-author, .entry-category {
+	margin-right:10px;
+}
+
+/* =========================================================
+Elements page
+============================================================ */
+.elements-box .list-container-3 ul li {
+	width:81px;
+}
+
+/*-------------Toggle Boxes-----------*/
+
+/************Accordion**************/
+
+/* =========================================================
+Category page 1
+============================================================ */
+.article-list li article .entry-header {
+	width:350px;
+}
+.article-list li article .entry-date, 
+.article-list li article .entry-author, 
+.article-list li article .entry-category {
+	margin-right:10px;
+}
+.two-sidebar.kp-cat-1 .article-list li article .entry-thumb {
+	margin-right:0;
+	width:100%;
+	margin-bottom:15px;
+}
+.two-sidebar.kp-cat-1 .article-list li article .entry-thumb img {	
+	width:100%;
+}
+.two-sidebar .article-list li article .entry-header {
+	width:100%;
+}
+
+/* =========================================================
+Category page 2
+============================================================ */
+.kp-cat-2 .article-list li article .entry-content {
+	width:305px;
+}
+.kp-cat-2 .article-list li article .entry-thumb {
+	width:230px;
+}
+.kp-cat-2 .article-list li article .entry-title {
+	margin-bottom:0;
+}
+
+/* =========================================================
+Singe page 1
+============================================================ */
+/*---About Author---*/
+.about-author .author-content {
+	width:488px;
+}
+
+/*---Comments List---*/
+#comments .comment-body {
+	width:545px;
+}
+#comments .comments-list .children .comment-body {
+	width:485px;
+}
+
+/*---Comment form---*/
+#comments-form .comment-left {
+	width:225px;
+}
+#comments-form .comment-right {
+	width:375px;
+}
+#comments-form #comment_message {
+	height:195px;
+}
+
+.kp-single-4 .about-author .author-content {
+	width:808px;
+}
+.kp-single-4 #comments .comment-body {
+	width:865px;
+}
+.kp-single-4 #comments .comments-list .children .comment-body {
+	width:805px;
+}
+.kp-single-4 #comments-form .comment-left {
+	width:390px;
+}
+.kp-single-4 #comments-form .comment-right {
+	width:530px;
+}
+
+/* =========================================================
+Singe page 2
+============================================================ */
+.kp-single-2 .entry-box .entry-thumb {
+	width:300px;
+}
+.kp-single-2 .entry-box .entry-title {
+	font-size:28px;
+	line-height:28px;
+}
+.kp-single-2 .about-author .author-content {
+	width:423px;
+}
+.kp-single-2 #comments-form .comment-left {
+	width:200px;
+}
+.kp-single-2 #comments-form .comment-right {
+	width:335px;
+}
+.kp-single-2 #comments .comment-body {
+	width:480px;
+}
+.kp-single-2 #comments .comments-list .children .comment-body {
+	width:420px;
+}
+.related-article .entry-item .entry-content{
+	margin:10px 15px;
+}
+.kp-single-2 .related-article .entry-comment {
+	display:none;
+}
+
+
+/* =========================================================
+Singe page 3
+============================================================ */
+.kp-single-carousel {
+	display:none;
+}
+.kp-single-carousel li {
+	width:152px !important;
+}
+.kp-single-3 .entry-box #carousel img {
+	margin:0;
+	width:690px;
+}
+
+/* =========================================================
+Home page 2
+============================================================ */
+.widget-area-3,
+.widget-area-4 {
+	width:300px;
+}
+.widget-area-3 {
+	margin-right:20px;
+}
+
+#main-col .widget .entry-content .entry-title {
+	font-size:22px;
+	line-height:24px;
+}
+
+#main-col .widget .older-post li .entry-content {
+	width:200px;
+}
+
+#main-col .widget-area-5 .widget .entry-thumb {
+	margin-right:20px;
+}
+
+/* =========================================================
+Contact page
+============================================================ */
+#contact-info address p {
+	line-height:22px;
+}
+
+/* =========================================================
+Home page 3
+============================================================ */
+#sequence li h2 {
+	font-size:30px;
+	line-height:32px;
+	padding:5px 15px;
+}
+.animate-in .title,
+.animate-in .subtitle {
+	left:20px;
+}
+.model {
+	width:490px;
+}
+.animate-in .model {
+	right:10px;
+}
+#sequence li#creative h2 {
+	font-size:30px;
+	line-height:32px;
+}
+.model-2-1,
+.model-2-2,
+.model-2-3 {
+	width:280px;
+}
+.title-2,
+.subtitle-2 {
+	width:42%;
+}
+.animate-in .model-2-1,
+.model-2-1,
+.animate-out .model-2-1 {
+	left:10px;
+}
+.animate-in .model-2-2,
+.animate-out .model-2-2,
+.model-2-2 {
+	left:230px;
+}
+
+
+.kp-home-3 .list-carousel.responsive {
+	margin:0;
+}
+
+
+.kp-our-work ul li .entry-item .entry-content {
+	margin:0 15px 10px;
+}
+
+.kp-our-experient .widget-area-4 .widget-title {
+	margin-left:15px;
+}
+
+.kp-our-experient .entry-item {
+	margin-right:15px;
+}
+.kp-our-experient .entry-item .entry-date {
+	margin-right:15px;
+}
+.kp-our-experient .entry-item .entry-content {
+	width:366px;
+}
+.kp-testimonial .testimonial-author a {
+	line-height:20px;
+}
+.bottom-twitter .twitter-widget {
+	padding:10px 20px;
+}
+.chart .label {
+	font-size:16px;
+}
+
+/* =========================================================
+About page
+============================================================ */
+
+/* =========================================================
+Portfolio detail page
+============================================================ */
+.portfolio-detail .entry-meta-box {
+	width:190px;
+	margin-right:20px;
+}
+.portfolio-detail .pf-detail-content {
+	width:410px;
+}
+.pf-box li {
+	width:193px;
+	margin-left:20px;
+}
+#pf-items .pf-info .entry-view, 
+#pf-items .pf-info .entry-like, 
+.pf-box li .pf-info .entry-view, 
+.pf-box li .pf-info .entry-like {
+	width:48.9%;
+}
+
+/* =========================================================
+Blog page style 3
+============================================================ */
+.kp-cat-3 .entry-meta-column {
+	margin-right:20px;
+}
+.kp-cat-3 .entry-item {
+	width:495px;
+}
+.kp-cat-3.two-sidebar .entry-item {
+	width:400px;
+}
+.kp-cat-3 .sidebar .widget .kp-popular-post li .entry-thumb, 
+.kp-cat-3 .sidebar .widget .kp-latest-post li .entry-thumb {
+	width:45px;
+}
+.kp-cat-3 .sidebar .widget ul li .entry-thumb img {
+	width:100%;
+	display:block;
+}
+.kp-cat-3 .sidebar .widget .entry-comment {
+	display:none;
+}
+.article-list li article .entry-thumb {
+	width:250px;
+}
+.article-list li article .entry-title {
+	font-size:28px;
+	line-height:28px;
+}
+.two-sidebar .sidebar .widget .list-container-2 ul li {
+	width:64px;
+}
+.list-container-2 ul li a, 
+.list-container-3 ul li a {
+	font-size:14px;
+}
+.tab-container-2 {
+	padding:15px 15px 10px;
+}
+
+/* =========================================================
+404 Page
+============================================================ */
+
+
+}
+
+@media only screen and (min-width: 800px) and (max-width: 979px) {
+	
+/* =========================================================
+Colunms
+============================================================ */
+.wrapper{
+    width:760px;
+}
+#main-col {
+	width:490px;
+	margin-right:20px;
+}
+.sidebar {
+	width:250px;
+}
+.kp-left-sidebar #main-col {
+	width:490px;
+	margin-left:20px;
+}
+.two-sidebar .sidebar {
+	width:200px;
+}
+.two-sidebar #main-col {
+	width:320px;
+	margin:0 20px;
+}
+
+/* =========================================================
+Header
+============================================================ */
+/*---Main Menu---*/
+.sf-arrows ul li > .sf-with-ul:focus:after, 
+.sf-arrows ul li:hover > .sf-with-ul:after, 
+.sf-arrows ul .sfHover > .sf-with-ul:after {
+	border-left-color:transparent;
+}
+
+/*---Header Bottom---*/
+/*---Logo---*/
+/*- Search Box -*/
+
+/* =========================================================
+Home page slider
+============================================================ */
+.ei-slider{
+	height: 255px;
+	margin: 0 auto 20px;
+}
+.ei-slider-loading{
+	line-height: 343px;
+}
+.ei-title{
+	left: 10px;
+	bottom: 10px;
+	width:380px
+}
+/* =========================================================
+Main content
+============================================================ */
+#main-content {
+	padding-top:20px;
+}
+
+/*-Tabs-*/
+.list-container-1 ul li {
+	width:49.9%;
+}
+
+/*---Timeline---*/
+.timeline-item .entry-body {
+	width:380px;
+	padding:15px;
+}
+.timeline-item .entry-body .kp-thumb {
+	width:100%;
+	margin-right:0;
+	margin-bottom:15px;
+}
+.timeline-item .entry-body header {
+	width:100%;
+}
+.timeline-item .entry-body .entry-title {
+	font-size:24px;
+	line-height:24px;
+}
+
+.timeline-item.gallery-post .older-gallery-img li,
+.timeline-item.gallery-post #more-gallery-img li {
+	width:109px;
+}
+.kp-filter {
+	/*left:135px;*/
+}
+.kp-filter ul.ss-links {
+	right:-12px;
+}
+
+/* =========================================================
+Sidebar
+============================================================ */
+.sidebar .widget {
+	margin-bottom:30px;
+}
+.list-container-2 ul li, 
+.sidebar .widget .list-container-2 ul li, 
+.sidebar .widget .list-container-3 ul li {
+	width:80px;
+}
+.sidebar .widget .tab-container-2 .entry-comment {
+	display:none !important;
+}
+
+/*---Twitter---*/
+
+/* =========================================================
+Bottom Sidebar
+============================================================ */
+#bottom-sidebar {
+	padding-top:30px;
+}
+#bottom-sidebar .widget .widget-title {
+	margin:0 0 20px;
+}
+
+/*---Flickr---*/
+.flickr-wrap {
+	margin:-5px;
+}
+.flickr-badge-image {
+	margin:5px;
+	width:51px;
+}
+.kp-tagcloud {
+	margin-left:15px;
+}
+#bottom-sidebar .widget ul li .entry-thumb {
+	width:45px;
+	margin-right:10px;
+}
+
+/* =========================================================
+Footer
+============================================================ */
+
+/*----------------Back to top-----------------*/
+
+/**** Isotope Filtering ****/
+#isotop-container{
+    margin-top: 20px;
+}
+.isotop-header {
+	top:-58px;
+}
+
+.kp-home-1 #portfolio-items article{
+    width:237px;
+}
+.kp-pf-3col #pf-items article {
+	width:232px;
+}
+.kp-pf-2col #pf-items article {
+	width:232px;
+}
+.kp-pf-1col #pf-items article {
+	width:490px;
+}
+
+#portfolio-items article .mask a.kp-pf-gallery {
+	top:30px;
+}
+#portfolio-items article .mask a.kp-pf-detail {
+	top:50px;
+}
+#portfolio-items article .mask .portfolio-caption h3 {
+	margin:0;
+}
+
+.kp-pf-3col #pf-items article .mask a.kp-pf-gallery {
+	top:50px;
+	right:100%;
+}
+.kp-pf-2col #pf-items article .mask a.kp-pf-gallery {
+	top:90px;
+	right:100%;
+}
+.kp-pf-1col #pf-items article .mask a.kp-pf-gallery {
+	top:200px;
+	right:100%;
+}
+
+.kp-pf-3col #pf-items article .mask a.kp-pf-detail {
+	top:70px;
+	left:100%;
+}
+.kp-pf-2col #pf-items article .mask a.kp-pf-detail {
+	top:110px;
+	left:100%;
+}
+.kp-pf-1col #pf-items article .mask a.kp-pf-detail {
+	top:230px;
+	left:100%;
+}
+#portfolio-items article .mask .portfolio-caption,
+#pf-items article .mask .portfolio-caption {
+	bottom:20px;
+}
+
+#pf-filters li a {
+	font-size:14px;
+	padding:5px 10px;
+}
+
+.pf-thumb-1col {
+	width:290px;
+}
+.pf-des-1col {
+	width:180px;
+}
+.entry-date, .entry-author, .entry-category {
+	margin-right:10px;
+}
+
+/* =========================================================
+Elements page
+============================================================ */
+.elements-box .list-container-3 ul li {
+	width:63px;
+}
+
+/*-------------Toggle Boxes-----------*/
+
+/************Accordion**************/
+
+/* =========================================================
+Category page 1
+============================================================ */
+.article-list li article .entry-header {
+	width:250px;
+}
+.article-list li article .entry-date, 
+.article-list li article .entry-author, 
+.article-list li article .entry-category {
+	margin-right:10px;
+}
+.two-sidebar.kp-cat-1 .article-list li article .entry-thumb {
+	margin-right:0;
+	width:100%;
+	margin-bottom:15px;
+}
+.two-sidebar.kp-cat-1 .article-list li article .entry-thumb img {	
+	width:100%;
+}
+.two-sidebar .article-list li article .entry-header {
+	width:100%;
+}
+
+/* =========================================================
+Category page 2
+============================================================ */
+.kp-cat-2 .article-list li article .entry-content {
+	width:225px;
+}
+.kp-cat-2 .article-list li article .entry-thumb {
+	width:180px;
+}
+.kp-cat-2 .article-list li article .entry-title {
+	margin-bottom:0;
+}
+
+/* =========================================================
+Singe page 1
+============================================================ */
+/*---About Author---*/
+.about-author {
+	padding:15px 15px 5px;
+}
+.about-author .author-content {
+	width:368px;
+}
+
+/*---Comments List---*/
+#comments .comment-body {
+	width:415px;
+}
+#comments .comments-list .children .comment-body {
+	width:355px;
+}
+
+/*---Comment form---*/
+#comments-form .comment-left {
+	width:185px;
+}
+#comments-form .comment-right {
+	width:285px;
+}
+#comments-form #comment_message {
+	height:195px;
+}
+
+.kp-single-4 .about-author .author-content {
+	width:638px;
+}
+.kp-single-4 #comments .comment-body {
+	width:685px;
+}
+.kp-single-4 #comments .comments-list .children .comment-body {
+	width:625px;
+}
+.kp-single-4 #comments-form .comment-left {
+	width:300px;
+}
+.kp-single-4 #comments-form .comment-right {
+	width:440px;
+}
+.related-article .entry-item .entry-content .entry-comment,
+.kp-single-2 .entry-box .entry-meta-box .entry-comment {
+	display:none;
+}
+
+
+/* =========================================================
+Singe page 2
+============================================================ */
+.kp-single-2 .entry-box .entry-thumb {
+	width:100%;
+	margin-right:0;
+	margin-bottom:15px;
+}
+.kp-single-2 .entry-box .entry-header {
+	margin-bottom:5px;
+}
+.kp-single-2 .entry-box .entry-title {
+	font-size:28px;
+	line-height:28px;
+}
+.kp-single-2 .about-author .author-content {
+	width:303px;
+}
+.about-author header h4 {
+	float:none;
+}
+.kp-single-2 #comments-form .comment-left {
+	width:150px;
+}
+.kp-single-2 #comments-form .comment-right {
+	width:265px;
+}
+.kp-single-2 #comments .comment-body {
+	width:350px;
+}
+.kp-single-2 #comments .comments-list .children .comment-body {
+	width:290px;
+}
+.related-article .entry-item .entry-content{
+	margin:10px 15px;
+}
+.kp-single-2 .related-article .entry-comment {
+	display:none;
+}
+.loading {
+	min-height:300px;
+}
+
+
+/* =========================================================
+Singe page 3
+============================================================ */
+.kp-single-carousel {
+	display:none;
+}
+.kp-single-carousel li {
+	width:119px !important;
+}
+.kp-single-3 .entry-box #carousel img {
+	margin:0;
+	width:690px;
+}
+
+/* =========================================================
+Home page 2
+============================================================ */
+.widget-area-3,
+.widget-area-4 {
+	width:235px;
+}
+.widget-area-3 {
+	margin-right:20px;
+}
+
+#main-col .widget .entry-content .entry-title {
+	font-size:22px;
+	line-height:24px;
+}
+#main-col .widget.featured-widget .entry-content .entry-title {
+	font-size:20px;
+}
+
+#main-col .widget .older-post li .entry-content {
+	width:100%;
+}
+
+#main-col .widget-area-5 .widget .entry-thumb {
+	margin-right:20px;
+	width:200px;
+}
+#main-col .widget .older-post li .entry-thumb {
+	width:100%;
+	margin-right:0;
+}
+#main-col .widget .older-post li .entry-thumb img {
+	width:100%;
+	display:block;
+}
+
+/* =========================================================
+Contact page
+============================================================ */
+#contact-info address p {
+	line-height:22px;
+}
+
+/* =========================================================
+Home page 3
+============================================================ */
+#sequence li h2 {
+	font-size:28px;
+	line-height:30px;
+	padding:5px 10px 2px;
+}
+#sequence li h3 {
+	font-size:26px;
+	line-height:28px;
+}
+.animate-in .title,
+.animate-in .subtitle {
+	left:20px;
+}
+.model {
+	width:430px;
+}
+.subtitle {
+	width:40%;
+}
+.animate-in .model {
+	right:10px;
+}
+#sequence li#creative h2 {
+	font-size:30px;
+	line-height:32px;
+}
+.model-2-1,
+.model-2-2,
+.model-2-3 {
+	width:250px;
+}
+.title-2,
+.subtitle-2 {
+	width:42%;
+}
+.animate-in .model-2-1,
+.model-2-1,
+.animate-out .model-2-1 {
+	left:10px;
+}
+.animate-in .model-2-2,
+.animate-out .model-2-2,
+.model-2-2 {
+	left:180px;
+}
+
+.model-3-1 {
+	width:322px;
+}
+.model-3-2 {
+	width:308px;
+}
+.model-3-3 {
+	width:184px;
+}
+.model-3-4 {
+	width:72px;
+}
+
+
+.kp-home-3 .list-carousel.responsive {
+	margin:0;
+}
+
+
+.kp-our-work ul li .entry-item .entry-content {
+	margin:0 15px 10px;
+}
+
+.kp-our-experient .widget-area-4 .widget-title {
+	margin-left:15px;
+}
+
+.kp-our-experient .entry-item {
+	margin-right:15px;
+}
+.kp-our-experient .entry-item .entry-date {
+	margin-right:15px;
+}
+.kp-our-experient .entry-item .entry-content {
+	width:276px;
+}
+.kp-testimonial .testimonial-author a {
+	line-height:20px;
+}
+.bottom-twitter .twitter-widget {
+	padding:10px 15px;
+}
+.chart .label {
+	font-size:16px;
+	white-space: pre-wrap;
+}
+.kp-our-work ul li .entry-item .entry-content .entry-title {
+	font-size:22px;
+	line-height:24px;
+}
+
+/* =========================================================
+About page
+============================================================ */
+.about-skill-intro {
+	width:80%;
+}
+.bottom-twitter .tweet_list li .tweet_avatar {
+	margin-right:10px;
+}
+/* =========================================================
+Portfolio detail page
+============================================================ */
+.portfolio-detail .entry-meta-box {
+	width:170px;
+	margin-right:20px;
+}
+.portfolio-detail .pf-detail-content {
+	width:300px;
+}
+.portfolio-detail .entry-meta-box .socials-link li {
+	width:25px;
+	height:25px;
+	line-height:25px;
+}
+.portfolio-detail .entry-meta-box .socials-link li a span {
+	font-size:12px;
+}
+.pf-box li {
+	width:153px;
+	margin-left:15px;
+}
+.pf-box li .pf-info .entry-view, .pf-box li .pf-info .entry-like {
+	width:100% !important;
+}
+.pf-box li .pf-info .entry-view {
+	border-right:none;
+	border-bottom:1px solid #EAEAEA;
+}
+#pf-items .pf-info .entry-view, 
+#pf-items .pf-info .entry-like, 
+.pf-box li .pf-info .entry-view, 
+.pf-box li .pf-info .entry-like {
+	width:48.9%;
+}
+
+/* =========================================================
+Blog page style 3
+============================================================ */
+.kp-cat-3.two-sidebar .entry-meta-column {
+	width:40px;
+}
+.kp-cat-3.two-sidebar .entry-meta-column p{
+	width:40px;
+	height:40px;
+	line-height:40px;
+	font-size:20px;
+}
+.kp-cat-3 .entry-meta-column {
+	margin-right:15px;
+	
+}
+.kp-cat-3 .entry-item {
+	width:365px;
+}
+.kp-cat-3.two-sidebar .entry-item {
+	width:265px;
+}
+.kp-cat-3 .sidebar .widget .kp-popular-post li .entry-thumb, 
+.kp-cat-3 .sidebar .widget .kp-latest-post li .entry-thumb {
+	width:45px;
+}
+.kp-cat-3 .sidebar .widget ul li .entry-thumb img {
+	width:100%;
+	display:block;
+}
+.kp-cat-3 .sidebar .widget .entry-comment {
+	display:none;
+}
+.article-list li article .entry-thumb {
+	width:220px;
+}
+.article-list li article .entry-title {
+	font-size:24px;
+	line-height:24px;
+}
+.two-sidebar .sidebar .widget .list-container-2 ul li {
+	width:64px;
+}
+.list-container-2 ul li a, 
+.list-container-3 ul li a {
+	font-size:14px;
+}
+.tab-container-2 {
+	padding:15px 15px 10px;
+}
+.kp-cat-2 .article-list li article .entry-comment {
+	display:none;
+}
+
+/* =========================================================
+404 Page
+============================================================ */
+
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 799px) {
+	
+/* =========================================================
+Colunms
+============================================================ */
+.wrapper{
+    width:720px;
+}
+#main-col {
+	width:490px;
+	margin-right:20px;
+}
+.sidebar {
+	width:210px;
+}
+.kp-left-sidebar #main-col {
+	width:490px;
+	margin-left:20px;
+}
+.two-sidebar .sidebar {
+	width:200px;
+}
+.two-sidebar #main-col {
+	width:320px;
+	margin:0 20px;
+}
+
+/* =========================================================
+Header
+============================================================ */
+/*---Main Menu---*/
+.sf-arrows ul li > .sf-with-ul:focus:after, 
+.sf-arrows ul li:hover > .sf-with-ul:after, 
+.sf-arrows ul .sfHover > .sf-with-ul:after {
+	border-left-color:transparent;
+}
+
+#main-menu {
+	display:none;
+}
+#mobile-menu {
+	display:block;
+}
+
+.contact-top {
+	margin-top:10px;
+}
+
+/*---Header Bottom---*/
+/*---Logo---*/
+/*- Search Box -*/
+
+/* =========================================================
+Home page slider
+============================================================ */
+.ei-slider{
+	height: 255px;
+	margin: 0 auto 20px;
+}
+.ei-slider-loading{
+	line-height: 343px;
+}
+.ei-title{
+	left: 10px;
+	bottom: 10px;
+	width:380px
+}
+/* =========================================================
+Main content
+============================================================ */
+#main-content {
+	padding-top:20px;
+}
+
+/*-Tabs-*/
+.list-container-1 ul li {
+	width:49.9%;
+}
+
+/*---Timeline---*/
+.timeline-item .entry-body {
+	width:380px;
+	padding:15px;
+}
+.timeline-item .entry-body .kp-thumb {
+	width:100%;
+	margin-right:0;
+	margin-bottom:15px;
+}
+.timeline-item .entry-body header {
+	width:100%;
+}
+.timeline-item .entry-body .entry-title {
+	font-size:24px;
+	line-height:24px;
+}
+
+.timeline-item.gallery-post .older-gallery-img li,
+.timeline-item.gallery-post #more-gallery-img li {
+	width:109px;
+}
+.kp-filter {
+	/*left:135px;*/
+}
+.kp-filter ul.ss-links {
+	right:-12px;
+}
+
+/* =========================================================
+Sidebar
+============================================================ */
+.sidebar .widget {
+	margin-bottom:30px;
+}
+.list-container-2 ul li, 
+.sidebar .widget .list-container-2 ul li, 
+.sidebar .widget .list-container-3 ul li {
+	width:68px;
+}
+.sidebar .widget .tab-container-2 .entry-comment {
+	display:none !important;
+}
+.sidebar .widget .entry-comment {
+	display:none;
+}
+
+/*---Twitter---*/
+
+/* =========================================================
+Bottom Sidebar
+============================================================ */
+#bottom-sidebar {
+	padding-top:30px;
+}
+#bottom-sidebar .widget .widget-title {
+	margin:0 0 20px;
+}
+
+/*---Flickr---*/
+.flickr-wrap {
+	margin:-5px;
+}
+.flickr-badge-image {
+	margin:5px;
+	width:48px;
+}
+.kp-tagcloud {
+	margin-left:15px;
+}
+#bottom-sidebar .widget ul li .entry-thumb {
+	width:45px;
+	margin-right:10px;
+}
+
+/* =========================================================
+Footer
+============================================================ */
+
+/*----------------Back to top-----------------*/
+
+/**** Isotope Filtering ****/
+#isotop-container{
+    margin-top: 20px;
+}
+.isotop-header {
+	top:-58px;
+}
+
+.kp-home-1 #portfolio-items article{
+    width:237px;
+}
+.kp-pf-3col #pf-items article {
+	width:232px;
+}
+.kp-pf-2col #pf-items article {
+	width:232px;
+}
+.kp-pf-1col #pf-items article {
+	width:490px;
+}
+
+#portfolio-items article .mask a.kp-pf-gallery {
+	top:30px;
+}
+#portfolio-items article .mask a.kp-pf-detail {
+	top:50px;
+}
+#portfolio-items article .mask .portfolio-caption h3 {
+	margin:0;
+}
+
+.kp-pf-3col #pf-items article .mask a.kp-pf-gallery {
+	top:50px;
+	right:100%;
+}
+.kp-pf-2col #pf-items article .mask a.kp-pf-gallery {
+	top:90px;
+	right:100%;
+}
+.kp-pf-1col #pf-items article .mask a.kp-pf-gallery {
+	top:200px;
+	right:100%;
+}
+
+.kp-pf-3col #pf-items article .mask a.kp-pf-detail {
+	top:70px;
+	left:100%;
+}
+.kp-pf-2col #pf-items article .mask a.kp-pf-detail {
+	top:110px;
+	left:100%;
+}
+.kp-pf-1col #pf-items article .mask a.kp-pf-detail {
+	top:230px;
+	left:100%;
+}
+#portfolio-items article .mask .portfolio-caption,
+#pf-items article .mask .portfolio-caption {
+	bottom:20px;
+}
+
+#pf-filters li a {
+	font-size:14px;
+	padding:5px 10px;
+}
+
+.pf-thumb-1col {
+	width:290px;
+}
+.pf-des-1col {
+	width:180px;
+}
+.entry-date, .entry-author, .entry-category {
+	margin-right:10px;
+}
+
+/* =========================================================
+Elements page
+============================================================ */
+.elements-box .list-container-3 ul li {
+	width:63px;
+}
+
+/*-------------Toggle Boxes-----------*/
+
+/************Accordion**************/
+
+/* =========================================================
+Category page 1
+============================================================ */
+.article-list li article .entry-header {
+	width:250px;
+}
+.article-list li article .entry-date, 
+.article-list li article .entry-author, 
+.article-list li article .entry-category {
+	margin-right:10px;
+}
+.two-sidebar.kp-cat-1 .article-list li article .entry-thumb {
+	margin-right:0;
+	width:100%;
+	margin-bottom:15px;
+}
+.two-sidebar.kp-cat-1 .article-list li article .entry-thumb img {	
+	width:100%;
+}
+.two-sidebar .article-list li article .entry-header {
+	width:100%;
+}
+
+/* =========================================================
+Category page 2
+============================================================ */
+.kp-cat-2 .article-list li article .entry-content {
+	width:225px;
+}
+.kp-cat-2 .article-list li article .entry-thumb {
+	width:180px;
+}
+.kp-cat-2 .article-list li article .entry-title {
+	margin-bottom:0;
+}
+
+/* =========================================================
+Singe page 1
+============================================================ */
+/*---About Author---*/
+.about-author {
+	padding:15px 15px 5px;
+}
+.about-author .author-content {
+	width:368px;
+}
+
+/*---Comments List---*/
+#comments .comment-body {
+	width:415px;
+}
+#comments .comments-list .children .comment-body {
+	width:355px;
+}
+
+/*---Comment form---*/
+#comments-form .comment-left {
+	width:185px;
+}
+#comments-form .comment-right {
+	width:285px;
+}
+#comments-form #comment_message {
+	height:195px;
+}
+
+.kp-single-4 .about-author .author-content {
+	width:638px;
+}
+.kp-single-4 #comments .comment-body {
+	width:685px;
+}
+.kp-single-4 #comments .comments-list .children .comment-body {
+	width:625px;
+}
+.kp-single-4 #comments-form .comment-left {
+	width:300px;
+}
+.kp-single-4 #comments-form .comment-right {
+	width:440px;
+}
+.related-article .entry-item .entry-content .entry-comment,
+.kp-single-2 .entry-box .entry-meta-box .entry-comment {
+	display:none;
+}
+
+
+/* =========================================================
+Singe page 2
+============================================================ */
+.kp-single-2 .entry-box .entry-thumb {
+	width:100%;
+	margin-right:0;
+	margin-bottom:15px;
+}
+.kp-single-2 .entry-box .entry-header {
+	margin-bottom:5px;
+}
+.kp-single-2 .entry-box .entry-title {
+	font-size:28px;
+	line-height:28px;
+}
+.kp-single-2 .about-author .author-content {
+	width:303px;
+}
+.about-author header h4 {
+	float:none;
+}
+.kp-single-2 #comments-form .comment-left {
+	width:150px;
+}
+.kp-single-2 #comments-form .comment-right {
+	width:265px;
+}
+.kp-single-2 #comments .comment-body {
+	width:350px;
+}
+.kp-single-2 #comments .comments-list .children .comment-body {
+	width:290px;
+}
+.related-article .entry-item .entry-content{
+	margin:10px 15px;
+}
+.kp-single-2 .related-article .entry-comment {
+	display:none;
+}
+.loading {
+	min-height:300px;
+}
+
+
+/* =========================================================
+Singe page 3
+============================================================ */
+.kp-single-carousel {
+	display:none;
+}
+.kp-single-carousel li {
+	width:119px !important;
+}
+.kp-single-3 .entry-box #carousel img {
+	margin:0;
+	width:690px;
+}
+
+/* =========================================================
+Home page 2
+============================================================ */
+.widget-area-3,
+.widget-area-4 {
+	width:235px;
+}
+.widget-area-3 {
+	margin-right:20px;
+}
+
+#main-col .widget .entry-content .entry-title {
+	font-size:22px;
+	line-height:24px;
+}
+#main-col .widget.featured-widget .entry-content .entry-title {
+	font-size:20px;
+}
+
+#main-col .widget .older-post li .entry-content {
+	width:100%;
+}
+
+#main-col .widget-area-5 .widget .entry-thumb {
+	margin-right:20px;
+	width:200px;
+}
+#main-col .widget .older-post li .entry-thumb {
+	width:100%;
+	margin-right:0;
+}
+#main-col .widget .older-post li .entry-thumb img {
+	width:100%;
+	display:block;
+}
+
+/* =========================================================
+Contact page
+============================================================ */
+#contact-info address p {
+	line-height:22px;
+}
+
+/* =========================================================
+Home page 3
+============================================================ */
+#sequence li h2 {
+	font-size:28px;
+	line-height:30px;
+	padding:5px 10px 2px;
+}
+#sequence li h3 {
+	font-size:26px;
+	line-height:28px;
+}
+.animate-in .title,
+.animate-in .subtitle {
+	left:20px;
+}
+.model {
+	width:430px;
+}
+.subtitle {
+	width:40%;
+}
+.animate-in .model {
+	right:10px;
+}
+#sequence li#creative h2 {
+	font-size:30px;
+	line-height:32px;
+}
+.model-2-1,
+.model-2-2,
+.model-2-3 {
+	width:250px;
+}
+.title-2,
+.subtitle-2 {
+	width:42%;
+}
+.animate-in .model-2-1,
+.model-2-1,
+.animate-out .model-2-1 {
+	left:10px;
+}
+.animate-in .model-2-2,
+.animate-out .model-2-2,
+.model-2-2 {
+	left:180px;
+}
+
+.model-3-1 {
+	width:322px;
+}
+.model-3-2 {
+	width:308px;
+}
+.model-3-3 {
+	width:184px;
+}
+.model-3-4 {
+	width:72px;
+}
+
+
+.kp-home-3 .list-carousel.responsive {
+	margin:0;
+}
+
+
+.kp-our-work ul li .entry-item .entry-content {
+	margin:0 15px 10px;
+}
+
+.kp-our-experient .widget-area-4 .widget-title {
+	margin-left:15px;
+}
+
+.kp-our-experient .entry-item {
+	margin-right:15px;
+}
+.kp-our-experient .entry-item .entry-date {
+	margin-right:15px;
+}
+.kp-our-experient .entry-item .entry-content {
+	width:256px;
+}
+.kp-testimonial .testimonial-author a {
+	line-height:20px;
+}
+.bottom-twitter .twitter-widget {
+	padding:10px 15px;
+}
+.chart .label {
+	font-size:16px;
+	white-space: pre-wrap;
+}
+.kp-our-work ul li .entry-item .entry-content .entry-title {
+	font-size:22px;
+	line-height:24px;
+}
+
+/* =========================================================
+About page
+============================================================ */
+.about-skill-intro {
+	width:80%;
+}
+.bottom-twitter .tweet_list li .tweet_avatar {
+	margin-right:10px;
+}
+/* =========================================================
+Portfolio detail page
+============================================================ */
+.portfolio-detail .entry-meta-box {
+	width:170px;
+	margin-right:20px;
+}
+.portfolio-detail .pf-detail-content {
+	width:300px;
+}
+.portfolio-detail .entry-meta-box .socials-link li {
+	width:25px;
+	height:25px;
+	line-height:25px;
+}
+.portfolio-detail .entry-meta-box .socials-link li a span {
+	font-size:12px;
+}
+.pf-box li {
+	width:153px;
+	margin-left:15px;
+}
+.pf-box li .pf-info .entry-view, .pf-box li .pf-info .entry-like {
+	width:100% !important;
+}
+.pf-box li .pf-info .entry-view {
+	border-right:none;
+	border-bottom:1px solid #EAEAEA;
+}
+#pf-items .pf-info .entry-view, 
+#pf-items .pf-info .entry-like, 
+.pf-box li .pf-info .entry-view, 
+.pf-box li .pf-info .entry-like {
+	width:48.9%;
+}
+
+/* =========================================================
+Blog page style 3
+============================================================ */
+.kp-cat-3.two-sidebar .entry-meta-column {
+	width:40px;
+}
+.kp-cat-3.two-sidebar .entry-meta-column p{
+	width:40px;
+	height:40px;
+	line-height:40px;
+	font-size:20px;
+}
+.kp-cat-3 .entry-meta-column {
+	margin-right:15px;
+	
+}
+.kp-cat-3 .entry-item {
+	width:365px;
+}
+.kp-cat-3.two-sidebar .entry-item {
+	width:265px;
+}
+.kp-cat-3 .sidebar .widget .kp-popular-post li .entry-thumb, 
+.kp-cat-3 .sidebar .widget .kp-latest-post li .entry-thumb {
+	width:45px;
+}
+.kp-cat-3 .sidebar .widget ul li .entry-thumb img {
+	width:100%;
+	display:block;
+}
+.kp-cat-3 .sidebar .widget .entry-comment {
+	display:none;
+}
+.article-list li article .entry-thumb {
+	width:220px;
+}
+.article-list li article .entry-title {
+	font-size:24px;
+	line-height:24px;
+}
+.two-sidebar .sidebar .widget .list-container-2 ul li {
+	width:64px;
+}
+.list-container-2 ul li a, 
+.list-container-3 ul li a {
+	font-size:14px;
+}
+.tab-container-2 {
+	padding:15px 15px 10px;
+}
+.kp-cat-2 .article-list li article .entry-comment {
+	display:none;
+}
+
+/* =========================================================
+404 Page
+============================================================ */
+
+
+}
+
+@media only screen and (min-width: 640px) and (max-width: 767px) {
+	
+/* =========================================================
+Colunms
+============================================================ */
+body {
+	padding-left:0;
+	padding-right:0;
+}
+.wrapper{
+    width:600px;
+}
+#main-col {
+	width:100%;
+	margin-right:0px;
+}
+.sidebar {
+	width:100%;
+}
+.kp-left-sidebar #main-col {
+	width:100%;
+	margin-left:0px;
+}
+.two-sidebar .sidebar {
+	width:100%;
+}
+.two-sidebar #main-col {
+	width:100%;
+	margin:0;
+}
+
+/* =========================================================
+Header
+============================================================ */
+/*---Main Menu---*/
+.sf-arrows ul li > .sf-with-ul:focus:after, 
+.sf-arrows ul li:hover > .sf-with-ul:after, 
+.sf-arrows ul .sfHover > .sf-with-ul:after {
+	border-left-color:transparent;
+}
+
+#main-menu {
+	display:none;
+}
+#mobile-menu {
+	display:block;
+}
+
+.contact-top {
+	margin-top:10px;
+}
+
+#logo-image {
+	float:none;
+	text-align:center;
+	margin:0 0 20px;
+}
+#logo-image a, #logo-image a img {
+	max-width:100%;
+	width:auto;
+	display:inline-block;
+}
+.social-box {
+	float:none;
+}
+
+/*---Header Bottom---*/
+/*---Logo---*/
+/*- Search Box -*/
+
+/* =========================================================
+Home page slider
+============================================================ */
+.ei-slider{
+	height: 312px;
+	margin: 0 auto 20px;
+}
+.ei-slider-loading{
+	line-height: 343px;
+}
+.ei-title{
+	left: 10px;
+	bottom: 10px;
+	width:380px
+}
+/* =========================================================
+Main content
+============================================================ */
+#main-content {
+	padding-top:20px;
+}
+
+/*-Tabs-*/
+.list-container-1 ul li {
+	width:49.9%;
+}
+
+/*---Timeline---*/
+.timeline-item .entry-body {
+	width:490px;
+	padding:15px;
+}
+.timeline-item .entry-body .kp-thumb {
+	width:100%;
+	margin-right:0;
+	margin-bottom:15px;
+}
+.timeline-item .entry-body header {
+	width:100%;
+}
+.timeline-item .entry-body .entry-title {
+	font-size:24px;
+	line-height:24px;
+}
+
+.timeline-item.gallery-post .older-gallery-img li,
+.timeline-item.gallery-post #more-gallery-img li {
+	width:146px;
+}
+.kp-filter {
+	/*left:135px;*/
+}
+.kp-filter ul.ss-links {
+	right:-12px;
+}
+
+/* =========================================================
+Sidebar
+============================================================ */
+.sidebar .widget {
+	margin-bottom:30px;
+}
+.sidebar .kp-gallery-widget ul li {
+	width:92px;
+}
+.sidebar .widget .tab-container-2 .entry-comment {
+	display:none !important;
+}
+.sidebar .widget .entry-comment {
+	display:none;
+}
+.adv-300-300 {
+	text-align:center;
+}
+.adv-300-300 a, .adv-300-300 a img {
+	max-width:100%;
+	width:auto;
+	display:inline-block;
+}
+.hover-effect .mask a.link-detail {
+	left:90%;
+}
+
+/*---Twitter---*/
+
+/* =========================================================
+Bottom Sidebar
+============================================================ */
+#bottom-sidebar {
+	padding-top:30px;
+}
+#bottom-sidebar .widget {
+	margin-bottom:25px;
+}
+#bottom-sidebar .widget .widget-title {
+	margin:0 0 20px;
+}
+
+/*---Flickr---*/
+.flickr-wrap {
+	margin:-5px;
+}
+.flickr-badge-image {
+	margin:5px;
+	width:57px;
+}
+.kp-tagcloud {
+	margin-left:15px;
+}
+#bottom-sidebar .widget ul li .entry-thumb {
+	width:45px;
+	margin-right:10px;
+}
+
+/* =========================================================
+Footer
+============================================================ */
+
+/*----------------Back to top-----------------*/
+
+/**** Isotope Filtering ****/
+#isotop-container{
+    margin-top: 20px;
+}
+.isotop-header {
+	top:-58px;
+}
+
+.kp-home-1 #portfolio-items article{
+    width:189px;
+}
+.kp-pf-3col #pf-items article {
+	width:183px;
+}
+.kp-pf-2col #pf-items article {
+	width:287px;
+}
+.kp-pf-1col #pf-items article {
+	width:600px;
+}
+
+#portfolio-items article .mask a.kp-pf-gallery {
+	top:30px;
+}
+#portfolio-items article .mask a.kp-pf-detail {
+	top:50px;
+}
+#portfolio-items article .mask .portfolio-caption h3 {
+	margin:0;
+}
+
+.kp-pf-3col #pf-items article .mask a.kp-pf-gallery {
+	top:50px;
+	right:100%;
+}
+.kp-pf-2col #pf-items article .mask a.kp-pf-gallery {
+	top:90px;
+	right:100%;
+}
+.kp-pf-1col #pf-items article .mask a.kp-pf-gallery {
+	top:200px;
+	right:100%;
+}
+
+.kp-pf-3col #pf-items article .mask a.kp-pf-detail {
+	top:70px;
+	left:100%;
+}
+.kp-pf-2col #pf-items article .mask a.kp-pf-detail {
+	top:110px;
+	left:100%;
+}
+.kp-pf-1col #pf-items article .mask a.kp-pf-detail {
+	top:230px;
+	left:100%;
+}
+#portfolio-items article .mask .portfolio-caption,
+#pf-items article .mask .portfolio-caption {
+	bottom:20px;
+}
+
+#pf-filters li a {
+	font-size:14px;
+	padding:5px 10px;
+}
+
+.pf-thumb-1col {
+	width:340px;
+}
+.pf-des-1col {
+	width:240px;
+}
+.entry-date, .entry-author, .entry-category {
+	margin-right:10px;
+}
+
+/* =========================================================
+Elements page
+============================================================ */
+.elements-box .list-container-3 ul li {
+	width:63px;
+}
+
+/*-------------Toggle Boxes-----------*/
+
+/************Accordion**************/
+
+/* =========================================================
+Category page 1
+============================================================ */
+.article-list li article .entry-header {
+	width:360px;
+}
+.article-list li article .entry-date, 
+.article-list li article .entry-author, 
+.article-list li article .entry-category {
+	margin-right:10px;
+}
+.two-sidebar.kp-cat-1 .article-list li article .entry-thumb {
+	margin-right:0;
+	width:100%;
+	margin-bottom:15px;
+}
+.two-sidebar.kp-cat-1 .article-list li article .entry-thumb img {	
+	width:100%;
+}
+.two-sidebar .article-list li article .entry-header {
+	width:100%;
+}
+
+/* =========================================================
+Category page 2
+============================================================ */
+.kp-cat-2 .article-list li article .entry-content {
+	width:335px;
+}
+.kp-cat-2 .article-list li article .entry-thumb {
+	width:180px;
+}
+.kp-cat-2 .article-list li article .entry-title {
+	margin-bottom:0;
+}
+
+/* =========================================================
+Singe page 1
+============================================================ */
+/*---About Author---*/
+.about-author {
+	padding:15px 15px 5px;
+}
+.about-author .author-content {
+	width:478px;
+}
+
+/*---Comments List---*/
+#comments .comment-body {
+	width:525px;
+}
+#comments .comments-list .children .comment-body {
+	width:465px;
+}
+
+/*---Comment form---*/
+#comments-form .comment-left {
+	width:255px;
+}
+#comments-form .comment-right {
+	width:325px;
+}
+#comments-form #comment_message {
+	height:195px;
+}
+
+.kp-single-4 .about-author .author-content {
+	width:478px;
+}
+.kp-single-4 #comments .comment-body {
+	width:525px;
+}
+.kp-single-4 #comments .comments-list .children .comment-body {
+	width:465px;
+}
+.kp-single-4 #comments-form .comment-left {
+	width:240px;
+}
+.kp-single-4 #comments-form .comment-right {
+	width:340px;
+}
+.related-article .entry-item .entry-content .entry-comment,
+.kp-single-2 .entry-box .entry-meta-box .entry-comment {
+	display:none;
+}
+
+
+/* =========================================================
+Singe page 2
+============================================================ */
+.kp-single-2 .entry-box .entry-thumb {
+	width:100%;
+	margin-right:0;
+	margin-bottom:15px;
+}
+.kp-single-2 .entry-box .entry-header {
+	margin-bottom:5px;
+}
+.kp-single-2 .entry-box .entry-title {
+	font-size:28px;
+	line-height:28px;
+}
+.kp-single-2 .about-author .author-content {
+	width:413px;
+}
+.about-author header h4 {
+	float:none;
+}
+.kp-single-2 #comments-form .comment-left {
+	width:210px;
+}
+.kp-single-2 #comments-form .comment-right {
+	width:305px;
+}
+.kp-single-2 #comments .comment-body {
+	width:460px;
+}
+.kp-single-2 #comments .comments-list .children .comment-body {
+	width:400px;
+}
+.related-article .entry-item .entry-content{
+	margin:10px 15px;
+}
+.kp-single-2 .related-article .entry-comment {
+	display:none;
+}
+.loading {
+	min-height:300px;
+}
+
+
+/* =========================================================
+Singe page 3
+============================================================ */
+.kp-single-carousel {
+	display:none;
+}
+.kp-single-carousel li {
+	width:119px !important;
+}
+.kp-single-3 .entry-box #carousel img {
+	margin:0;
+	width:690px;
+}
+
+/* =========================================================
+Home page 2
+============================================================ */
+.widget-area-3,
+.widget-area-4 {
+	width:290px;
+}
+.widget-area-3 {
+	margin-right:20px;
+}
+
+#main-col .widget .entry-content .entry-title {
+	font-size:22px;
+	line-height:24px;
+}
+#main-col .widget.featured-widget .entry-content .entry-title {
+	font-size:20px;
+}
+
+#main-col .widget .older-post li .entry-content {
+	width:200px;
+}
+
+#main-col .widget-area-5 .widget .entry-thumb {
+	margin-right:20px;
+	width:200px;
+}
+#main-col .widget .older-post li .entry-thumb {
+	width:70px;
+}
+#main-col .widget .older-post li .entry-thumb img {
+	width:100%;
+	display:block;
+}
+
+/* =========================================================
+Contact page
+============================================================ */
+#contact-info address p {
+	line-height:22px;
+}
+
+/* =========================================================
+Home page 3
+============================================================ */
+.sequence-slider {
+	height:350px;
+}
+#sequence li h2 {
+	font-size:26px;
+	line-height:28px;
+	padding:5px 10px 2px;
+}
+#sequence li h3 {
+	font-size:26px;
+	line-height:28px;
+}
+.animate-in .title,
+.animate-in .subtitle {
+	left:20px;
+}
+.model {
+	width:300px;
+}
+.subtitle {
+	width:40%;
+}
+.animate-in .model {
+	right:10px;
+}
+#sequence li#creative h2 {
+	font-size:26px;
+	line-height:28px;
+}
+#sequence li#creative h3 {
+	font-size:20px;
+	line-height:22px;
+}
+.model-2-1,
+.model-2-2,
+.model-2-3 {
+	width:200px;
+}
+.title-2,
+.subtitle-2 {
+	width:42%;
+}
+.animate-in .model-2-1,
+.model-2-1,
+.animate-out .model-2-1 {
+	left:10px;
+}
+.animate-in .model-2-2,
+.animate-out .model-2-2,
+.model-2-2 {
+	left:140px;
+}
+
+.model-3-1 {
+	width:250px;
+}
+.model-3-2 {
+	width:220px;
+}
+.model-3-3 {
+	width:150px;
+}
+.model-3-4 {
+	width:50px;
+}
+.title {
+	top:15%;
+}
+.animate-in .model-3-2 {
+	right:10%;
+}
+.animate-in .model-3-3 {
+	right:32%;
+}
+.animate-in .model-3-4 {
+	right:31%;
+}
+
+
+.kp-home-3 .list-carousel.responsive {
+	margin:0;
+}
+
+
+.kp-our-work ul li .entry-item .entry-content {
+	margin:0 15px 10px;
+}
+
+.kp-our-experient .widget-area-4 .widget-title {
+	margin-left:15px;
+}
+
+.kp-our-experient .entry-item {
+	margin-right:15px;
+}
+.kp-our-experient .entry-item .entry-date {
+	margin-right:15px;
+}
+.kp-our-experient .entry-item .entry-content {
+	width:196px;
+}
+.kp-testimonial .testimonial-author a {
+	line-height:20px;
+}
+.bottom-twitter .twitter-widget {
+	padding:10px 15px;
+}
+.chart .label {
+	font-size:15px;
+	white-space: pre-wrap;
+}
+.kp-our-work ul li .entry-item .entry-content .entry-title {
+	font-size:22px;
+	line-height:24px;
+}
+.kp-skill li {
+	width:46%;
+}
+.kp-client-logo {
+	display:none;
+}
+.about-team .row-fluid .span3 {
+	float:left !important;
+	width:47%;
+	margin-left:2.12766%;
+	margin-bottom:15px;
+}
+
+/* =========================================================
+About page
+============================================================ */
+.about-skill-intro {
+	width:80%;
+}
+.bottom-twitter .tweet_list li .tweet_avatar {
+	margin-right:10px;
+}
+/* =========================================================
+Portfolio detail page
+============================================================ */
+.portfolio-detail .entry-meta-box {
+	width:200px;
+	margin-right:20px;
+}
+.portfolio-detail .pf-detail-content {
+	width:380px;
+}
+.portfolio-detail .entry-meta-box .socials-link li {
+	width:25px;
+	height:25px;
+	line-height:25px;
+}
+.portfolio-detail .entry-meta-box .socials-link li a span {
+	font-size:12px;
+}
+.pf-box li {
+	width:190px;
+	margin-left:15px;
+}
+.pf-box li .pf-info .entry-view, .pf-box li .pf-info .entry-like {
+	width:100% !important;
+}
+.pf-box li .pf-info .entry-view {
+	border-right:none;
+	border-bottom:1px solid #EAEAEA;
+}
+#pf-items .pf-info .entry-view, 
+#pf-items .pf-info .entry-like, 
+.pf-box li .pf-info .entry-view, 
+.pf-box li .pf-info .entry-like {
+	width:48.8%;
+}
+.kp-pf-detail #main-col {
+	margin-bottom:25px;
+}
+
+/* =========================================================
+Blog page style 3
+============================================================ */
+.kp-cat-3 .entry-meta-column {
+	margin-right:15px;
+	
+}
+.kp-cat-3 .entry-item {
+	width:480px;
+}
+.kp-cat-3.two-sidebar .entry-item {
+	width:505px;
+}
+.kp-cat-3 .sidebar .widget .kp-popular-post li .entry-thumb, 
+.kp-cat-3 .sidebar .widget .kp-latest-post li .entry-thumb {
+	width:45px;
+}
+.kp-cat-3 .sidebar .widget ul li .entry-thumb img {
+	width:100%;
+	display:block;
+}
+.kp-cat-3 .sidebar .widget .entry-comment {
+	display:none;
+}
+.article-list li article .entry-thumb {
+	width:220px;
+}
+.article-list li article .entry-title {
+	font-size:24px;
+	line-height:24px;
+}
+.two-sidebar .sidebar .widget .list-container-2 ul li {
+	width:64px;
+}
+
+.tab-container-2 {
+	border-top: 1px solid #ECECEC;
+    margin-top: -1px;
+    padding: 15px 15px 10px;
+}
+.kp-cat-2 .article-list li article .entry-comment {
+	display:none;
+}
+
+/* =========================================================
+404 Page
+============================================================ */
+
+
+}
+
+@media only screen and (min-width: 600px) and (max-width: 639px) {
+	
+/* =========================================================
+Colunms
+============================================================ */
+body {
+	padding-left:0;
+	padding-right:0;
+}
+.wrapper{
+    width:560px;
+}
+#main-col {
+	width:100%;
+	margin-right:0px;
+}
+.sidebar {
+	width:100%;
+}
+.kp-left-sidebar #main-col {
+	width:100%;
+	margin-left:0px;
+}
+.two-sidebar .sidebar {
+	width:100%;
+}
+.two-sidebar #main-col {
+	width:100%;
+	margin:0;
+}
+
+/* =========================================================
+Header
+============================================================ */
+/*---Main Menu---*/
+.sf-arrows ul li > .sf-with-ul:focus:after, 
+.sf-arrows ul li:hover > .sf-with-ul:after, 
+.sf-arrows ul .sfHover > .sf-with-ul:after {
+	border-left-color:transparent;
+}
+
+#main-menu {
+	display:none;
+}
+#mobile-menu {
+	display:block;
+}
+
+.contact-top {
+	margin-top:10px;
+}
+
+#logo-image {
+	float:none;
+	text-align:center;
+	margin:0 0 20px;
+}
+#logo-image a, #logo-image a img {
+	max-width:100%;
+	width:auto;
+	display:inline-block;
+}
+.social-box {
+	float:none;
+}
+
+/*---Header Bottom---*/
+/*---Logo---*/
+/*- Search Box -*/
+
+/* =========================================================
+Home page slider
+============================================================ */
+.ei-slider{
+	height: 291px;
+	margin: 0 auto 20px;
+}
+.ei-slider-loading{
+	line-height: 343px;
+}
+.ei-title{
+	left: 10px;
+	bottom: 10px;
+	width:380px
+}
+/* =========================================================
+Main content
+============================================================ */
+#main-content {
+	padding-top:20px;
+}
+
+/*-Tabs-*/
+.list-container-1 ul li {
+	width:49.9%;
+}
+
+/*---Timeline---*/
+.timeline-item .entry-body {
+	width:450px;
+	padding:15px;
+}
+.timeline-item .entry-body .kp-thumb {
+	width:100%;
+	margin-right:0;
+	margin-bottom:15px;
+}
+.timeline-item .entry-body header {
+	width:100%;
+}
+.timeline-item .entry-body .entry-title {
+	font-size:24px;
+	line-height:24px;
+}
+
+.timeline-item.gallery-post .older-gallery-img li,
+.timeline-item.gallery-post #more-gallery-img li {
+	width:132px;
+}
+.kp-filter {
+	/*left:135px;*/
+}
+.kp-filter ul.ss-links {
+	right:-12px;
+}
+
+/* =========================================================
+Sidebar
+============================================================ */
+.sidebar .widget {
+	margin-bottom:30px;
+}
+.sidebar .kp-gallery-widget ul li {
+	width:85px;
+}
+.sidebar .widget .tab-container-2 .entry-comment {
+	display:none !important;
+}
+.sidebar .widget .entry-comment {
+	display:none;
+}
+.adv-300-300 {
+	text-align:center;
+}
+.adv-300-300 a, .adv-300-300 a img {
+	max-width:100%;
+	width:auto;
+	display:inline-block;
+}
+.hover-effect .mask a.link-detail {
+	left:90%;
+}
+
+/*---Twitter---*/
+
+/* =========================================================
+Bottom Sidebar
+============================================================ */
+#bottom-sidebar {
+	padding-top:30px;
+}
+#bottom-sidebar .widget {
+	margin-bottom:25px;
+}
+#bottom-sidebar .widget .widget-title {
+	margin:0 0 20px;
+}
+
+/*---Flickr---*/
+.flickr-wrap {
+	margin:-5px;
+}
+.flickr-badge-image {
+	margin:5px;
+	width:53px;
+}
+.kp-tagcloud {
+	margin-left:15px;
+}
+#bottom-sidebar .widget ul li .entry-thumb {
+	width:45px;
+	margin-right:10px;
+}
+
+/* =========================================================
+Footer
+============================================================ */
+
+/*----------------Back to top-----------------*/
+
+/**** Isotope Filtering ****/
+#isotop-container{
+    margin-top: 20px;
+}
+.isotop-header {
+	top:-58px;
+}
+
+.kp-home-1 #portfolio-items article{
+    width:271px;
+}
+.kp-pf-3col #pf-items article {
+	width:267px;
+}
+.kp-pf-2col #pf-items article {
+	width:267px;
+}
+.kp-pf-1col #pf-items article {
+	width:560px;
+}
+
+#portfolio-items article .mask a.kp-pf-gallery {
+	top:30px;
+}
+#portfolio-items article .mask a.kp-pf-detail {
+	top:50px;
+}
+#portfolio-items article .mask .portfolio-caption h3 {
+	margin:0;
+}
+
+.kp-pf-3col #pf-items article .mask a.kp-pf-gallery {
+	top:50px;
+	right:100%;
+}
+.kp-pf-2col #pf-items article .mask a.kp-pf-gallery {
+	top:90px;
+	right:100%;
+}
+.kp-pf-1col #pf-items article .mask a.kp-pf-gallery {
+	top:200px;
+	right:100%;
+}
+
+.kp-pf-3col #pf-items article .mask a.kp-pf-detail {
+	top:70px;
+	left:100%;
+}
+.kp-pf-2col #pf-items article .mask a.kp-pf-detail {
+	top:110px;
+	left:100%;
+}
+.kp-pf-1col #pf-items article .mask a.kp-pf-detail {
+	top:230px;
+	left:100%;
+}
+#portfolio-items article .mask .portfolio-caption,
+#pf-items article .mask .portfolio-caption {
+	bottom:20px;
+}
+
+#pf-filters li a {
+	font-size:14px;
+	padding:5px 10px;
+}
+
+.pf-thumb-1col {
+	width:320px;
+}
+.pf-des-1col {
+	width:220px;
+}
+.entry-date, .entry-author, .entry-category {
+	margin-right:10px;
+}
+
+
+/* =========================================================
+Elements page
+============================================================ */
+.elements-box .list-container-3 ul li {
+	width:63px;
+}
+
+/*-------------Toggle Boxes-----------*/
+
+/************Accordion**************/
+
+/* =========================================================
+Category page 1
+============================================================ */
+.article-list li article .entry-header {
+	width:320px;
+}
+.article-list li article .entry-date, 
+.article-list li article .entry-author, 
+.article-list li article .entry-category {
+	margin-right:10px;
+}
+.two-sidebar.kp-cat-1 .article-list li article .entry-thumb {
+	margin-right:0;
+	width:100%;
+	margin-bottom:15px;
+}
+.two-sidebar.kp-cat-1 .article-list li article .entry-thumb img {	
+	width:100%;
+}
+.two-sidebar .article-list li article .entry-header {
+	width:100%;
+}
+
+/* =========================================================
+Category page 2
+============================================================ */
+.kp-cat-2 .article-list li article .entry-content {
+	width:295px;
+}
+.kp-cat-2 .article-list li article .entry-thumb {
+	width:180px;
+}
+.kp-cat-2 .article-list li article .entry-title {
+	margin-bottom:0;
+}
+
+/* =========================================================
+Singe page 1
+============================================================ */
+/*---About Author---*/
+.about-author {
+	padding:15px 15px 5px;
+}
+.about-author .author-content {
+	width:438px;
+}
+
+/*---Comments List---*/
+#comments .comment-body {
+	width:485px;
+}
+#comments .comments-list .children .comment-body {
+	width:405px;
+}
+
+/*---Comment form---*/
+#comments-form .comment-left {
+	width:235px;
+}
+#comments-form .comment-right {
+	width:305px;
+}
+#comments-form #comment_message {
+	height:195px;
+}
+
+.kp-single-4 .about-author .author-content {
+	width:438px;
+}
+.kp-single-4 #comments .comment-body {
+	width:485px;
+}
+.kp-single-4 #comments .comments-list .children .comment-body {
+	width:405px;
+}
+.kp-single-4 #comments-form .comment-left {
+	width:220px;
+}
+.kp-single-4 #comments-form .comment-right {
+	width:320px;
+}
+.related-article .entry-item .entry-content .entry-comment,
+.kp-single-2 .entry-box .entry-meta-box .entry-comment {
+	display:none;
+}
+
+
+/* =========================================================
+Singe page 2
+============================================================ */
+.kp-single-2 .entry-box .entry-thumb {
+	width:100%;
+	margin-right:0;
+	margin-bottom:15px;
+}
+.kp-single-2 .entry-box .entry-header {
+	margin-bottom:5px;
+}
+.kp-single-2 .entry-box .entry-title {
+	font-size:28px;
+	line-height:28px;
+}
+.kp-single-2 .about-author .author-content {
+	width:373px;
+}
+.about-author header h4 {
+	float:none;
+}
+.kp-single-2 #comments-form .comment-left {
+	width:190px;
+}
+.kp-single-2 #comments-form .comment-right {
+	width:285px;
+}
+.kp-single-2 #comments .comment-body {
+	width:420px;
+}
+.kp-single-2 #comments .comments-list .children .comment-body {
+	width:360px;
+}
+.related-article .entry-item .entry-content{
+	margin:10px 15px;
+}
+.kp-single-2 .related-article .entry-comment {
+	display:none;
+}
+.loading {
+	min-height:300px;
+}
+
+
+/* =========================================================
+Singe page 3
+============================================================ */
+.kp-single-carousel {
+	display:none;
+}
+.kp-single-carousel li {
+	width:119px !important;
+}
+.kp-single-3 .entry-box #carousel img {
+	margin:0;
+	width:690px;
+}
+
+/* =========================================================
+Home page 2
+============================================================ */
+.widget-area-3,
+.widget-area-4 {
+	width:270px;
+}
+.widget-area-3 {
+	margin-right:20px;
+}
+
+#main-col .widget .entry-content .entry-title {
+	font-size:22px;
+	line-height:24px;
+}
+#main-col .widget.featured-widget .entry-content .entry-title {
+	font-size:20px;
+}
+
+#main-col .widget .older-post li .entry-content {
+	width:180px;
+}
+
+#main-col .widget-area-5 .widget .entry-thumb {
+	margin-right:20px;
+	width:200px;
+}
+#main-col .widget .older-post li .entry-thumb {
+	width:70px;
+}
+#main-col .widget .older-post li .entry-thumb img {
+	width:100%;
+	display:block;
+}
+
+/* =========================================================
+Contact page
+============================================================ */
+#contact-info address p {
+	line-height:22px;
+}
+
+/* =========================================================
+Home page 3
+============================================================ */
+.sequence-slider {
+	height:350px;
+}
+#sequence li h2 {
+	font-size:26px;
+	line-height:28px;
+	padding:5px 10px 2px;
+}
+#sequence li h3 {
+	font-size:26px;
+	line-height:28px;
+}
+.animate-in .title,
+.animate-in .subtitle {
+	left:20px;
+}
+.model {
+	width:300px;
+}
+.subtitle {
+	width:40%;
+}
+.animate-in .model {
+	right:10px;
+}
+#sequence li#creative h2 {
+	font-size:26px;
+	line-height:28px;
+}
+#sequence li#creative h3 {
+	font-size:20px;
+	line-height:22px;
+}
+.model-2-1,
+.model-2-2,
+.model-2-3 {
+	width:190px;
+}
+.title-2,
+.subtitle-2 {
+	width:42%;
+}
+.animate-in .model-2-1,
+.model-2-1,
+.animate-out .model-2-1 {
+	left:10px;
+}
+.animate-in .model-2-2,
+.animate-out .model-2-2,
+.model-2-2 {
+	left:140px;
+}
+
+.model-3-1 {
+	width:250px;
+}
+.model-3-2 {
+	width:220px;
+}
+.model-3-3 {
+	width:150px;
+}
+.model-3-4 {
+	width:50px;
+}
+.title {
+	top:15%;
+}
+.animate-in .model-3-2 {
+	right:10%;
+}
+.animate-in .model-3-3 {
+	right:32%;
+}
+.animate-in .model-3-4 {
+	right:31%;
+}
+
+
+.kp-home-3 .list-carousel.responsive {
+	margin:0;
+}
+
+
+.kp-our-work ul li .entry-item .entry-content {
+	margin:0 15px 10px;
+}
+
+.kp-our-experient .widget-area-4 .widget-title {
+	margin-left:15px;
+}
+
+.kp-our-experient .entry-item {
+	margin-right:15px;
+}
+.kp-our-experient .entry-item .entry-date {
+	margin-right:15px;
+}
+.kp-our-experient .entry-item .entry-content {
+	width:176px;
+}
+.kp-our-experient .entry-item .entry-title {
+	font-size:22px;
+}
+.kp-testimonial .testimonial-author a {
+	line-height:20px;
+}
+.bottom-twitter .twitter-widget {
+	padding:10px 15px;
+}
+.chart .label {
+	font-size:14px;
+	white-space: pre-wrap;
+}
+.kp-our-work ul li .entry-item .entry-content .entry-title {
+	font-size:22px;
+	line-height:24px;
+}
+.kp-skill li {
+	width:46%;
+}
+.kp-client-logo {
+	display:none;
+}
+.about-team .row-fluid .span3 {
+	float:left !important;
+	width:47%;
+	margin-left:2.12766%;
+	margin-bottom:15px;
+}
+
+/* =========================================================
+About page
+============================================================ */
+.about-skill-intro {
+	width:80%;
+}
+.bottom-twitter .tweet_list li .tweet_avatar {
+	margin-right:10px;
+}
+/* =========================================================
+Portfolio detail page
+============================================================ */
+.portfolio-detail .entry-meta-box {
+	width:200px;
+	margin-right:20px;
+}
+.portfolio-detail .pf-detail-content {
+	width:380px;
+}
+.portfolio-detail .entry-meta-box .socials-link li {
+	width:25px;
+	height:25px;
+	line-height:25px;
+}
+.portfolio-detail .entry-meta-box .socials-link li a span {
+	font-size:12px;
+}
+.pf-box li {
+	width:190px;
+	margin-left:15px;
+}
+.pf-box li .pf-info .entry-view, .pf-box li .pf-info .entry-like {
+	width:100% !important;
+}
+.pf-box li .pf-info .entry-view {
+	border-right:none;
+	border-bottom:1px solid #EAEAEA;
+}
+#pf-items .pf-info .entry-view, 
+#pf-items .pf-info .entry-like, 
+.pf-box li .pf-info .entry-view, 
+.pf-box li .pf-info .entry-like {
+	width:48.8%;
+}
+.kp-pf-detail #main-col {
+	margin-bottom:25px;
+}
+
+/* =========================================================
+Blog page style 3
+============================================================ */
+.kp-cat-3 .entry-meta-column {
+	margin-right:15px;
+	
+}
+.kp-cat-3 .entry-item {
+	width:440px;
+}
+.kp-cat-3.two-sidebar .entry-item {
+	width:465px;
+}
+.kp-cat-3 .sidebar .widget .kp-popular-post li .entry-thumb, 
+.kp-cat-3 .sidebar .widget .kp-latest-post li .entry-thumb {
+	width:45px;
+}
+.kp-cat-3 .sidebar .widget ul li .entry-thumb img {
+	width:100%;
+	display:block;
+}
+.kp-cat-3 .sidebar .widget .entry-comment {
+	display:none;
+}
+.article-list li article .entry-thumb {
+	width:220px;
+}
+.article-list li article .entry-title {
+	font-size:24px;
+	line-height:24px;
+}
+.two-sidebar .sidebar .widget .list-container-2 ul li {
+	width:64px;
+}
+
+.tab-container-2 {
+	border-top: 1px solid #ECECEC;
+    margin-top: -1px;
+    padding: 15px 15px 10px;
+}
+.kp-cat-2 .article-list li article .entry-comment {
+	display:none;
+}
+
+/* =========================================================
+404 Page
+============================================================ */
+
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 599px) {
+	
+/* =========================================================
+Colunms
+============================================================ */
+body {
+	padding-left:0;
+	padding-right:0;
+}
+.wrapper{
+    width:440px;
+}
+#main-col {
+	width:100%;
+	margin-right:0px;
+}
+.sidebar {
+	width:100%;
+}
+.kp-left-sidebar #main-col {
+	width:100%;
+	margin-left:0px;
+}
+.two-sidebar .sidebar {
+	width:100%;
+}
+.two-sidebar #main-col {
+	width:100%;
+	margin:0;
+}
+
+/* =========================================================
+Header
+============================================================ */
+/*---Main Menu---*/
+.sf-arrows ul li > .sf-with-ul:focus:after, 
+.sf-arrows ul li:hover > .sf-with-ul:after, 
+.sf-arrows ul .sfHover > .sf-with-ul:after {
+	border-left-color:transparent;
+}
+
+#main-menu {
+	display:none;
+}
+#mobile-menu {
+	display:block;
+}
+
+.contact-top {
+	margin-top:10px;
+}
+
+#logo-image {
+	float:none;
+	text-align:center;
+	margin:0 0 20px;
+}
+#logo-image a, #logo-image a img {
+	max-width:100%;
+	width:auto;
+	display:inline-block;
+}
+.social-box {
+	float:none;
+}
+.socials-link li {
+	width:25px;
+	height:25px;
+	line-height:25px;
+	margin-left:5px;
+}
+.socials-link li a span {
+	font-size:12px;
+}
+
+/*---Header Bottom---*/
+/*---Logo---*/
+/*- Search Box -*/
+
+/* =========================================================
+Home page slider
+============================================================ */
+.ei-slider{
+	height: 229px;
+	margin: 0 auto 20px;
+}
+.ei-slider-loading{
+	line-height: 343px;
+}
+.ei-title{
+	left: 10px;
+	bottom: 10px;
+	width:380px
+}
+/* =========================================================
+Main content
+============================================================ */
+#main-content {
+	padding-top:20px;
+}
+
+/*-Tabs-*/
+.list-container-1 ul li {
+	width:49.8%;
+}
+.list-container-1 ul li a {
+	padding:15px 10px;
+}
+
+/*---Timeline---*/
+.timeline-item .entry-body {
+	width:330px;
+	padding:15px;
+}
+.timeline-item .entry-body .kp-thumb {
+	width:100%;
+	margin-right:0;
+	margin-bottom:15px;
+}
+.timeline-item .entry-body header {
+	width:100%;
+}
+.timeline-item .entry-body .entry-title {
+	font-size:24px;
+	line-height:24px;
+}
+
+.timeline-item.gallery-post .older-gallery-img li,
+.timeline-item.gallery-post #more-gallery-img li {
+	width:92px;
+}
+.kp-filter {
+	/*left:115px;*/
+}
+.kp-filter ul.ss-links {
+	right:-12px;
+}
+
+/* =========================================================
+Sidebar
+============================================================ */
+.sidebar .widget {
+	margin-bottom:30px;
+}
+.sidebar .kp-gallery-widget ul li {
+	width:85px;
+}
+.sidebar .widget .tab-container-2 .entry-comment {
+	display:none !important;
+}
+.sidebar .widget .entry-comment {
+	display:none;
+}
+.adv-300-300 {
+	text-align:center;
+}
+.adv-300-300 a, .adv-300-300 a img {
+	max-width:100%;
+	width:auto;
+	display:inline-block;
+}
+.hover-effect .mask a.link-detail {
+	left:90%;
+}
+
+/*---Twitter---*/
+
+/* =========================================================
+Bottom Sidebar
+============================================================ */
+#bottom-sidebar {
+	padding-top:30px;
+}
+#bottom-sidebar .widget {
+	margin-bottom:25px;
+}
+#bottom-sidebar .widget .widget-title {
+	margin:0 0 20px;
+}
+
+/*---Flickr---*/
+.flickr-wrap {
+	margin:-5px;
+}
+.flickr-badge-image {
+	margin:5px;
+	width:54px;
+}
+.kp-tagcloud {
+	margin-left:15px;
+}
+#bottom-sidebar .widget ul li .entry-thumb {
+	width:45px;
+	margin-right:10px;
+}
+
+/* =========================================================
+Footer
+============================================================ */
+
+/*----------------Back to top-----------------*/
+
+/**** Isotope Filtering ****/
+#isotop-container{
+    margin-top: 20px;
+}
+.isotop-header {
+	top:-58px;
+}
+.isotop-header em {
+	display:none;
+}
+
+.kp-home-1 #portfolio-items article{
+    width:212px;
+}
+.kp-pf-3col #pf-items article {
+	width:207px;
+}
+.kp-pf-2col #pf-items article {
+	width:207px;
+}
+.kp-pf-1col #pf-items article {
+	width:440px;
+}
+
+#portfolio-items article .mask a.kp-pf-gallery {
+	top:30px;
+}
+#portfolio-items article .mask a.kp-pf-detail {
+	top:50px;
+}
+#portfolio-items article .mask .portfolio-caption h3 {
+	margin:0;
+}
+
+.kp-pf-3col #pf-items article .mask a.kp-pf-gallery {
+	top:50px;
+	right:100%;
+}
+.kp-pf-2col #pf-items article .mask a.kp-pf-gallery {
+	top:90px;
+	right:100%;
+}
+.kp-pf-1col #pf-items article .mask a.kp-pf-gallery {
+	top:200px;
+	right:100%;
+}
+
+.kp-pf-3col #pf-items article .mask a.kp-pf-detail {
+	top:70px;
+	left:100%;
+}
+.kp-pf-2col #pf-items article .mask a.kp-pf-detail {
+	top:110px;
+	left:100%;
+}
+.kp-pf-1col #pf-items article .mask a.kp-pf-detail {
+	top:230px;
+	left:100%;
+}
+#portfolio-items article .mask .portfolio-caption,
+#pf-items article .mask .portfolio-caption {
+	bottom:20px;
+}
+
+#pf-filters li a {
+	font-size:14px;
+	padding:3px 5px;
+}
+
+.pf-thumb-1col {
+	width:260px;
+}
+.pf-des-1col {
+	width:160px;
+}
+.entry-date, .entry-author, .entry-category {
+	margin-right:10px;
+}
+
+/* =========================================================
+Elements page
+============================================================ */
+.elements-box .list-container-3 ul li {
+	width:63px;
+}
+
+/*-------------Toggle Boxes-----------*/
+
+/************Accordion**************/
+
+/* =========================================================
+Category page 1
+============================================================ */
+.article-list li article .entry-header {
+	width:220px;
+}
+.article-list li article .entry-date, 
+.article-list li article .entry-author, 
+.article-list li article .entry-category {
+	margin-right:10px;
+}
+.two-sidebar.kp-cat-1 .article-list li article .entry-thumb {
+	margin-right:0;
+	width:100%;
+	margin-bottom:15px;
+}
+.two-sidebar.kp-cat-1 .article-list li article .entry-thumb img {	
+	width:100%;
+}
+.two-sidebar .article-list li article .entry-header {
+	width:100%;
+}
+
+/* =========================================================
+Category page 2
+============================================================ */
+.kp-cat-2 .article-list li article .entry-content {
+	width:205px;
+}
+.kp-cat-2 .article-list li article .entry-thumb {
+	width:150px;
+}
+.kp-cat-2 .article-list li article .entry-title {
+	margin-bottom:0;
+}
+
+/* =========================================================
+Singe page 1
+============================================================ */
+/*---About Author---*/
+.about-author {
+	padding:15px 15px 5px;
+}
+.about-author .author-content {
+	width:318px;
+}
+
+/*---Comments List---*/
+#comments .comment-body {
+	width:365px;
+}
+#comments .comments-list .children .comment-body {
+	width:305px;
+}
+
+/*---Comment form---*/
+#comments-form .comment-left {
+	width:175px;
+}
+#comments-form .comment-right {
+	width:245px;
+}
+#comments-form #comment_message {
+	height:195px;
+}
+
+.kp-single-4 .about-author .author-content {
+	width:318px;
+}
+.kp-single-4 #comments .comment-body {
+	width:365px;
+}
+.kp-single-4 #comments .comments-list .children .comment-body {
+	width:305px;
+}
+.kp-single-4 #comments-form .comment-left {
+	width:160px;
+}
+.kp-single-4 #comments-form .comment-right {
+	width:260px;
+}
+.related-article .entry-item .entry-content .entry-comment,
+.kp-single-2 .entry-box .entry-meta-box .entry-comment,
+.kp-single-2 .entry-box .entry-meta-box .entry-category {
+	display:none;
+}
+
+
+/* =========================================================
+Singe page 2
+============================================================ */
+.kp-single-2 .entry-box .entry-thumb {
+	width:100%;
+	margin-right:0;
+	margin-bottom:15px;
+}
+.kp-single-2 .entry-box .entry-header {
+	margin-bottom:5px;
+}
+.kp-single-2 .entry-box .entry-title {
+	font-size:28px;
+	line-height:28px;
+}
+.kp-single-2 .about-author .author-content {
+	width:253px;
+}
+.about-author header h4 {
+	float:none;
+}
+.kp-single-2 #comments-form .comment-left {
+	width:160px;
+}
+.kp-single-2 #comments-form .comment-right {
+	width:200px;
+}
+.kp-single-2 #comments .comment-body {
+	width:300px;
+}
+.kp-single-2 #comments .comments-list .children .comment-body {
+	width:240px;
+}
+.related-article .entry-item .entry-content{
+	margin:10px 15px;
+}
+.kp-single-2 .related-article .entry-comment {
+	display:none;
+}
+.loading {
+	min-height:200px;
+}
+
+
+/* =========================================================
+Singe page 3
+============================================================ */
+.kp-single-carousel {
+	display:none;
+}
+.kp-single-carousel li {
+	width:119px !important;
+}
+.kp-single-3 .entry-box #carousel img {
+	margin:0;
+	width:690px;
+}
+
+/* =========================================================
+Home page 2
+============================================================ */
+.widget-area-3,
+.widget-area-4 {
+	width:210px;
+}
+.widget-area-3 {
+	margin-right:20px;
+}
+
+#main-col .widget .entry-content .entry-title {
+	font-size:22px;
+	line-height:24px;
+}
+#main-col .widget.featured-widget .entry-content .entry-title {
+	font-size:20px;
+}
+
+#main-col .widget .older-post li .entry-content {
+	width:100%;
+}
+
+#main-col .widget-area-5 .widget .entry-thumb {
+	margin-right:20px;
+	width:200px;
+}
+#main-col .widget .older-post li .entry-thumb {
+	width:100%;
+	margin-right:0;
+}
+#main-col .widget .older-post li .entry-thumb img {
+	width:100%;
+	display:block;
+}
+
+/* =========================================================
+Contact page
+============================================================ */
+#contact-info address p {
+	line-height:22px;
+}
+
+/* =========================================================
+Home page 3
+============================================================ */
+.sequence-slider {
+	height:350px;
+}
+#sequence li h2 {
+	font-size:26px;
+	line-height:28px;
+	padding:5px 10px 2px;
+}
+#sequence li h3 {
+	font-size:26px;
+	line-height:28px;
+}
+.animate-in .title,
+.animate-in .subtitle {
+	left:20px;
+}
+.model {
+	width:300px;
+}
+.subtitle {
+	width:40%;
+	display:none;
+}
+.animate-in .model {
+	right:10px;
+}
+#sequence li#creative h2 {
+	font-size:26px;
+	line-height:28px;
+}
+#sequence li#creative h3 {
+	font-size:20px;
+	line-height:22px;
+}
+.model-2-1,
+.model-2-2,
+.model-2-3 {
+	width:190px;
+}
+.title-2,
+.subtitle-2 {
+	width:92%;
+	top:10%;
+}
+.subtitle-2 {
+	display:none;
+}
+.animate-in .model-2-1,
+.model-2-1,
+.animate-out .model-2-1 {
+	left:10px;
+}
+.animate-in .model-2-2,
+.animate-out .model-2-2,
+.model-2-2 {
+	left:105px;
+}
+
+.model-3-1 {
+	width:250px;
+}
+.model-3-2 {
+	width:220px;
+}
+.model-3-3 {
+	width:150px;
+}
+.model-3-4 {
+	width:50px;
+}
+.title {
+	top:15%;
+}
+.animate-in .model-3-2 {
+	right:10%;
+}
+.animate-in .model-3-3 {
+	right:32%;
+}
+.animate-in .model-3-4 {
+	right:31%;
+}
+
+.kp-home-3 .kp-tag-line .widget-title {
+	width:100%;
+	font-size:28px;
+	line-height:30px;
+}
+.kp-home-3 .kp-tag-line p {
+	width:100%;
+}
+.kp-home-3 .list-carousel.responsive {
+	margin:0;
+}
+
+
+.kp-our-work ul li .entry-item .entry-content {
+	margin:0 15px 10px;
+}
+
+.kp-our-experient .widget-area-4 .widget-title {
+	margin-left:15px;
+}
+
+.kp-our-experient .entry-item {
+	margin-right:15px;
+	text-align:center;
+}
+.kp-our-experient .entry-item .entry-date {
+	margin-right:0;
+	display:inline-block;
+	margin-bottom:15px;
+	float:none;
+}
+.kp-our-experient .entry-item .entry-content {
+	width:100%;
+	float:none;
+	text-align:left;
+}
+.kp-our-experient .entry-item .entry-title {
+	font-size:22px;
+}
+.kp-testimonial .testimonial-author a {
+	line-height:20px;
+}
+.bottom-twitter .twitter-widget {
+	padding:10px 15px;
+}
+.chart .label {
+	font-size:14px;
+	white-space: pre-wrap;
+}
+.kp-our-work ul li .entry-item .entry-content .entry-title {
+	font-size:22px;
+	line-height:24px;
+}
+.kp-skill li {
+	width:100%;
+	margin-left:0;
+}
+.kp-client-logo {
+	display:none;
+}
+.about-team .row-fluid .span3 {
+	float:left !important;
+	width:47%;
+	margin-left:2.12766%;
+	margin-bottom:15px;
+}
+.about-skill .kp-skill li {
+	width:50%;
+}
+
+/* =========================================================
+About page
+============================================================ */
+.about-skill-intro {
+	width:80%;
+}
+.bottom-twitter .tweet_list li .tweet_avatar {
+	margin-right:10px;
+}
+/* =========================================================
+Portfolio detail page
+============================================================ */
+.portfolio-detail .entry-meta-box {
+	width:200px;
+	margin-right:20px;
+}
+.portfolio-detail .pf-detail-content {
+	width:380px;
+}
+.portfolio-detail .entry-meta-box .socials-link li {
+	width:25px;
+	height:25px;
+	line-height:25px;
+}
+.portfolio-detail .entry-meta-box .socials-link li a span {
+
+	font-size:12px;
+}
+.pf-box li {
+	width:190px;
+	margin-left:15px;
+}
+.pf-box li .pf-info .entry-view, .pf-box li .pf-info .entry-like {
+	width:100% !important;
+}
+.pf-box li .pf-info .entry-view {
+	border-right:none;
+	border-bottom:1px solid #EAEAEA;
+}
+#pf-items .pf-info .entry-view, 
+#pf-items .pf-info .entry-like, 
+.pf-box li .pf-info .entry-view, 
+.pf-box li .pf-info .entry-like {
+	width:48.8%;
+}
+.kp-pf-detail #main-col {
+	margin-bottom:25px;
+}
+
+/* =========================================================
+Blog page style 3
+============================================================ */
+.kp-cat-3 .entry-meta-column {
+	margin-right:15px;
+	
+}
+.kp-cat-3 .entry-item {
+	width:320px;
+}
+.kp-cat-3.two-sidebar .entry-item {
+	width:345px;
+}
+.kp-cat-3 .sidebar .widget .kp-popular-post li .entry-thumb, 
+.kp-cat-3 .sidebar .widget .kp-latest-post li .entry-thumb {
+	width:45px;
+}
+.kp-cat-3 .sidebar .widget ul li .entry-thumb img {
+	width:100%;
+	display:block;
+}
+.kp-cat-3 .sidebar .widget .entry-comment {
+	display:none;
+}
+.article-list li article .entry-thumb {
+	width:200px;
+}
+.article-list li article .entry-title {
+	font-size:20px;
+	line-height:20px;
+}
+.two-sidebar .sidebar .widget .list-container-2 ul li {
+	width:64px;
+}
+
+.tab-container-2 {
+	border-top: 1px solid #ECECEC;
+    margin-top: -1px;
+    padding: 15px 15px 10px;
+}
+.kp-cat-2 .article-list li article .entry-comment,
+.kp-cat-2 .article-list li article .entry-category {
+	display:none;
+}
+.entry-box .entry-title {
+	font-size:28px;
+	line-height:28px;
+}
+
+/* =========================================================
+404 Page
+============================================================ */
+.error-404 .left-col p {
+	font-size:80px;
+}
+.error-404 .right-col h1 {
+	font-size:26px;
+}
+
+
+}
+
+@media only screen and (min-width: 360px) and (max-width: 479px) {
+	
+/* =========================================================
+Colunms
+============================================================ */
+body {
+	padding-left:0;
+	padding-right:0;
+}
+.wrapper{
+    width:320px;
+}
+#main-col {
+	width:100%;
+	margin-right:0px;
+}
+.sidebar {
+	width:100%;
+}
+.kp-left-sidebar #main-col {
+	width:100%;
+	margin-left:0px;
+}
+.two-sidebar .sidebar {
+	width:100%;
+}
+.two-sidebar #main-col {
+	width:100%;
+	margin:0;
+}
+
+/* =========================================================
+Header
+============================================================ */
+/*---Main Menu---*/
+.sf-arrows ul li > .sf-with-ul:focus:after, 
+.sf-arrows ul li:hover > .sf-with-ul:after, 
+.sf-arrows ul .sfHover > .sf-with-ul:after {
+	border-left-color:transparent;
+}
+
+#main-menu {
+	display:none;
+}
+#mobile-menu {
+	display:block;
+}
+
+.contact-top {
+	margin-top:10px;
+	display:none;
+}
+
+#logo-image {
+	float:none;
+	text-align:center;
+	margin:0 0 20px;
+}
+#logo-image a, #logo-image a img {
+	max-width:100%;
+	width:auto;
+	display:inline-block;
+}
+.social-box {
+	float:none;
+	text-align:center;
+}
+.socials-link {
+	display:inline-block;
+	margin-right:0;
+	float:none;
+	margin-bottom:15px;
+}
+.socials-link li {
+	width:25px;
+	height:25px;
+	line-height:25px;
+	margin-left:5px;
+}
+.socials-link li a span {
+	font-size:12px;
+}
+.search-box {
+	float:none;
+	display:inline-block;
+}
+
+/*---Header Bottom---*/
+/*---Logo---*/
+/*- Search Box -*/
+
+/* =========================================================
+Home page slider
+============================================================ */
+.ei-slider{
+	height: 166px;
+	margin: 0 auto 20px;
+}
+.ei-slider-loading{
+	line-height: 343px;
+}
+.ei-title{
+	left: 10px;
+	bottom: 10px;
+	width:380px
+}
+.ei-title h3 {
+	display:none !important;
+}
+.ei-title h2 {
+	margin-bottom:0;
+	font-size:22px;
+}
+/* =========================================================
+Main content
+============================================================ */
+#main-content {
+	padding-top:20px;
+}
+
+/*-Tabs-*/
+.list-container-1 ul li {
+	width:49.8%;
+}
+.list-container-1 ul li a {
+	padding:15px 10px;
+	font-size:20px;
+}
+.list-container-1 ul li a span {
+	display:none;
+}
+
+/*---Timeline---*/
+.timeline-item .entry-body {
+	width:320px;
+	padding:15px;
+	z-index:100;
+	position:relative;
+}
+.timeline-item .entry-body .kp-thumb {
+	width:100%;
+	margin-right:0;
+	margin-bottom:15px;
+}
+.timeline-item .entry-body header {
+	width:100%;
+}
+.timeline-item .entry-body .entry-title {
+	font-size:24px;
+	line-height:24px;
+}
+
+.timeline-item.gallery-post .older-gallery-img li,
+.timeline-item.gallery-post #more-gallery-img li {
+	width:89px;
+}
+.kp-filter {
+	/*left:105px;*/
+}
+.kp-filter span {
+	display:none;
+}
+.kp-filter ul.ss-links {
+	right:-26px;
+}
+.timeline-item .timeline-icon {
+	display:none;
+}
+
+/* =========================================================
+Sidebar
+============================================================ */
+.sidebar .widget {
+	margin-bottom:30px;
+}
+.sidebar .kp-gallery-widget ul li {
+	width:100px;
+}
+.sidebar .widget .tab-container-2 .entry-comment {
+	display:none !important;
+}
+.sidebar .widget .entry-comment {
+	display:none;
+}
+.adv-300-300 {
+	text-align:center;
+}
+.adv-300-300 a, .adv-300-300 a img {
+	max-width:100%;
+	width:auto;
+	display:inline-block;
+}
+.hover-effect .mask a.link-detail {
+	left:90%;
+}
+
+/*---Twitter---*/
+
+/* =========================================================
+Bottom Sidebar
+============================================================ */
+#bottom-sidebar {
+	padding-top:30px;
+}
+#bottom-sidebar .widget {
+	margin-bottom:25px;
+}
+#bottom-sidebar .widget .widget-title {
+	margin:0 0 20px;
+}
+
+/*---Flickr---*/
+.flickr-wrap {
+	margin:-5px;
+}
+.flickr-badge-image {
+	margin:5px;
+	width:56px;
+}
+.kp-tagcloud {
+	margin-left:15px;
+}
+#bottom-sidebar .widget ul li .entry-thumb {
+	width:45px;
+	margin-right:10px;
+}
+
+/* =========================================================
+Footer
+============================================================ */
+
+/*----------------Back to top-----------------*/
+
+/**** Isotope Filtering ****/
+#isotop-container{
+    margin-top: 20px;
+}
+.isotop-header {
+	top:-58px;
+	right:10px;
+}
+.isotop-header em {
+	display:none;
+}
+.isotop-header #filters {
+	right:-9px;
+}
+
+.kp-home-1 #portfolio-items article{
+    width:152px;
+}
+.kp-pf-3col #pf-items article {
+	width:147px;
+}
+.kp-pf-2col #pf-items article {
+	width:147px;
+}
+.kp-pf-1col #pf-items article {
+	width:320px;
+}
+
+#portfolio-items article .mask a.kp-pf-gallery {
+	top:30px;
+}
+#portfolio-items article .mask a.kp-pf-detail {
+	top:50px;
+}
+#portfolio-items article .mask .portfolio-caption h3 {
+	margin:0;
+	font-size:20px;
+	display:inline-block;
+}
+
+.kp-pf-3col #pf-items article .mask a.kp-pf-gallery {
+	top:50px;
+	right:100%;
+}
+.kp-pf-2col #pf-items article .mask a.kp-pf-gallery {
+	top:90px;
+	right:100%;
+}
+.kp-pf-1col #pf-items article .mask a.kp-pf-gallery {
+	top:200px;
+	right:100%;
+}
+
+.kp-pf-3col #pf-items article .mask a.kp-pf-detail {
+	top:70px;
+	left:100%;
+}
+.kp-pf-2col #pf-items article .mask a.kp-pf-detail {
+	top:110px;
+	left:100%;
+}
+.kp-pf-1col #pf-items article .mask a.kp-pf-detail {
+	top:230px;
+	left:100%;
+}
+#portfolio-items article .mask .portfolio-caption,
+#pf-items article .mask .portfolio-caption {
+	bottom:10px;
+	text-align:center;
+	width:100%;
+}
+#portfolio-items article .mask .portfolio-caption p {
+	display:none;
+}
+.pagination ul > li > a, .pagination ul > li > span {
+	font-size:14px;
+	padding:3px 10px;
+}
+
+#pf-filters li a {
+	font-size:14px;
+	padding:3px 5px;
+}
+
+.pf-thumb-1col {
+	width:100%;
+	margin-right:0;
+	margin-bottom:15px;
+}
+.pf-des-1col {
+	width:100%;
+}
+.entry-date, .entry-author, .entry-category {
+	margin-right:10px;
+}
+
+/* =========================================================
+Elements page
+============================================================ */
+.elements-box .list-container-3 ul li {
+	width:63px;
+}
+
+/*-------------Toggle Boxes-----------*/
+
+/************Accordion**************/
+
+/* =========================================================
+Category page 1
+============================================================ */
+.article-list li article .entry-header {
+	width:100%;
+}
+.article-list li article .entry-date, 
+.article-list li article .entry-author, 
+.article-list li article .entry-category {
+	margin-right:10px;
+}
+.two-sidebar.kp-cat-1 .article-list li article .entry-thumb {
+	margin-right:0;
+	width:100%;
+	margin-bottom:15px;
+}
+.two-sidebar.kp-cat-1 .article-list li article .entry-thumb img {	
+	width:100%;
+}
+.two-sidebar .article-list li article .entry-header {
+	width:100%;
+}
+
+/* =========================================================
+Category page 2
+============================================================ */
+.kp-cat-2 .article-list li article .entry-content {
+	width:100%;
+}
+.kp-cat-2 .article-list li article .entry-thumb {
+	width:100%;
+}
+.kp-cat-2 .article-list li article .entry-title {
+	margin-bottom:0;
+}
+.kp-cat-2 .article-list li article .entry-date, 
+.kp-cat-2 .article-list li article .entry-author, 
+.kp-cat-2 .article-list li article .entry-category, 
+.kp-cat-2 .article-list li article .entry-comment {
+	padding:3px 5px 2px;
+}
+
+/* =========================================================
+Singe page 1
+============================================================ */
+/*---About Author---*/
+.about-author {
+	padding:15px 15px 5px;
+}
+.about-author .avatar-thumb {
+	width:50px;
+	height:50px;
+}
+.about-author .author-content {
+	width:223px;
+}
+.about-author header .social-link li {
+	margin-left:10px;
+}
+
+/*---Comments List---*/
+#comments .comment-avatar {
+	width:50px;
+}
+#comments .comment-body {
+	width:255px;
+}
+#comments .comments-list .children .comment-body {
+	width:255px;
+}
+#comments .comments-list .children {
+	margin-left:0;
+}
+
+/*---Comment form---*/
+#comments-form .comment-left {
+	width:100%;
+}
+#comments-form .comment-right {
+	width:100%;
+}
+#comments-form #comment_message {
+	height:195px;
+}
+
+.related-article .entry-item .entry-content .entry-title {
+	font-size:16px;
+	line-height:18px;
+}
+
+.kp-single-2 .entry-box .entry-meta-box .entry-date, .kp-single-2 .entry-box .entry-meta-box .entry-author, .kp-single-2 .entry-box .entry-meta-box .entry-category, .kp-single-2 .entry-box .entry-meta-box .entry-comment {
+	padding:3px 5px 2px;
+}
+
+.kp-single-4 .about-author .author-content {
+	width:223px;
+}
+.kp-single-4 #comments .comment-body {
+	width:255px;
+}
+.kp-single-4 #comments .comments-list .children .comment-body {
+	width:255px;
+}
+.kp-single-4 #comments-form .comment-left {
+	width:100%;
+}
+.kp-single-4 #comments-form .comment-right {
+	width:100%;
+}
+.related-article .entry-item .entry-content .entry-comment,
+.kp-single-2 .entry-box .entry-meta-box .entry-comment,
+.kp-single-2 .entry-box .entry-meta-box .entry-category {
+	display:none;
+}
+
+
+/* =========================================================
+Singe page 2
+============================================================ */
+.kp-single-2 .entry-box .entry-thumb {
+	width:100%;
+	margin-right:0;
+	margin-bottom:15px;
+}
+.kp-single-2 .entry-box .entry-header {
+	margin-bottom:5px;
+}
+.kp-single-2 .entry-box .entry-title {
+	font-size:24px;
+	line-height:24px;
+}
+.kp-single-2 .about-author .author-content {
+	width:158px;
+}
+.kp-single-2 .about-author header .social-link {
+	display:none;
+}
+.about-author header h4 {
+	float:none;
+}
+.kp-single-2 #comments-form .comment-left {
+	width:100%;
+}
+.kp-single-2 #comments-form .comment-right {
+	width:100%;
+}
+.kp-single-2 #comments .comment-body {
+	width:190px;
+}
+.kp-single-2 #comments .comments-list .children .comment-body {
+	width:190px;
+}
+.related-article .entry-item .entry-content{
+	margin:10px;
+}
+.related-article .list-carousel {
+	margin:0 -5px;
+}
+.related-article .list-carousel ul li {
+	margin:0 5px;
+}
+.kp-single-2 .related-article .entry-comment {
+	display:none;
+}
+.related-article > h3 {
+	font-size:22px;
+}
+.loading {
+	min-height:200px;
+}
+
+
+/* =========================================================
+Singe page 3
+============================================================ */
+.kp-single-carousel {
+	display:none;
+}
+.kp-single-carousel li {
+	width:119px !important;
+}
+.kp-single-3 .entry-box #carousel img {
+	margin:0;
+	width:690px;
+}
+
+/* =========================================================
+Home page 2
+============================================================ */
+.widget-area-3,
+.widget-area-4 {
+	width:100%;
+}
+.widget-area-3 {
+	margin-right:0px;
+}
+
+#main-col .widget .entry-content .entry-title {
+	font-size:22px;
+	line-height:24px;
+}
+#main-col .widget.featured-widget .entry-content .entry-title {
+	font-size:20px;
+}
+
+#main-col .widget .older-post li .entry-content {
+	width:220px;
+}
+
+#main-col .widget-area-5 .widget .entry-thumb {
+	margin-right:0px;
+	width:100%;
+	margin-bottom:15px;
+}
+
+#main-col .widget .older-post li .entry-thumb img {
+	width:100%;
+	display:block;
+}
+
+/* =========================================================
+Contact page
+============================================================ */
+#contact-info address p {
+	line-height:22px;
+}
+
+/* =========================================================
+Home page 3
+============================================================ */
+.sequence-slider {
+	height:350px;
+}
+#sequence li h2 {
+	font-size:18px;
+	line-height:20px;
+	padding:5px 10px 2px;
+	white-space:pre-wrap;
+}
+#sequence li h3 {
+	font-size:26px;
+	line-height:28px;
+}
+.animate-in .title,
+.animate-in .subtitle {
+	left:20px;
+}
+.model {
+	width:300px;
+}
+.subtitle {
+	width:40%;
+	display:none;
+}
+.animate-in .model {
+	right:10px;
+}
+#sequence li#creative h2 {
+	font-size:26px;
+	line-height:28px;
+}
+#sequence li#creative h3 {
+	font-size:20px;
+	line-height:22px;
+}
+.model-2-1,
+.model-2-2,
+.model-2-3 {
+	width:190px;
+}
+.title-2,
+.subtitle-2 {
+	width:92%;
+	top:10%;
+}
+.subtitle-2 {
+	display:none;
+}
+.animate-in .model-2-1,
+.model-2-1,
+.animate-out .model-2-1 {
+	left:30px;
+}
+.animate-in .model-2-2,
+.animate-out .model-2-2,
+.model-2-2 {
+	left:125px;
+}
+.animate-in .model-2-3,
+.animate-out .model-2-3,
+.model-2-3 {
+	left:80px;
+}
+
+.model-3-1 {
+	width:250px;
+}
+.model-3-2 {
+	width:220px;
+}
+.model-3-3 {
+	width:150px;
+}
+.model-3-4 {
+	width:50px;
+}
+.title {
+	top:15%;
+	width:90%;
+}
+.animate-in .model-3-2 {
+	right:10%;
+}
+.animate-in .model-3-3 {
+	right:32%;
+}
+.animate-in .model-3-4 {
+	right:31%;
+}
+
+.kp-home-3 .kp-tag-line .widget-title {
+	width:100%;
+	font-size:24px;
+	line-height:26px;
+}
+.kp-home-3 .kp-tag-line p {
+	width:100%;
+}
+.kp-home-3 .list-carousel.responsive {
+	margin:0;
+}
+
+
+.kp-our-work ul li .entry-item .entry-content {
+	margin:0 10px 10px;
+}
+.kp-home-3 .entry-comment {
+	display:none;
+}
+
+.more-link {
+	font-size:16px;
+}
+
+.kp-our-experient .widget-area-4 .widget-title {
+	margin-left:15px;
+}
+
+.kp-our-experient .entry-item {
+	margin-right:15px;
+	text-align:center;
+}
+.kp-our-experient .entry-item .entry-date {
+	margin-right:0;
+	display:inline-block;
+	margin-bottom:15px;
+	float:none;
+}
+.kp-our-experient .entry-item .entry-content {
+	width:100%;
+	float:none;
+	text-align:left;
+}
+.kp-our-experient .entry-item .entry-title {
+	font-size:18px;
+	line-height:20px;
+}
+.kp-our-experient .widget-title {
+	font-size:22px;
+	line-height:22px;
+	margin:0 0 20px;
+}
+.kp-testimonial .testimonial-author a {
+	line-height:20px;
+}
+.bottom-twitter .twitter-widget {
+	padding:10px 15px;
+}
+.chart .label {
+	font-size:14px;
+	white-space: pre-wrap;
+}
+.kp-our-work ul li .entry-item .entry-content .entry-title {
+	font-size:18px;
+	line-height:20px;
+}
+.kp-skill li {
+	width:100%;
+	margin-left:0;
+}
+.kp-client-logo {
+	display:none;
+}
+.about-team .row-fluid .span3 {
+	float:left !important;
+	width:47%;
+	margin-left:2.12766%;
+	margin-bottom:15px;
+}
+.about-skill .kp-skill li {
+	width:50%;
+}
+.entry-comment {
+	display:none;
+}
+.about-team article .team-content h2 {
+	font-size:20px;
+	line-height:20px;
+}
+
+/* =========================================================
+About page
+============================================================ */
+.about-skill-intro {
+	width:80%;
+}
+.bottom-twitter .tweet_list li .tweet_avatar {
+	margin-right:10px;
+}
+/* =========================================================
+Portfolio detail page
+============================================================ */
+.portfolio-detail .entry-meta-box {
+	width:100%;
+	margin-right:0px;
+	margin-bottom:20px;
+}
+.portfolio-detail .pf-detail-content {
+	width:100%;
+}
+.portfolio-detail .entry-meta-box .socials-link li {
+	width:25px;
+	height:25px;
+	line-height:25px;
+}
+.portfolio-detail .entry-meta-box .socials-link li a span {
+
+	font-size:12px;
+}
+.pf-box li {
+	width:100%;
+	margin-left:0px;
+	margin-bottom:15px;
+}
+.pf-box li .pf-info .entry-view, .pf-box li .pf-info .entry-like {
+	width:100% !important;
+}
+.pf-box li .pf-info .entry-view {
+	border-right:none;
+	border-bottom:1px solid #EAEAEA;
+}
+#pf-items .pf-info .entry-view, 
+#pf-items .pf-info .entry-like, 
+.pf-box li .pf-info .entry-view, 
+.pf-box li .pf-info .entry-like {
+	width:100%;
+}
+#pf-items .pf-info .entry-view {
+	border-right:none;
+	border-bottom:1px solid #eaeaea;
+}
+.kp-pf-detail #main-col {
+	margin-bottom:25px;
+}
+
+/* =========================================================
+Blog page style 3
+============================================================ */
+.kp-cat-3 .entry-meta-column {
+	margin-right:15px;
+	width:50px !important;
+	
+}
+.kp-cat-3 .entry-meta-column p {
+	width:50px !important;
+	height:50px !important;
+	line-height:50px !important;
+	font-size:26px !important;
+}
+.kp-cat-3 .entry-item {
+	width:255px;
+}
+.kp-cat-3.two-sidebar .entry-item {
+	width:255px;
+}
+.kp-cat-3 .sidebar .widget .kp-popular-post li .entry-thumb, 
+.kp-cat-3 .sidebar .widget .kp-latest-post li .entry-thumb {
+	width:45px;
+}
+.kp-cat-3 .sidebar .widget ul li .entry-thumb img {
+	width:100%;
+	display:block;
+}
+.kp-cat-3 .sidebar .widget .entry-comment {
+	display:none;
+}
+.article-list li article .entry-thumb {
+	width:100%;
+	margin-right:0;
+	margin-bottom:15px;
+}
+.article-list li article .entry-title {
+	font-size:20px;
+	line-height:20px;
+}
+.two-sidebar .sidebar .widget .list-container-2 ul li {
+	width:64px;
+}
+
+.tab-container-2 {
+	border-top: 1px solid #ECECEC;
+    margin-top: -1px;
+    padding: 15px 15px 10px;
+}
+.kp-cat-2 .article-list li article .entry-comment,
+.kp-cat-2 .article-list li article .entry-category {
+	display:none;
+}
+.entry-box .entry-title {
+	font-size:28px;
+	line-height:28px;
+}
+
+/* =========================================================
+404 Page
+============================================================ */
+.error-404 .left-col p {
+	font-size:60px;
+}
+.error-404 .right-col h1 {
+	font-size:20px;
+	line-height:20px;
+}
+
+.m-wrapper{
+	display:block;
+}
+#pf-options {
+	display:none;
+}
+.timeline-container .load-more {
+	bottom:-20px;
+}
+.timeline-item.audio-post .entry-body audio {
+	width:100%
+}
+
+}
+
+@media only screen and (max-width: 359px) {
+	
+/* =========================================================
+Colunms
+============================================================ */
+body {
+	padding-left:0;
+	padding-right:0;
+}
+.wrapper{
+    width:300px;
+}
+#main-col {
+	width:100%;
+	margin-right:0px;
+}
+.sidebar {
+	width:100%;
+}
+.kp-left-sidebar #main-col {
+	width:100%;
+	margin-left:0px;
+}
+.two-sidebar .sidebar {
+	width:100%;
+}
+.two-sidebar #main-col {
+	width:100%;
+	margin:0;
+}
+
+/* =========================================================
+Header
+============================================================ */
+/*---Main Menu---*/
+.sf-arrows ul li > .sf-with-ul:focus:after, 
+.sf-arrows ul li:hover > .sf-with-ul:after, 
+.sf-arrows ul .sfHover > .sf-with-ul:after {
+	border-left-color:transparent;
+}
+
+#main-menu {
+	display:none;
+}
+#mobile-menu {
+	display:block;
+}
+
+.contact-top {
+	margin-top:10px;
+	display:none;
+}
+
+#logo-image {
+	float:none;
+	text-align:center;
+	margin:0 0 20px;
+}
+#logo-image a, #logo-image a img {
+	max-width:100%;
+	width:auto;
+	display:inline-block;
+}
+.social-box {
+	float:none;
+	text-align:center;
+}
+.socials-link {
+	display:inline-block;
+	margin-right:0;
+	float:none;
+	margin-bottom:15px;
+}
+.socials-link li {
+	width:25px;
+	height:25px;
+	line-height:25px;
+	margin-left:5px;
+}
+.socials-link li a span {
+	font-size:12px;
+}
+.search-box {
+	float:none;
+	display:inline-block;
+}
+
+/*---Header Bottom---*/
+/*---Logo---*/
+/*- Search Box -*/
+
+/* =========================================================
+Home page slider
+============================================================ */
+.ei-slider{
+	height: 156px;
+	margin: 0 auto 20px;
+}
+.ei-slider-loading{
+	line-height: 343px;
+}
+.ei-title{
+	left: 10px;
+	bottom: 10px;
+	width:380px
+}
+.ei-title h3 {
+	display:none !important;
+}
+.ei-title h2 {
+	margin-bottom:0;
+	font-size:20px;
+}
+/* =========================================================
+Main content
+============================================================ */
+#main-content {
+	padding-top:20px;
+}
+
+/*-Tabs-*/
+.list-container-1 ul li {
+	width:49.8%;
+}
+.list-container-1 ul li a {
+	padding:15px 10px;
+	font-size:20px;
+}
+.list-container-1 ul li a span {
+	display:none;
+}
+
+/*---Timeline---*/
+#time-line {
+	left:30px;
+}
+.time-to-filter .timeline-filter {
+	left:-45px;
+}
+.time-to-filter .top-ring,
+.time-to-filter .bottom-ring {
+	left:-18px;
+}
+.time-to-filter .post-quantity {
+	left:60px;
+}
+.timeline-item .entry-body {
+	width:300px;
+	padding:15px;
+	z-index:100;
+	position:relative;
+}
+.timeline-item .entry-body .kp-thumb {
+	width:100%;
+	margin-right:0;
+	margin-bottom:15px;
+}
+.timeline-item .entry-body header {
+	width:100%;
+}
+.timeline-item .entry-body .entry-title {
+	font-size:24px;
+	line-height:24px;
+}
+
+.timeline-item.gallery-post .older-gallery-img {
+	margin:1px -2px 10px 0;
+}
+.timeline-item.gallery-post .older-gallery-img li,
+.timeline-item.gallery-post #more-gallery-img li {
+	width:89px;
+	margin-right:1px;
+}
+.kp-filter {
+	/*left:93px;*/
+}
+.kp-filter span {
+	display:none;
+}
+.kp-filter ul.ss-links {
+	right:-37px;
+}
+.timeline-item .timeline-icon {
+	display:none;
+}
+.featured-widget .list-carousel.responsive {
+	margin:0 -5px;
+}
+.featured-widget .list-carousel ul li {
+	margin:0 5px;
+}
+
+/* =========================================================
+Sidebar
+============================================================ */
+.sidebar .widget {
+	margin-bottom:30px;
+}
+.sidebar .kp-gallery-widget ul li {
+	width:94px;
+}
+.sidebar .widget .tab-container-2 .entry-comment {
+	display:none !important;
+}
+.sidebar .widget .entry-comment {
+	display:none;
+}
+.adv-300-300 {
+	text-align:center;
+}
+.adv-300-300 a, .adv-300-300 a img {
+	max-width:100%;
+	width:auto;
+	display:inline-block;
+}
+.hover-effect .mask a.link-detail {
+	left:90%;
+}
+
+/*---Twitter---*/
+
+/* =========================================================
+Bottom Sidebar
+============================================================ */
+#bottom-sidebar {
+	padding-top:30px;
+}
+#bottom-sidebar .widget {
+	margin-bottom:25px;
+}
+#bottom-sidebar .widget .widget-title {
+	margin:0 0 20px;
+}
+
+/*---Flickr---*/
+.flickr-wrap {
+	margin:-5px;
+}
+.flickr-badge-image {
+	margin:5px;
+	width:52px;
+}
+.kp-tagcloud {
+	margin-left:15px;
+}
+#bottom-sidebar .widget ul li .entry-thumb {
+	width:45px;
+	margin-right:10px;
+}
+.kp-home-3 .list-carousel.responsive {
+	margin:0 -5px;
+}
+.kp-home-3 .list-carousel ul li {
+	margin:0 5px;
+}
+.kp-home-3 .widget-area-3 {
+	width:100%;
+	border-right:none;
+	margin-right:0;
+	padding:20px 0;
+}
+.kp-home-3 .widget-area-4 {
+	width:100%;
+	border-left:none;
+	margin-left:0;
+	padding:20px 0;
+}
+
+/* =========================================================
+Footer
+============================================================ */
+
+/*----------------Back to top-----------------*/
+
+/**** Isotope Filtering ****/
+#isotop-container{
+    margin-top: 20px;
+}
+.isotop-header {
+	top:-58px;
+	right:10px;
+}
+.isotop-header em {
+	display:none;
+}
+.isotop-header #filters {
+	right:-10px;
+}
+.pagination ul > li {
+	margin-right:3px;
+}
+
+.kp-home-1 #portfolio-items article{
+    width:142px;
+}
+.kp-pf-3col #pf-items article {
+	width:147px;
+}
+.kp-pf-2col #pf-items article {
+	width:147px;
+}
+.kp-pf-1col #pf-items article {
+	width:300px;
+}
+
+#portfolio-items article .mask a.kp-pf-gallery {
+	top:30px;
+}
+#portfolio-items article .mask a.kp-pf-detail {
+	top:50px;
+}
+#portfolio-items article .mask .portfolio-caption h3 {
+	margin:0;
+	font-size:20px;
+	display:inline-block;
+}
+
+.kp-pf-3col #pf-items article .mask a.kp-pf-gallery {
+	top:50px;
+	right:100%;
+}
+.kp-pf-2col #pf-items article .mask a.kp-pf-gallery {
+	top:90px;
+	right:100%;
+}
+.kp-pf-1col #pf-items article .mask a.kp-pf-gallery {
+	top:200px;
+	right:100%;
+}
+
+.kp-pf-3col #pf-items article .mask a.kp-pf-detail {
+	top:70px;
+	left:100%;
+}
+.kp-pf-2col #pf-items article .mask a.kp-pf-detail {
+	top:110px;
+	left:100%;
+}
+.kp-pf-1col #pf-items article .mask a.kp-pf-detail {
+	top:230px;
+	left:100%;
+}
+#portfolio-items article .mask .portfolio-caption,
+#pf-items article .mask .portfolio-caption {
+	bottom:10px;
+	text-align:center;
+	width:100%;
+}
+#portfolio-items article .mask .portfolio-caption p {
+	display:none;
+}
+.pagination ul > li > a, .pagination ul > li > span {
+	font-size:14px;
+	padding:3px 10px;
+}
+
+#pf-filters li a {
+	font-size:14px;
+	padding:3px 5px;
+}
+
+.pf-thumb-1col {
+	width:100%;
+	margin-right:0;
+	margin-bottom:15px;
+}
+.pf-des-1col {
+	width:100%;
+}
+.entry-date, .entry-author, .entry-category {
+	margin-right:10px;
+}
+
+/* =========================================================
+Elements page
+============================================================ */
+.elements-box .list-container-3 ul li {
+	width:63px;
+}
+
+/*-------------Toggle Boxes-----------*/
+
+/************Accordion**************/
+
+/* =========================================================
+Category page 1
+============================================================ */
+.article-list li article .entry-header {
+	width:100%;
+}
+.article-list li article .entry-date, 
+.article-list li article .entry-author, 
+.article-list li article .entry-category {
+	margin-right:10px;
+}
+.two-sidebar.kp-cat-1 .article-list li article .entry-thumb {
+	margin-right:0;
+	width:100%;
+	margin-bottom:15px;
+}
+.two-sidebar.kp-cat-1 .article-list li article .entry-thumb img {	
+	width:100%;
+}
+.two-sidebar .article-list li article .entry-header {
+	width:100%;
+}
+
+/* =========================================================
+Category page 2
+============================================================ */
+.kp-cat-2 .article-list li article .entry-content {
+	width:100%;
+}
+.kp-cat-2 .article-list li article .entry-thumb {
+	width:100%;
+}
+.kp-cat-2 .article-list li article .entry-title {
+	margin-bottom:0;
+}
+.kp-cat-2 .article-list li article .entry-date, 
+.kp-cat-2 .article-list li article .entry-author, 
+.kp-cat-2 .article-list li article .entry-category, 
+.kp-cat-2 .article-list li article .entry-comment {
+	padding:3px 5px 2px;
+	margin-right:5px;
+}
+.kp-cat-2 .article-list li article .entry-author {
+	margin-right:0;
+}
+
+/* =========================================================
+Singe page 1
+============================================================ */
+/*---About Author---*/
+.about-author {
+	padding:15px 15px 5px;
+}
+.about-author .avatar-thumb {
+	width:50px;
+	height:50px;
+}
+.about-author .author-content {
+	width:203px;
+}
+.about-author header .social-link li {
+	margin-left:10px;
+}
+
+/*---Comments List---*/
+#comments .comment-avatar {
+	width:50px;
+}
+#comments .comment-body {
+	width:235px;
+}
+#comments .comments-list .children .comment-body {
+	width:235px;
+}
+#comments .comments-list .children {
+	margin-left:0;
+}
+
+/*---Comment form---*/
+#comments-form .comment-left {
+	width:100%;
+}
+#comments-form .comment-right {
+	width:100%;
+}
+#comments-form #comment_message {
+	height:195px;
+}
+
+.related-article .entry-item .entry-content .entry-title {
+	font-size:16px;
+	line-height:18px;
+}
+
+.kp-single-2 .entry-box .entry-meta-box .entry-date, .kp-single-2 .entry-box .entry-meta-box .entry-author, .kp-single-2 .entry-box .entry-meta-box .entry-category, .kp-single-2 .entry-box .entry-meta-box .entry-comment {
+	padding:3px 5px 2px;
+	margin-right:5px;
+}
+.kp-single-2 .entry-box .entry-meta-box .entry-author {
+	margin-right:0;
+}
+
+.kp-single-4 .about-author .author-content {
+	width:223px;
+}
+.kp-single-4 #comments .comment-body {
+	width:255px;
+}
+.kp-single-4 #comments .comments-list .children .comment-body {
+	width:255px;
+}
+.kp-single-4 #comments-form .comment-left {
+	width:100%;
+}
+.kp-single-4 #comments-form .comment-right {
+	width:100%;
+}
+.related-article .entry-item .entry-content .entry-comment,
+.kp-single-2 .entry-box .entry-meta-box .entry-comment,
+.kp-single-2 .entry-box .entry-meta-box .entry-category {
+	display:none;
+}
+
+
+/* =========================================================
+Singe page 2
+============================================================ */
+.kp-single-2 .entry-box .entry-thumb {
+	width:100%;
+	margin-right:0;
+	margin-bottom:15px;
+}
+.kp-single-2 .entry-box .entry-header {
+	margin-bottom:5px;
+}
+.kp-single-2 .entry-box .entry-title {
+	font-size:24px;
+	line-height:24px;
+}
+.kp-single-2 .about-author .author-content {
+	width:138px;
+}
+.kp-single-2 .about-author header .social-link {
+	display:none;
+}
+.about-author header h4 {
+	float:none;
+}
+.kp-single-2 #comments-form .comment-left {
+	width:100%;
+}
+.kp-single-2 #comments-form .comment-right {
+	width:100%;
+}
+.kp-single-2 #comments .comment-body {
+	width:170px;
+}
+.kp-single-2 #comments .comments-list .children .comment-body {
+	width:170px;
+}
+.related-article .entry-item .entry-content{
+	margin:10px;
+}
+.related-article .list-carousel {
+	margin:0 -5px;
+}
+.related-article .list-carousel ul li {
+	margin:0 5px;
+}
+.kp-single-2 .related-article .entry-comment {
+	display:none;
+}
+.related-article > h3 {
+	font-size:22px;
+}
+.loading {
+	min-height:180px;
+}
+
+
+/* =========================================================
+Singe page 3
+============================================================ */
+.kp-single-carousel {
+	display:none;
+}
+.kp-single-carousel li {
+	width:119px !important;
+}
+.kp-single-3 .entry-box #carousel img {
+	margin:0;
+	width:690px;
+}
+
+/* =========================================================
+Home page 2
+============================================================ */
+.widget-area-3,
+.widget-area-4 {
+	width:100%;
+}
+.widget-area-3 {
+	margin-right:0px;
+}
+
+#main-col .widget .entry-content .entry-title {
+	font-size:20px;
+	line-height:20px;
+}
+#main-col .widget.featured-widget .entry-content .entry-title {
+	font-size:18px;
+	line-height:18px;
+}
+
+#main-col .widget .older-post li .entry-content {
+	width:200px;
+}
+
+#main-col .widget-area-5 .widget .entry-thumb {
+	margin-right:0px;
+	width:100%;
+	margin-bottom:15px;
+}
+
+#main-col .widget .older-post li .entry-thumb img {
+	width:100%;
+	display:block;
+}
+
+/* =========================================================
+Contact page
+============================================================ */
+#contact-info address p {
+	line-height:22px;
+}
+
+/* =========================================================
+Home page 3
+============================================================ */
+.sequence-slider {
+	height:350px;
+}
+#sequence li h2 {
+	font-size:18px;
+	line-height:20px;
+	padding:5px 10px 2px;
+	white-space:pre-wrap;
+}
+#sequence li h3 {
+	font-size:26px;
+	line-height:28px;
+}
+.animate-in .title,
+.animate-in .subtitle {
+	left:20px;
+}
+.model {
+	width:300px;
+}
+.subtitle {
+	width:40%;
+	display:none;
+}
+.animate-in .model {
+	right:10px;
+}
+#sequence li#creative h2 {
+	font-size:26px;
+	line-height:28px;
+}
+#sequence li#creative h3 {
+	font-size:20px;
+	line-height:22px;
+}
+.model-2-1,
+.model-2-2,
+.model-2-3 {
+	width:190px;
+}
+.title-2,
+.subtitle-2 {
+	width:92%;
+	top:10%;
+}
+.subtitle-2 {
+	display:none;
+}
+.animate-in .model-2-1,
+.model-2-1,
+.animate-out .model-2-1 {
+	left:30px;
+}
+.animate-in .model-2-2,
+.animate-out .model-2-2,
+.model-2-2 {
+	left:125px;
+}
+.animate-in .model-2-3,
+.animate-out .model-2-3,
+.model-2-3 {
+	left:80px;
+}
+
+.model-3-1 {
+	width:250px;
+}
+.model-3-2 {
+	width:220px;
+}
+.model-3-3 {
+	width:150px;
+}
+.model-3-4 {
+	width:50px;
+}
+.title {
+	top:15%;
+	width:90%;
+}
+.animate-in .model-3-2 {
+	right:10%;
+}
+.animate-in .model-3-3 {
+	right:32%;
+}
+.animate-in .model-3-4 {
+	right:31%;
+}
+
+.kp-home-3 .kp-tag-line .widget-title {
+	width:100%;
+	font-size:24px;
+	line-height:26px;
+}
+.kp-home-3 .kp-tag-line p {
+	width:100%;
+}
+.kp-home-3 .list-carousel.responsive {
+	margin:0;
+}
+
+
+.kp-our-work ul li .entry-item .entry-content {
+	margin:0 10px 10px;
+}
+.kp-home-3 .entry-comment {
+	display:none;
+}
+
+.more-link {
+	font-size:16px;
+}
+
+.kp-our-experient .widget-area-4 .widget-title {
+	margin-left:15px;
+}
+
+.kp-our-experient .entry-item {
+	margin-right:15px;
+}
+.kp-our-experient .entry-item .entry-date {
+	margin-right:15px;
+}
+.kp-our-experient .entry-item .entry-content {
+	width:196px;
+}
+.kp-our-experient .entry-item .entry-title {
+	font-size:18px;
+	line-height:20px;
+}
+.kp-our-experient .widget-title {
+	font-size:22px;
+	line-height:22px;
+	margin:0 0 20px;
+}
+.kp-testimonial .testimonial-author a {
+	line-height:20px;
+}
+.bottom-twitter .twitter-widget {
+	padding:10px 15px;
+}
+.chart .label {
+	font-size:18px;
+	white-space: pre-wrap;
+}
+.kp-our-work ul li .entry-item .entry-content .entry-title {
+	font-size:18px;
+	line-height:20px;
+}
+.kp-skill li {
+	width:100%;
+	margin-left:0;
+}
+.kp-client-logo {
+	display:none;
+}
+.about-team .row-fluid .span3 {
+	float:left !important;
+	width:47%;
+	margin-left:2.12766%;
+	margin-bottom:15px;
+}
+.about-skill .kp-skill li {
+	width:100%;
+}
+.entry-comment {
+	display:none;
+}
+.about-team article .team-content h2 {
+	font-size:20px;
+	line-height:20px;
+}
+.list-carousel.responsive {
+	margin:0 -5px;
+}
+.list-carousel ul li {
+	margin:0 5px;
+}
+
+/* =========================================================
+About page
+============================================================ */
+.about-skill-intro {
+	width:80%;
+}
+.bottom-twitter .tweet_list li .tweet_avatar {
+	margin-right:10px;
+}
+/* =========================================================
+Portfolio detail page
+============================================================ */
+.portfolio-detail .entry-meta-box {
+	width:100%;
+	margin-right:0px;
+	margin-bottom:20px;
+}
+.portfolio-detail .pf-detail-content {
+	width:100%;
+}
+.portfolio-detail .entry-meta-box .socials-link li {
+	width:25px;
+	height:25px;
+	line-height:25px;
+}
+.portfolio-detail .entry-meta-box .socials-link li a span {
+
+	font-size:12px;
+}
+.pf-box li {
+	width:100%;
+	margin-left:0px;
+	margin-bottom:15px;
+}
+.pf-box li .pf-info .entry-view, .pf-box li .pf-info .entry-like {
+	width:100% !important;
+}
+.pf-box li .pf-info .entry-view {
+	border-right:none;
+	border-bottom:1px solid #EAEAEA;
+}
+#pf-items .pf-info .entry-view, 
+#pf-items .pf-info .entry-like, 
+.pf-box li .pf-info .entry-view, 
+.pf-box li .pf-info .entry-like {
+	width:100%;
+}
+#pf-items .pf-info .entry-view {
+	border-right:none;
+	border-bottom:1px solid #eaeaea;
+}
+.kp-pf-detail #main-col {
+	margin-bottom:25px;
+}
+
+/* =========================================================
+Blog page style 3
+============================================================ */
+.kp-cat-3 .entry-meta-column {
+	margin-right:15px;
+	width:50px !important;
+	
+}
+.kp-cat-3 .entry-meta-column p {
+	width:50px !important;
+	height:50px !important;
+	line-height:50px !important;
+	font-size:26px !important;
+}
+.kp-cat-3 .entry-item {
+	width:235px;
+}
+.kp-cat-3.two-sidebar .entry-item {
+	width:235px;
+}
+.kp-cat-3 .sidebar .widget .kp-popular-post li .entry-thumb, 
+.kp-cat-3 .sidebar .widget .kp-latest-post li .entry-thumb {
+	width:45px;
+}
+.kp-cat-3 .sidebar .widget ul li .entry-thumb img {
+	width:100%;
+	display:block;
+}
+.kp-cat-3 .sidebar .widget .entry-comment {
+	display:none;
+}
+.article-list li article .entry-thumb {
+	width:100%;
+	margin-right:0;
+	margin-bottom:15px;
+}
+.article-list li article .entry-title {
+	font-size:20px;
+	line-height:20px;
+}
+.two-sidebar .sidebar .widget .list-container-2 ul li {
+	width:64px;
+}
+
+.tab-container-2 {
+	border-top: 1px solid #ECECEC;
+    margin-top: -1px;
+    padding: 15px 15px 10px;
+}
+.kp-cat-2 .article-list li article .entry-comment,
+.kp-cat-2 .article-list li article .entry-category {
+	display:none;
+}
+.entry-box .entry-title {
+	font-size:28px;
+	line-height:28px;
+}
+
+/* =========================================================
+404 Page
+============================================================ */
+.error-404 .left-col p {
+	font-size:60px;
+}
+.error-404 .right-col h1 {
+	font-size:20px;
+	line-height:20px;
+}
+
+.m-wrapper{
+	display:block;
+}
+#pf-options {
+	display:none;
+}
+
+.timeline-container .load-more {
+	bottom:-20px;
+	left:14px;
+}
+
+.timeline-item.audio-post .entry-body audio {
+	width:100%
+}
+
+}

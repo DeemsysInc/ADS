@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<TrackingData>
+	<Sensors>
+		<Sensor type="FeatureBasedSensorSource" subtype="fast">
+			<SensorID>FeatureTracking1</SensorID>
+			<Parameters>
+				<FeatureBasedParameters>
+				</FeatureBasedParameters>
+			</Parameters>
+            <SensorCOS>
+				<SensorCosID>Patch1</SensorCosID>
+				<Parameters>
+                    <referenceImage widthMM="105" heightMM="172">The_Hobbit_Marker.png</referenceImage>
+				</Parameters>
+			</SensorCOS>
+            <SensorCOS>
+				<SensorCosID>Patch2</SensorCosID>
+				<Parameters>
+					<referenceImage widthMM="105" heightMM="157">Monster_High_Marker.png</referenceImage>
+				</Parameters>
+			</SensorCOS>
+            <SensorCOS>
+				<SensorCosID>Patch3</SensorCosID>
+				<Parameters>
+					<referenceImage widthMM="369" heightMM="494">Tink-Marker.jpg</referenceImage>
+				</Parameters>
+			</SensorCOS>
+		</Sensor>
+	</Sensors>
+	<Connections>
+        <COS>
+			<COSName>MarkerlessCOS</COSName>
+			<Fuser type="SmoothingFuser">
+				<Parameters>
+					<AlphaRotation>0.5</AlphaRotation>
+					<AlphaTranslation>0.8</AlphaTranslation>
+					<KeepPoseForNumberOfFrames>0</KeepPoseForNumberOfFrames>
+				</Parameters>
+			</Fuser>
+			<SensorSource trigger="1">
+				<SensorID>FeatureTracking1</SensorID>
+				<SensorCosID>Patch1</SensorCosID>
+				<HandEyeCalibration>
+					<TranslationOffset><x>0</x><y>0</y><z>0</z></TranslationOffset>
+					<RotationOffset><x>0</x><y>0</y><z>0</z><w>1</w></RotationOffset>
+				</HandEyeCalibration>
+				<COSOffset>
+					<TranslationOffset><x>0</x><y>0</y><z>0</z></TranslationOffset>
+					<RotationOffset><x>0</x><y>0</y><z>0</z><w>1</w></RotationOffset>
+				</COSOffset>
+			</SensorSource>
+		</COS>
+    </Connections>
+     <COS>
+        <COSName>MarkerlessCOS</COSName>
+        <Fuser type="SmoothingFuser">
+            <Parameters>
+                <AlphaRotation>0.5</AlphaRotation>
+                <AlphaTranslation>0.8</AlphaTranslation>
+                <KeepPoseForNumberOfFrames>0</KeepPoseForNumberOfFrames>
+            </Parameters>
+        </Fuser>
+        <SensorSource trigger="1">
+            <SensorID>FeatureTracking1</SensorID>
+            <SensorCosID>Patch2</SensorCosID>
+            <HandEyeCalibration>
+                <TranslationOffset><x>0</x><y>0</y><z>0</z></TranslationOffset>
+                <RotationOffset><x>0</x><y>0</y><z>0</z><w>1</w></RotationOffset>
+            </HandEyeCalibration>
+            <COSOffset>
+                <TranslationOffset><x>0</x><y>0</y><z>0</z></TranslationOffset>
+                <RotationOffset><x>0</x><y>0</y><z>0</z><w>1</w></RotationOffset>
+            </COSOffset>
+        </SensorSource>
+    </COS>
+    <COS>
+        <COSName>MarkerlessCOS</COSName>
+        <Fuser type="SmoothingFuser">
+            <Parameters>
+                <AlphaRotation>0.5</AlphaRotation>
+                <AlphaTranslation>0.8</AlphaTranslation>
+                <KeepPoseForNumberOfFrames>0</KeepPoseForNumberOfFrames>
+            </Parameters>
+        </Fuser>
+        <SensorSource trigger="1">
+            <SensorID>FeatureTracking1</SensorID>
+            <SensorCosID>Patch3</SensorCosID>
+            <HandEyeCalibration>
+                <TranslationOffset><x>0</x><y>0</y><z>0</z></TranslationOffset>
+                <RotationOffset><x>0</x><y>0</y><z>0</z><w>1</w></RotationOffset>
+            </HandEyeCalibration>
+            <COSOffset>
+                <TranslationOffset><x>0</x><y>0</y><z>0</z></TranslationOffset>
+                <RotationOffset><x>0</x><y>0</y><z>0</z><w>1</w></RotationOffset>
+            </COSOffset>
+        </SensorSource>
+    </COS>
+</TrackingData>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainRlForSA"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/padding_medium" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" 
+        >
+        
+        <LinearLayout android:id="@+id/thumbnail" 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:padding="3dip"		
+        android:layout_alignParentLeft="true"
+	    android:layout_marginRight="5dip"
+	    android:orientation="vertical"
+	    android:layout_marginTop="10dp">
+
+            <ImageView
+                android:id="@+id/imgarrow"
+                android:layout_width="50dip"
+                android:layout_height="50dip"
+                android:src="@drawable/rightarrow"
+                android:visibility="invisible" />
+        
+	</LinearLayout>
+
+        <!-- <TextView
+            android:id="@+id/txtvEmailId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/txtvName"
+            android:layout_below="@+id/txtvName"
+            android:text="manohar.dumpati@digitalimperia.com"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/WhiteColor" /> -->
+
+        <!-- <TextView
+            android:id="@+id/txtvPhoneNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/txtvName"
+            android:layout_alignBottom="@+id/txtvName"
+            android:layout_toRightOf="@+id/txtvName"
+            android:text="+91-9989746846"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/WhiteColor" /> -->
+
+        <LinearLayout
+            android:id="@+id/deletelayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dip"
+            android:padding="3dip" >
+
+            <ImageView
+                android:id="@+id/imgDeleteIcon"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/trash" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/btnShippingFormEdit"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="29dp"
+            android:layout_toLeftOf="@+id/deletelayout"
+            android:text="Edit"
+            android:textColor="@color/WhiteColor"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtvName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/btnShippingFormEdit"
+            android:layout_marginLeft="31dp"
+            android:layout_toRightOf="@+id/thumbnail"
+            android:text="Manohar Dumpati"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/WhiteColor"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:id="@+id/txtvAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtvName"
+            android:layout_toRightOf="@+id/thumbnail"
+            android:layout_marginLeft="40dp"
+            android:text="City, State, Country,\n 43212."
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/WhiteColor" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

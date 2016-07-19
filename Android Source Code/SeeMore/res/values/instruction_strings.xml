@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_case1">Put in Closet</string>
+    <string name="instruction_case1">Drag an image over the lower left corner to put in closet.</string>
+     
+    <string name="title_case2">Browse Products</string>
+    <string name="instruction_case2">Use left and right arrows to browse previously viewed products.</string>
+     
+    <string name="title_case3">Get Product Details</string>
+    <string name="instruction_case3">Drag related products below to the center to see details.</string>
+    
+    <string name="title_case4">Share it!</string>
+    <string name="instruction_case4">Drag an image over the lower right corner to share.</string>
+      
+    <string name="title_case5">Buy It!</string>
+    <string name="instruction_case5">Drag product to the top right corner to add to your shopping cart.</string>
+  
+    <string name="title_case6">Go Back to Camera</string>
+    <string name="instruction_case6">Hold down the back arrow to get back to camera scanning mode.</string>
+    
+     <string name="title_case7">No Internet Connection</string>
+    <string name="instruction_case7">Please check your internet connection and try again.</string>
+    
+    <string name="title_case8">SHOP</string>
+    <string name="instruction_case8">Tap cart to shop this product.</string>
+</resources>

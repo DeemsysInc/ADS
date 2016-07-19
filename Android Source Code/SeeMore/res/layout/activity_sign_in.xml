@@ -1,0 +1,99 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:id="@+id/txtLoginLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnSignUp"
+        android:layout_below="@+id/btnSignUp"
+        android:layout_marginTop="25dp"
+        android:text="@string/account_label"
+        android:textColor="#AEAEAE"
+        android:textSize="20sp" />
+
+    <com.seemoreinteractive.seemoreinteractive.helper.PressedBgButton
+        android:id="@+id/btnLogin"
+        android:layout_width="400dp"
+        android:layout_height="90dp"
+        android:layout_alignLeft="@+id/txtLoginLbl"
+        android:layout_below="@+id/txtLoginLbl"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/btn_background"
+        android:text="@string/login"
+        android:textColor="#575757"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/txtEmailLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnSignUp"
+        android:layout_alignLeft="@+id/imgLoginWithFb"
+        android:text="@string/email_label"
+        android:textColor="#AEAEAE"
+        android:textSize="20sp" />
+
+    <com.seemoreinteractive.seemoreinteractive.helper.PressedBgImageView
+        android:id="@+id/imgLoginWithFb"
+        android:layout_width="400dp"
+        android:layout_height="90dp"
+        android:layout_above="@+id/txtEmailLbl"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/btn_facebook_login" />
+
+    <TextView
+        android:id="@+id/txtJoin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imgLoginWithFb"
+        android:layout_alignLeft="@+id/imgLoginWithFb"
+        android:text="@string/join_label"
+        android:textColor="#AEAEAE"
+        android:textSize="20sp" />
+
+    <com.seemoreinteractive.seemoreinteractive.helper.PressedBgButton
+        android:id="@+id/btnSignUp"
+        android:layout_width="400dp"
+        android:layout_height="90dp"
+        android:layout_alignLeft="@+id/txtEmailLbl"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/btn_background"
+        android:text="@string/signup"
+        android:textColor="#575757"
+        android:textSize="25sp" />
+
+    <ImageView
+        android:id="@+id/imgSeemoreLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:contentDescription="@string/seemore_logo"
+        android:src="@drawable/seemore_logo" />
+
+    <ImageView
+        android:id="@+id/imgvCloseLogin"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/cancel"
+        android:visibility="invisible" />
+
+    <include
+        android:id="@+id/include_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        layout="@layout/instruction_layout" />
+
+</RelativeLayout>

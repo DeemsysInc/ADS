@@ -1,0 +1,31 @@
+h1{
+ font-family:"Helvetica-Neue-UltraLite",Helvetica, Arial;
+  font-weight:200;
+  text-align:center;
+  margin-bottom:5px;
+}
+.mask-container{
+  text-align: center;
+  text-transform: uppercase;
+  font-size:5em;
+  /*position:absolute;*/
+  left:30%;
+  width:500px;
+  margin:0 auto;
+}
+
+canvas{
+  z-index:1;
+/*  -webkit-filter:hue-rotate(120deg);*/
+}
+#canvasImage{
+  position:absolute;
+  left:0;
+  top:0;
+  z-index:2;
+  /*-webkit-filter:none;*/
+}
+video{
+  /*visibility:hidden;*/
+  /*-webkit-filter:invert(1);*/
+}

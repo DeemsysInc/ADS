@@ -1,0 +1,103 @@
+<!-- <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.seemoreinteractive.seemoreinteractive.ProductsCheckout"
+    tools:ignore="MergeRootFrame" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/popup_frame" >
+
+        <RadioGroup
+            android:id="@+id/radioGroup1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true" >
+
+            <RadioButton
+                android:id="@+id/rbtnPaypal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:tag="2"
+                android:text="Paypal"
+                android:textSize="30sp" />
+
+            <RadioButton
+                android:id="@+id/rbtnSaveOrder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:tag="1"
+                android:text="Save Order"
+                android:textSize="30sp" />
+
+        </RadioGroup>
+
+        <com.seemoreinteractive.seemoreinteractive.helper.PressedBgButton
+            android:id="@+id/btnCheckoutConfirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/radioGroup1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="81dp"
+            android:text="Confirm"
+            android:textSize="30sp" />
+
+        <com.seemoreinteractive.seemoreinteractive.helper.PressedBgButton
+            android:id="@+id/btnCheckoutClose"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="90dp"
+            android:background="@drawable/close" />
+
+    </RelativeLayout>
+
+</FrameLayout> -->
+
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent" >
+
+      <RelativeLayout
+          android:id="@+id/container"
+          android:layout_width="500dp"
+          android:layout_height="500dp"
+          android:layout_alignParentTop="true"
+          android:layout_centerHorizontal="true"
+          android:layout_marginTop="172dp"
+          android:background="@drawable/shape" >
+
+          <com.seemoreinteractive.seemoreinteractive.helper.PressedBgButton
+              android:id="@+id/btnCancel"
+              android:layout_width="300dp"
+              android:layout_height="80dp"
+              android:layout_below="@+id/btnPaypal"
+              android:layout_centerHorizontal="true"
+              android:layout_marginTop="24dp"
+              android:background="#FF2600"
+              android:text="Cancel"
+              android:textColor="#FFFFFF"
+              android:textSize="30sp" />
+
+          <com.seemoreinteractive.seemoreinteractive.helper.PressedBgButton
+              android:id="@+id/btnPaypal"
+              android:layout_width="300dp"
+              android:layout_height="80dp"
+              android:layout_alignLeft="@+id/btnCancel"
+              android:layout_alignParentTop="true"
+              android:layout_marginTop="147dp"
+              android:text="Paypal"
+              android:textSize="30sp" />
+
+      </RelativeLayout>
+
+</RelativeLayout>

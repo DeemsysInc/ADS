@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="WhiteColor">#ffffffff</color>
+	<color name="BlackColor">#ff000000</color>
+    <style name="BarcodeStyle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/BlackColor</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+	<style name="BarcodeTheme" parent="android:Theme.Light">
+	    <item name="android:windowBackground">@color/WhiteColor</item>
+	    <item name="android:colorBackground">@color/WhiteColor</item>
+	</style>
+</resources>

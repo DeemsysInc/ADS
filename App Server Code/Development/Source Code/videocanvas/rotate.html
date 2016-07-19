@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Video Canvas</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+ <img src="http://i.imgur.com/SHo6Fub.jpg" width="300" height="234">
+ <script src="js/jquery.js"></script>
+  <script src="http://d3lp1msu2r81bx.cloudfront.net/kjs/js/lib/kinetic-v4.4.2.min.js"></script>
+<div id="container"></div>
+<button id="translate">TranslateX +25</button>
+<button id="rotate">Rotate +5degrees</button>
+<button id="scale">Scale *1.10</button>
+</body>
+<script type="text/javascript">
+	 var stage = new Kinetic.Stage({
+          container: 'container',
+          width: 300,
+          height: 300
+      });
+      var layer = new Kinetic.Layer();
+      stage.add(layer);
+
+
+      var rect = new Kinetic.Rect({
+          name: "rect1",
+          x: 80,
+          y: 80,
+          width: 50,
+          height: 20,
+          offset: [50 / 2, 20 / 2],
+          fill: "lightgray",
+          stroke: "skyblue",
+          strokeWidth: 3
+      });
+      layer.add(rect);
+      stage.draw();
+
+
+      $("#translate").click(function () {
+          rect.move(10, 0);
+          layer.draw();
+      });
+
+      $("#rotate").click(function () {
+          rect.rotate(20 * Math.PI / 180);
+          layer.draw();
+      });
+
+      $("#scale").click(function () {
+          rect.setScaleX(rect.getScaleX() * 1.1);
+          rect.setScaleY(rect.getScaleY() * 1.1);
+          layer.draw();
+      });
+</script>
+</html>

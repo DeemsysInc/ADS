@@ -1,0 +1,176 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:scrollbars="vertical" >
+
+    <include
+        android:id="@+id/include1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        layout="@layout/layout_header" />
+
+    <com.seemoreinteractive.seemoreinteractive.helper.BounceScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/include1"
+        android:fillViewport="true" >
+
+        <RelativeLayout
+            android:id="@+id/RegFormRelative"
+            android:layout_width="match_parent"
+            android:layout_height="1000dp"
+            android:gravity="top"
+            android:orientation="vertical"
+            android:scrollbars="vertical" >
+
+            <TextView
+                android:id="@+id/lblAccInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="45dp"
+                android:text="Account Information"
+                android:textColor="#000000"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/etxtFirstName"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lblAccInfo"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="10dp"
+                android:background="@xml/rounded_edittext"
+                android:ems="10"
+                android:hint="First Name (Mandatory)"
+                android:inputType="textPersonName"
+                android:padding="25dip" >
+
+                <requestFocus />
+            </EditText>
+
+            <EditText
+                android:id="@+id/etxtPwd"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/etxtEmailId"
+                android:layout_margin="10dp"
+                android:background="@xml/rounded_edittext"
+                android:ems="10"
+                android:hint="Password (Mandatory)"
+                android:inputType="textPassword"
+                android:padding="25dip" />
+
+            <EditText
+                android:id="@+id/etxtCPwd"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/etxtPwd"
+                android:layout_margin="10dp"
+                android:background="@xml/rounded_edittext"
+                android:ems="10"
+                android:hint="Confirm Password (Mandatory)"
+                android:inputType="textPassword"
+                android:padding="25dip" />
+
+            <EditText
+                android:id="@+id/etxtLastName"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/etxtFirstName"
+                android:layout_margin="10dp"
+                android:background="@xml/rounded_edittext"
+                android:ems="10"
+                android:hint="Last Name (Mandatory)"
+                android:inputType="textPersonName"
+                android:padding="25dp" />
+
+            <EditText
+                android:id="@+id/etxtEmailId"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/etxtLastName"
+                android:layout_margin="10dp"
+                android:background="@xml/rounded_edittext"
+                android:ems="10"
+                android:hint="Email Address (Mandatory)"
+                android:inputType="textEmailAddress"
+                android:padding="25dip" >
+            </EditText>
+
+            <com.seemoreinteractive.seemoreinteractive.helper.PressedBgButton
+                android:id="@+id/btnRegister"
+                android:layout_width="300dp"
+                android:layout_height="64dp"
+                android:layout_below="@+id/chkTermConds"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/btn_register"
+                android:scaleType="fitXY" />
+
+            <!--
+                 <ProgressBar
+                android:id="@+id/registerProgressBar"
+                style="?android:attr/progressBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btnRegister"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_margin="15dp"
+                android:visibility="invisible" />
+            -->
+
+            <ProgressBar
+                android:id="@+id/registerProgressBar"
+                 android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_centerHorizontal="true"
+		        android:layout_centerVertical="true"
+		        android:background="@xml/custom_border"
+		        android:indeterminateDrawable="@xml/my_progress_indeterminate" 
+                android:visibility="invisible" />
+
+            <CheckBox
+                android:id="@+id/chkTermConds"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/etxtCPwd"
+                android:layout_below="@+id/etxtCPwd"
+                android:button="@drawable/checkbox"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txtAgreeTo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/chkTermConds"
+                android:layout_alignBottom="@+id/chkTermConds"
+                android:layout_toRightOf="@+id/chkTermConds"
+                android:text=" I agree to "
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" android:layout_alignParentRight="@+id/chkTermConds"/>
+
+            <TextView
+                android:id="@+id/txtTerms"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/txtAgreeTo"
+                android:layout_alignBottom="@+id/txtAgreeTo"
+                android:layout_toRightOf="@+id/txtAgreeTo"
+                android:text="Terms &amp; Conditions"
+                android:textColor="#2E9AFE"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+    </com.seemoreinteractive.seemoreinteractive.helper.BounceScrollView>
+
+</RelativeLayout>

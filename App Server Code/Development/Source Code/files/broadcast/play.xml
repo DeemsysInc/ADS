@@ -1,0 +1,21 @@
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:jwplayer="http://beta.westside-barbell.com/webinar/broadcast/"> 
+  <channel> 
+    <title>MRSS Playlist Playlist</title> 
+    <item> 
+      <title>Big Buck Bunny</title> 
+      <media:content url="http://wiki.westside-barbell.com/broadcast/videos/tv9.flv" /> 
+      <media:thumbnail url="/thumbs/bunny.jpg" />
+      <description>Big Buck Bunny is a short animated film by the Blender Institute,
+         part of the Blender Foundation.</description>
+      <jwplayer:duration>10</jwplayer:duration> 
+    </item> 
+    <item> 
+      <title>Sintel</title> 
+      <media:content url="http://wiki.westside-barbell.com/stream/videos/2/4f5d8c6ae59fad5f477cdd1e63833da4" /> 
+      <media:thumbnail url="/thumbs/sintel.jpg" />
+      <description>Sintel is a fantasy computer generated short movie. It's the third 
+         release from the Blender Open Movie Project.</description>
+      <jwplayer:duration>10</jwplayer:duration> 
+    </item> 
+     </channel> 
+</rss>

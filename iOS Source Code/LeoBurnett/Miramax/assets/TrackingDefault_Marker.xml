@@ -1,0 +1,209 @@
+<?xml version="1.0"?>
+<TrackingData>
+	<Sensors>
+		<Sensor type="FeatureBasedSensorSource" subtype="fast">
+			<SensorID>FeatureTracking</SensorID>
+			<Parameters>
+				<FeatureBasedParameters>
+				</FeatureBasedParameters>
+			</Parameters>
+            <SensorCOS>
+				<SensorCosID>Patch1</SensorCosID>
+				<Parameters>
+					<referenceImage widthMM="300" heightMM="68">seemore.png</referenceImage>
+				</Parameters>
+			</SensorCOS>
+            <SensorCOS>
+				<SensorCosID>Patch2</SensorCosID>
+				<Parameters>
+					<referenceImage widthMM="300" heightMM="86">hhgregg.png</referenceImage>
+				</Parameters>
+			</SensorCOS>
+            <SensorCOS>
+				<SensorCosID>Patch3</SensorCosID>
+				<Parameters>
+					<referenceImage widthMM="300" heightMM="202">intel.png</referenceImage>
+				</Parameters>
+			</SensorCOS>
+            <SensorCOS>
+				<SensorCosID>Patch4</SensorCosID>
+				<Parameters>
+					<referenceImage widthMM="267" heightMM="98">kellogg.png</referenceImage>
+				</Parameters>
+			</SensorCOS>
+            <SensorCOS>
+				<SensorCosID>Patch5</SensorCosID>
+				<Parameters>
+					<referenceImage widthMM="300" heightMM="93">cocacola.png</referenceImage>
+				</Parameters>
+			</SensorCOS>
+            <SensorCOS>
+				<SensorCosID>Patch6</SensorCosID>
+				<Parameters>
+					<referenceImage widthMM="209" heightMM="219">mcdonald.png</referenceImage>
+				</Parameters>
+			</SensorCOS>
+            <SensorCOS>
+				<SensorCosID>Patch7</SensorCosID>
+				<Parameters>
+					<referenceImage widthMM="150" heightMM="149">gm.png</referenceImage>
+				</Parameters>
+			</SensorCOS>
+            <SensorCOS>
+				<SensorCosID>Patch8</SensorCosID>
+				<Parameters>
+					<referenceImage widthMM="236" heightMM="143">mastercard.png</referenceImage>
+				</Parameters>
+			</SensorCOS>
+            <SensorCOS>
+				<SensorCosID>Patch9</SensorCosID>
+				<Parameters>
+					<referenceImage widthMM="185" heightMM="250">kellogg_special.png</referenceImage>
+				</Parameters>
+			</SensorCOS>
+            <SensorCOS>
+				<SensorCosID>Patch10</SensorCosID>
+				<Parameters>
+					<referenceImage widthMM="648" heightMM="593">mcdonald3.png</referenceImage>
+				</Parameters>
+			</SensorCOS>
+            <SensorCOS>
+				<SensorCosID>Patch11</SensorCosID>
+				<Parameters>
+					<referenceImage widthMM="208" heightMM="55">purina.png</referenceImage>
+				</Parameters>
+			</SensorCOS>
+            <SensorCOS>
+				<SensorCosID>Patch12</SensorCosID>
+				<Parameters>
+					<referenceImage widthMM="222" heightMM="64">millercoors.png</referenceImage>
+				</Parameters>
+			</SensorCOS>
+            <SensorCOS>
+				<SensorCosID>Patch13</SensorCosID>
+				<Parameters>
+					<referenceImage widthMM="177" heightMM="82">pg.png</referenceImage>
+				</Parameters>
+			</SensorCOS>
+            <SensorCOS>
+				<SensorCosID>Patch14</SensorCosID>
+				<Parameters>
+					<referenceImage widthMM="207" heightMM="46">firestone.png</referenceImage>
+				</Parameters>
+			</SensorCOS>
+            <SensorCOS>
+				<SensorCosID>Patch15</SensorCosID>
+				<Parameters>
+					<referenceImage widthMM="181" heightMM="75">whirlpool.png</referenceImage>
+				</Parameters>
+			</SensorCOS>
+    </Sensor>
+	</Sensors>
+	<Connections>
+        <COS>
+            <COSName>MarkerlessCOS</COSName><Fuser type="SmoothingFuser"><Parameters><AlphaRotation>0.5</AlphaRotation><AlphaTranslation>0.8</AlphaTranslation><KeepPoseForNumberOfFrames>3000</KeepPoseForNumberOfFrames></Parameters></Fuser>
+			<SensorSource trigger="1"><SensorID>FeatureTracking</SensorID>
+                <SensorCosID>Patch1</SensorCosID>
+				<HandEyeCalibration><TranslationOffset><x>0</x><y>0</y><z>0</z></TranslationOffset><RotationOffset><x>0</x><y>0</y><z>0</z><w>1</w></RotationOffset></HandEyeCalibration><COSOffset><TranslationOffset><x>0</x><y>0</y><z>0</z></TranslationOffset><RotationOffset><x>0</x><y>0</y><z>0</z><w>1</w></RotationOffset></COSOffset>
+            </SensorSource>
+		</COS>
+        <COS>
+            <COSName>MarkerlessCOS</COSName><Fuser type="BestQualityFuser"><Parameters><AlphaRotation>0.5</AlphaRotation><AlphaTranslation>0.8</AlphaTranslation><KeepPoseForNumberOfFrames>3000</KeepPoseForNumberOfFrames></Parameters></Fuser>
+			<SensorSource trigger="1"><SensorID>FeatureTracking</SensorID>
+                <SensorCosID>Patch2</SensorCosID>
+				<HandEyeCalibration><TranslationOffset><x>0</x><y>0</y><z>0</z></TranslationOffset><RotationOffset><x>0</x><y>0</y><z>0</z><w>1</w></RotationOffset></HandEyeCalibration><COSOffset><TranslationOffset><x>0</x><y>0</y><z>0</z></TranslationOffset><RotationOffset><x>0</x><y>0</y><z>0</z><w>1</w></RotationOffset></COSOffset>
+            </SensorSource>
+		</COS>
+        <COS>
+            <COSName>MarkerlessCOS</COSName><Fuser type="SmoothingFuser"><Parameters><AlphaRotation>0.5</AlphaRotation><AlphaTranslation>0.8</AlphaTranslation><KeepPoseForNumberOfFrames>0</KeepPoseForNumberOfFrames></Parameters></Fuser>
+			<SensorSource trigger="1"><SensorID>FeatureTracking</SensorID>
+                <SensorCosID>Patch3</SensorCosID>
+				<HandEyeCalibration><TranslationOffset><x>0</x><y>0</y><z>0</z></TranslationOffset><RotationOffset><x>0</x><y>0</y><z>0</z><w>1</w></RotationOffset></HandEyeCalibration><COSOffset><TranslationOffset><x>0</x><y>0</y><z>0</z></TranslationOffset><RotationOffset><x>0</x><y>0</y><z>0</z><w>1</w></RotationOffset></COSOffset>
+            </SensorSource>
+		</COS>
+        <COS>
+            <COSName>MarkerlessCOS</COSName><Fuser type="SmoothingFuser"><Parameters><AlphaRotation>0.5</AlphaRotation><AlphaTranslation>0.8</AlphaTranslation><KeepPoseForNumberOfFrames>0</KeepPoseForNumberOfFrames></Parameters></Fuser>
+			<SensorSource trigger="1"><SensorID>FeatureTracking</SensorID>
+                <SensorCosID>Patch4</SensorCosID>
+				<HandEyeCalibration><TranslationOffset><x>0</x><y>0</y><z>0</z></TranslationOffset><RotationOffset><x>0</x><y>0</y><z>0</z><w>1</w></RotationOffset></HandEyeCalibration><COSOffset><TranslationOffset><x>0</x><y>0</y><z>0</z></TranslationOffset><RotationOffset><x>0</x><y>0</y><z>0</z><w>1</w></RotationOffset></COSOffset>
+            </SensorSource>
+		</COS>
+        <COS>
+            <COSName>MarkerlessCOS</COSName><Fuser type="SmoothingFuser"><Parameters><AlphaRotation>0.5</AlphaRotation><AlphaTranslation>0.8</AlphaTranslation><KeepPoseForNumberOfFrames>3000</KeepPoseForNumberOfFrames></Parameters></Fuser>
+			<SensorSource trigger="1"><SensorID>FeatureTracking</SensorID>
+                <SensorCosID>Patch5</SensorCosID>
+				<HandEyeCalibration><TranslationOffset><x>0</x><y>0</y><z>0</z></TranslationOffset><RotationOffset><x>0</x><y>0</y><z>0</z><w>1</w></RotationOffset></HandEyeCalibration><COSOffset><TranslationOffset><x>0</x><y>0</y><z>0</z></TranslationOffset><RotationOffset><x>0</x><y>0</y><z>0</z><w>1</w></RotationOffset></COSOffset>
+            </SensorSource>
+		</COS>
+        <COS>
+            <COSName>MarkerlessCOS</COSName><Fuser type="BestQualityFuser"><Parameters><AlphaRotation>0.5</AlphaRotation><AlphaTranslation>0.8</AlphaTranslation><KeepPoseForNumberOfFrames>3000</KeepPoseForNumberOfFrames></Parameters></Fuser>
+			<SensorSource trigger="1"><SensorID>FeatureTracking</SensorID>
+                <SensorCosID>Patch6</SensorCosID>
+				<HandEyeCalibration><TranslationOffset><x>0</x><y>0</y><z>0</z></TranslationOffset><RotationOffset><x>0</x><y>0</y><z>0</z><w>1</w></RotationOffset></HandEyeCalibration><COSOffset><TranslationOffset><x>0</x><y>0</y><z>0</z></TranslationOffset><RotationOffset><x>0</x><y>0</y><z>0</z><w>1</w></RotationOffset></COSOffset>
+            </SensorSource>
+		</COS>
+        <COS>
+            <COSName>MarkerlessCOS</COSName><Fuser type="SmoothingFuser"><Parameters><AlphaRotation>0.5</AlphaRotation><AlphaTranslation>0.8</AlphaTranslation><KeepPoseForNumberOfFrames>0</KeepPoseForNumberOfFrames></Parameters></Fuser>
+			<SensorSource trigger="1"><SensorID>FeatureTracking</SensorID>
+                <SensorCosID>Patch7</SensorCosID>
+				<HandEyeCalibration><TranslationOffset><x>0</x><y>0</y><z>0</z></TranslationOffset><RotationOffset><x>0</x><y>0</y><z>0</z><w>1</w></RotationOffset></HandEyeCalibration><COSOffset><TranslationOffset><x>0</x><y>0</y><z>0</z></TranslationOffset><RotationOffset><x>0</x><y>0</y><z>0</z><w>1</w></RotationOffset></COSOffset>
+            </SensorSource>
+		</COS>
+        <COS>
+            <COSName>MarkerlessCOS</COSName><Fuser type="SmoothingFuser"><Parameters><AlphaRotation>0.5</AlphaRotation><AlphaTranslation>0.8</AlphaTranslation><KeepPoseForNumberOfFrames>0</KeepPoseForNumberOfFrames></Parameters></Fuser>
+			<SensorSource trigger="1"><SensorID>FeatureTracking</SensorID>
+                <SensorCosID>Patch8</SensorCosID>
+				<HandEyeCalibration><TranslationOffset><x>0</x><y>0</y><z>0</z></TranslationOffset><RotationOffset><x>0</x><y>0</y><z>0</z><w>1</w></RotationOffset></HandEyeCalibration><COSOffset><TranslationOffset><x>0</x><y>0</y><z>0</z></TranslationOffset><RotationOffset><x>0</x><y>0</y><z>0</z><w>1</w></RotationOffset></COSOffset>
+            </SensorSource>
+		</COS>
+        <COS>
+            <COSName>MarkerlessCOS</COSName><Fuser type="SmoothingFuser"><Parameters><AlphaRotation>0.5</AlphaRotation><AlphaTranslation>0.8</AlphaTranslation><KeepPoseForNumberOfFrames>0</KeepPoseForNumberOfFrames></Parameters></Fuser>
+			<SensorSource trigger="1"><SensorID>FeatureTracking</SensorID>
+                <SensorCosID>Patch9</SensorCosID>
+				<HandEyeCalibration><TranslationOffset><x>0</x><y>0</y><z>0</z></TranslationOffset><RotationOffset><x>0</x><y>0</y><z>0</z><w>1</w></RotationOffset></HandEyeCalibration><COSOffset><TranslationOffset><x>0</x><y>0</y><z>0</z></TranslationOffset><RotationOffset><x>0</x><y>0</y><z>0</z><w>1</w></RotationOffset></COSOffset>
+            </SensorSource>
+		</COS>
+        <COS>
+            <COSName>MarkerlessCOS</COSName><Fuser type="SmoothingFuser"><Parameters><AlphaRotation>0.5</AlphaRotation><AlphaTranslation>0.8</AlphaTranslation><KeepPoseForNumberOfFrames>0</KeepPoseForNumberOfFrames></Parameters></Fuser>
+			<SensorSource trigger="1"><SensorID>FeatureTracking</SensorID>
+                <SensorCosID>Patch10</SensorCosID>
+				<HandEyeCalibration><TranslationOffset><x>0</x><y>0</y><z>0</z></TranslationOffset><RotationOffset><x>0</x><y>0</y><z>0</z><w>1</w></RotationOffset></HandEyeCalibration><COSOffset><TranslationOffset><x>0</x><y>0</y><z>0</z></TranslationOffset><RotationOffset><x>0</x><y>0</y><z>0</z><w>1</w></RotationOffset></COSOffset>
+            </SensorSource>
+		</COS>
+        <COS>
+            <COSName>MarkerlessCOS</COSName><Fuser type="BestQualityFuser"><Parameters><AlphaRotation>0.5</AlphaRotation><AlphaTranslation>0.8</AlphaTranslation><KeepPoseForNumberOfFrames>3000</KeepPoseForNumberOfFrames></Parameters></Fuser>
+			<SensorSource trigger="1"><SensorID>FeatureTracking</SensorID>
+                <SensorCosID>Patch11</SensorCosID>
+				<HandEyeCalibration><TranslationOffset><x>0</x><y>0</y><z>0</z></TranslationOffset><RotationOffset><x>0</x><y>0</y><z>0</z><w>1</w></RotationOffset></HandEyeCalibration><COSOffset><TranslationOffset><x>0</x><y>0</y><z>0</z></TranslationOffset><RotationOffset><x>0</x><y>0</y><z>0</z><w>1</w></RotationOffset></COSOffset>
+            </SensorSource>
+		</COS>
+        <COS>
+            <COSName>MarkerlessCOS</COSName><Fuser type="SmoothingFuser"><Parameters><AlphaRotation>0.5</AlphaRotation><AlphaTranslation>0.8</AlphaTranslation><KeepPoseForNumberOfFrames>0</KeepPoseForNumberOfFrames></Parameters></Fuser>
+			<SensorSource trigger="1"><SensorID>FeatureTracking</SensorID>
+                <SensorCosID>Patch12</SensorCosID>
+				<HandEyeCalibration><TranslationOffset><x>0</x><y>0</y><z>0</z></TranslationOffset><RotationOffset><x>0</x><y>0</y><z>0</z><w>1</w></RotationOffset></HandEyeCalibration><COSOffset><TranslationOffset><x>0</x><y>0</y><z>0</z></TranslationOffset><RotationOffset><x>0</x><y>0</y><z>0</z><w>1</w></RotationOffset></COSOffset>
+            </SensorSource>
+		</COS>
+        <COS>
+            <COSName>MarkerlessCOS</COSName><Fuser type="SmoothingFuser"><Parameters><AlphaRotation>0.5</AlphaRotation><AlphaTranslation>0.8</AlphaTranslation><KeepPoseForNumberOfFrames>0</KeepPoseForNumberOfFrames></Parameters></Fuser>
+			<SensorSource trigger="1"><SensorID>FeatureTracking</SensorID>
+                <SensorCosID>Patch13</SensorCosID>
+				<HandEyeCalibration><TranslationOffset><x>0</x><y>0</y><z>0</z></TranslationOffset><RotationOffset><x>0</x><y>0</y><z>0</z><w>1</w></RotationOffset></HandEyeCalibration><COSOffset><TranslationOffset><x>0</x><y>0</y><z>0</z></TranslationOffset><RotationOffset><x>0</x><y>0</y><z>0</z><w>1</w></RotationOffset></COSOffset>
+            </SensorSource>
+		</COS>
+        <COS>
+            <COSName>MarkerlessCOS</COSName><Fuser type="SmoothingFuser"><Parameters><AlphaRotation>0.5</AlphaRotation><AlphaTranslation>0.8</AlphaTranslation><KeepPoseForNumberOfFrames>0</KeepPoseForNumberOfFrames></Parameters></Fuser>
+			<SensorSource trigger="1"><SensorID>FeatureTracking</SensorID>
+                <SensorCosID>Patch14</SensorCosID>
+				<HandEyeCalibration><TranslationOffset><x>0</x><y>0</y><z>0</z></TranslationOffset><RotationOffset><x>0</x><y>0</y><z>0</z><w>1</w></RotationOffset></HandEyeCalibration><COSOffset><TranslationOffset><x>0</x><y>0</y><z>0</z></TranslationOffset><RotationOffset><x>0</x><y>0</y><z>0</z><w>1</w></RotationOffset></COSOffset>
+            </SensorSource>
+		</COS>
+        <COS>
+            <COSName>MarkerlessCOS</COSName><Fuser type="SmoothingFuser"><Parameters><AlphaRotation>0.5</AlphaRotation><AlphaTranslation>0.8</AlphaTranslation><KeepPoseForNumberOfFrames>0</KeepPoseForNumberOfFrames></Parameters></Fuser>
+			<SensorSource trigger="1"><SensorID>FeatureTracking</SensorID>
+                <SensorCosID>Patch15</SensorCosID>
+				<HandEyeCalibration><TranslationOffset><x>0</x><y>0</y><z>0</z></TranslationOffset><RotationOffset><x>0</x><y>0</y><z>0</z><w>1</w></RotationOffset></HandEyeCalibration><COSOffset><TranslationOffset><x>0</x><y>0</y><z>0</z></TranslationOffset><RotationOffset><x>0</x><y>0</y><z>0</z><w>1</w></RotationOffset></COSOffset>
+            </SensorSource>
+		</COS>
+    </Connections>
+</TrackingData>

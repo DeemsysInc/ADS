@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/padding_large" >
+
+    <TextView
+        android:id="@+id/txtvCartTotalPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtvCartTotalTitle"
+        android:layout_alignBottom="@+id/txtvCartTotalTitle"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="40dp"
+        android:text="$24444.99"
+        android:textColor="@color/BlackColor"
+        android:gravity="right"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/txtvCartTotalTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/txtvCartTotalPrice"
+        android:text="Cart total: "
+        android:textColor="@color/BlackColor"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/txtvShippingMethodTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txtvCartTotalTitle"
+        android:text="Shipping Method"
+        android:textColor="@color/BlackColor"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtvShippingMethodVal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtvShippingMethodTitle"
+        android:layout_below="@+id/txtvShippingMethodTitle"
+        android:layout_marginLeft="60dp"
+        android:text="Express Method"
+        android:textColor="@color/BlackColor"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/txtvShippingDelivery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtvShippingMethodVal"
+        android:layout_below="@+id/txtvShippingMethodVal"
+        android:text="(Delivers in 3-4 Business days)"
+        android:textColor="@color/BlackColor"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtvShippingCostTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtvShippingDelivery"
+        android:layout_marginTop="20dp"
+        android:layout_toLeftOf="@+id/txtvCartTotalPrice"
+        android:text="Shipping Cost: "
+        android:textColor="@color/BlackColor"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/txtvShippingSubTotalTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/txtvShippingCostTitle"
+        android:layout_below="@+id/txtvShippingCostTitle"
+        android:text="Sub Total: "
+        android:textColor="@color/BlackColor"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/txtvShippingCostPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtvShippingSubTotalTitle"
+        android:layout_alignLeft="@+id/TextView01"
+        android:layout_alignRight="@+id/txtvCartTotalPrice"
+        android:gravity="right"
+        android:textColor="@color/BlackColor"
+        android:text="$54.99"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/txtvShippingSubTotalPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtvShippingSubTotalTitle"
+        android:layout_alignBottom="@+id/txtvShippingSubTotalTitle"
+        android:layout_alignLeft="@+id/txtvCartTotalPrice"
+        android:layout_alignRight="@+id/txtvCartTotalPrice"
+        android:gravity="right"
+        android:textColor="@color/BlackColor"
+        android:text="$3434.99"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>

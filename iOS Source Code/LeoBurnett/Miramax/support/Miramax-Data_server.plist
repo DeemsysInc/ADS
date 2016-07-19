@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Markers</key>
+	<array>
+		<dict>
+			<key>VisualImage</key>
+			<array>
+				<string>VadimKreyninAlciAubriel.png</string>
+				<string>AllisonValentineKelly_James.png</string>
+				<string>GregMartin.png</string>
+				<string>NickiAnders.png</string>
+				<string>ChrisHarvey.png</string>
+				<string>DamianGonzalezGorilla.png</string>
+				<string>DanRodriguez.png</string>
+				<string>ErinShoemaker.png</string>
+				<string>KarenDudas.png</string>
+				<string>LeavinPrak.png</string>
+				<string>MikeTracyLongin.png</string>
+				<string>StephenSzuter.png</string>
+				<string>TinaBrown.png</string>
+			</array>
+			<key>VideoURL</key>
+			<array>
+				<string>http://s3.amazonaws.com/seemore-cms/cms/Ultimate/VadimKreyninAlciAubriel.mp4</string>
+				<string>http://s3.amazonaws.com/seemore-cms/cms/Ultimate/AllisonValentineKelly.mp4</string>
+				<string>http://s3.amazonaws.com/seemore-cms/cms/Ultimate/GregTroy.mp4</string>
+				<string>http://s3.amazonaws.com/seemore-cms/cms/Ultimate/NickiAnders.mp4</string>
+				<string>http://s3.amazonaws.com/seemore-cms/cms/Ultimate/chris_harvey.mp4</string>
+				<string>http://s3.amazonaws.com/seemore-cms/cms/Ultimate/DamianGonzalezGorilla.mp4</string>
+				<string>http://s3.amazonaws.com/seemore-cms/cms/Ultimate/DanRodriguez.mp4</string>
+				<string>http://s3.amazonaws.com/seemore-cms/cms/Ultimate/ErinShoemaker.mp4</string>
+				<string>http://s3.amazonaws.com/seemore-cms/cms/Ultimate/KarenDudas.mp4</string>
+				<string>http://s3.amazonaws.com/seemore-cms/cms/Ultimate/LeavinPrak.mp4</string>
+				<string>http://s3.amazonaws.com/seemore-cms/cms/Ultimate/MikeTracyLongin.mp4</string>
+				<string>http://s3.amazonaws.com/seemore-cms/cms/Ultimate/StephenSzuter.mp4</string>
+				<string>http://s3.amazonaws.com/seemore-cms/cms/Ultimate/TinaBrown.mp4</string>
+			</array>
+			<key>ProductURL</key>
+			<array>
+				<string>http://www.seemoreinteractive.com</string>
+				<string>http://www.seemoreinteractive.com</string>
+				<string>http://www.seemoreinteractive.com</string>
+				<string>http://www.seemoreinteractive.com</string>
+				<string>http://www.seemoreinteractive.com</string>
+				<string>http://www.seemoreinteractive.com</string>
+				<string>http://www.seemoreinteractive.com</string>
+				<string>http://www.seemoreinteractive.com</string>
+				<string>http://www.seemoreinteractive.com</string>
+				<string>http://www.seemoreinteractive.com</string>
+				<string>http://www.seemoreinteractive.com</string>
+				<string>http://www.seemoreinteractive.com</string>
+				<string>http://www.seemoreinteractive.com</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

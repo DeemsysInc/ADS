@@ -1,0 +1,271 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent" >
+
+      <RelativeLayout
+          android:id="@+id/container"
+          android:layout_width="wrap_content"
+          android:layout_height="600dp"
+          android:layout_centerHorizontal="true"
+          android:layout_centerVertical="true"
+          android:background="@drawable/shape" >
+
+          <!--
+          <RelativeLayout
+              android:id="@+id/relativeLayout1"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_alignParentLeft="true"
+              android:layout_alignParentTop="true"
+              android:layout_marginTop="100dp" >
+
+              <com.seemoreinteractive.seemoreinteractive.helper.PressedBgButton
+                  android:id="@+id/btnShippingAddressClose"
+                  android:layout_width="50dp"
+                  android:layout_height="50dp"
+                  android:layout_alignParentRight="true"
+                  android:layout_centerVertical="true"
+                  android:layout_marginRight="30dp"
+                  android:background="@drawable/close" />
+
+              <TextView
+                  android:id="@+id/txtAddShippingAddressTitle"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_centerInParent="true"
+                  android:layout_centerVertical="true"
+                  android:text="Add Shipping Address"
+                  android:textAppearance="?android:attr/textAppearanceLarge"
+                  android:textColor="#000000"
+                  android:textSize="30sp"
+                  android:textStyle="bold" />
+          </RelativeLayout>
+          -->
+
+
+          <!--
+          <ScrollView
+              android:id="@+id/scrollView1"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_marginTop="180dp"
+              android:fillViewport="true"
+              android:scrollbars="vertical" >
+          </ScrollView>
+          -->
+
+          <com.seemoreinteractive.seemoreinteractive.helper.BounceTableLayout
+              android:id="@+id/bounceTableLayout1"
+              android:layout_width="500dp"
+              android:layout_height="350dp"
+              android:layout_alignParentTop="true"
+              android:layout_marginTop="33dp"
+              android:orientation="vertical"
+              android:scrollbars="vertical" >
+
+              <TableRow
+                  android:id="@+id/tableRow4"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center"
+                  android:gravity="center" >
+
+                  <TextView
+                      android:id="@+id/txtLblAddress1"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Address1(*): "
+                      android:textColor="#000000"
+                      android:textSize="25dp" />
+
+                  <EditText
+                      android:id="@+id/etxtAddress1"
+                      android:layout_width="300dp"
+                      android:layout_height="wrap_content"
+                      android:ems="10"
+                      android:inputType="textPostalAddress" >
+
+                      <requestFocus />
+                  </EditText>
+              </TableRow>
+
+              <TableRow
+                  android:id="@+id/tableRow5"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center"
+                  android:gravity="center" >
+
+                  <TextView
+                      android:id="@+id/txtLblAddress2"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Address2: "
+                      android:textSize="25dp"
+                      android:textColor="#000000" />
+
+                  <EditText
+                      android:id="@+id/etxtAddress2"
+                      android:layout_width="300dp"
+                      android:layout_height="wrap_content"
+                      android:ems="10"
+                      android:inputType="textPostalAddress" />
+              </TableRow>
+
+              <TableRow
+                  android:id="@+id/tableRow6"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center"
+                  android:gravity="center" >
+
+                  <TextView
+                      android:id="@+id/txtLblCity"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="City(*): "
+                      android:textSize="25dp"
+                      android:textColor="#000000" />
+
+                  <EditText
+                      android:id="@+id/etxtCity"
+                      android:layout_width="300dp"
+                      android:layout_height="wrap_content"
+                      android:ems="10"
+                      android:inputType="text" />
+              </TableRow>
+
+              <TableRow
+                  android:id="@+id/tableRow7"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center"
+                  android:gravity="center" >
+
+                  <TextView
+                      android:id="@+id/txtLblState"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="State(*): "
+                      android:textSize="25dp"
+                      android:textColor="#000000" />
+
+                  <Spinner
+                      android:id="@+id/spDdlState"
+                      android:layout_width="300dp"
+                      android:layout_height="wrap_content"
+                      android:entries="@array/spinnerStateListItems" />
+              </TableRow>
+
+              <TableRow
+                  android:id="@+id/tableRow8"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center"
+                  android:gravity="center" >
+
+                  <TextView
+                      android:id="@+id/txtLblZipCode"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Zip(*): "
+                      android:textSize="25dp"
+                      android:textColor="#000000" />
+
+                  <EditText
+                      android:id="@+id/etxtZipCode"
+                      android:layout_width="300dp"
+                      android:layout_height="wrap_content"
+                      android:ems="10"
+                      android:inputType="number" />
+              </TableRow>
+
+              <TableRow
+                  android:id="@+id/tableRow9"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center"
+                  android:gravity="center" >
+
+                  <TextView
+                      android:id="@+id/txtLblCountry"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Country(*): "
+                      android:textSize="25dp"
+                      android:textColor="#000000" />
+
+                  <Spinner
+                      android:id="@+id/spDddlCountry"
+                      android:layout_width="300dp"
+                      android:layout_height="wrap_content"
+                      android:entries="@array/spinnerCountryItems" />
+              </TableRow>
+
+              <!--
+              <TableRow
+                  android:id="@+id/tableRow10"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center"
+                  android:gravity="center" 
+                  android:layout_marginTop="20dp">
+
+                  <TextView
+                      android:id="@+id/btnShippingCancel"
+                      android:layout_width="40dp"
+                      android:layout_height="40dp"
+                      android:gravity="center"
+                      android:text="Cancel"
+                      android:textColor="#4794FF"
+                      android:textSize="20sp" />
+
+                  <TextView
+                      android:id="@+id/btnShippingSubmit"
+                      android:layout_width="40dp"
+                      android:layout_height="40dp"
+                      android:gravity="center"
+                      android:text="Submit"
+                      android:textColor="#4794FF"
+                      android:textSize="20sp" />
+
+              </TableRow>
+              -->
+
+              <TableRow
+                  android:id="@+id/tableRow11"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content" >
+              </TableRow>
+          </com.seemoreinteractive.seemoreinteractive.helper.BounceTableLayout>
+
+          <TextView
+              android:id="@+id/btnShippingCancel"
+              android:layout_width="100dp"
+              android:layout_height="100dp"
+              android:layout_alignBaseline="@+id/btnShippingSubmit"
+              android:layout_alignBottom="@+id/btnShippingSubmit"
+              android:layout_marginRight="93dp"
+              android:layout_toLeftOf="@+id/btnShippingSubmit"
+              android:gravity="center"
+              android:text="Cancel"
+              android:textColor="#3C8DFF"
+              android:textSize="30sp" />
+
+          <TextView
+              android:id="@+id/btnShippingSubmit"
+              android:layout_width="100dp"
+              android:layout_height="100dp"
+              android:layout_alignRight="@+id/bounceTableLayout1"
+              android:layout_below="@+id/bounceTableLayout1"
+              android:layout_marginRight="92dp"
+              android:layout_marginTop="53dp"
+              android:gravity="center"
+              android:text="Save"
+              android:textColor="#3C8DFF"
+              android:textSize="30sp" />
+
+      </RelativeLayout>
+
+</RelativeLayout>

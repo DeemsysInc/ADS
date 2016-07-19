@@ -1,0 +1,156 @@
+.sss_kk_main {
+	margin: 15px auto;
+}
+
+.sss_fb_button {
+	width: 200px;
+	height: 50px;
+	display: inline;
+}
+.sss_twitter_button {
+	width: 146px;
+	height: 50px;
+	display: inline;
+}
+.sss_gplus_button {
+	width: 33px;
+	height: 50px;
+	display: inline;
+}
+.sss_l_in_button {
+	width: 33px;
+	height: 50px;
+	display: inline;
+}
+.sss_pin_button {
+	width: 33px;
+	height: 50px;
+	display: inline;
+}
+.sss_email_button {
+	width: 33px;
+	height: 50px;
+	display: inline;
+}
+.sss_a_button {
+	width: 50px;
+	height: 50px;
+	display: inline;
+}
+
+.sss_shares_block {
+	float: left; 
+	margin: 5px 10px 0 0; 
+	height: 50px;
+}
+.sss_shares_number {
+	font-size: 26px; 
+	line-height: 1em;
+}
+
+@media only screen and (max-width: 768px) {
+
+	.sss_kk_main {
+		margin: 10px auto;
+	}
+
+	.sss_fb_button {
+		width: 152px;
+		height: 38px;
+		display: inline;
+	}
+	.sss_twitter_button {
+		width: 111px;
+		height: 38px;
+		display: inline;
+	}
+	.sss_gplus_button {
+		width: 25px;
+		height: 38px;
+		display: inline;
+	}
+	.sss_l_in_button {
+		width: 25px;
+		height: 38px;
+		display: inline;
+	}
+	.sss_pin_button {
+		width: 25px;
+		height: 38px;
+		display: inline;
+	}
+	.sss_email_button {
+		width: 25px;
+		height: 38px;
+		display: inline;
+	}
+	.sss_a_button {
+		display: none;
+		width: 38px;
+		height: 38px;
+	}
+	
+	.sss_shares_block {
+		float: left; 
+		margin: 1px 5px 0 0; 
+		height: 30px;
+		font-size: 14px; 
+	}
+	.sss_shares_number {
+		font-size: 22px; 
+		line-height: 1em;
+	}
+	
+}
+
+@media only screen and (max-width: 480px) {
+
+	.sss_kk_main {
+		margin: 5px auto;
+	}
+	
+	.sss_fb_button {
+		width: 120px;
+		height: 30px;
+	}
+	.sss_twitter_button {
+		width: 88px;
+		height: 30px;
+	}
+	.sss_gplus_button {
+		width: 20px;
+		height: 30px;
+	}
+	.sss_l_in_button {
+		display: none;
+		width: 20px;
+		height: 30px;
+	}
+	.sss_pin_button {
+		display: none;
+		width: 20px;
+		height: 30px;
+	}
+	.sss_email_button {
+		width: 20px;
+		height: 30px;
+	}
+	.sss_a_button {
+		display: none;
+		width: 30px;
+		height: 30px;
+	}
+	
+	.sss_shares_block {
+		float: left; 
+		margin: 0 2px 0 0; 
+		height: 20px;
+		font-size: 10px; 
+		line-height: 1.2em;
+	}
+	.sss_shares_number {
+		font-size: 18px; 
+		line-height: 1em;
+	}
+	
+}

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_id">141475799356297</string>
+    <string name="app_name">SeeMore</string>
+    <string name="metaioSDKSignature">j6eHGedUqfu0PLfw42tehtkGqaK6ZmrPp3bs7JX7z8U=</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_product_list">ProductList</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_sample_test">SampleTest</string>
+    <string name="title_activity_registration_form">RegistrationForm</string>
+    <string name="title_activity_trigger">TriggerActivity</string>
+    <string name="title_activity_offer">OfferActivity</string>
+    <string name="url_privacy_policy">http://www.seemoreinteractive.com/apps/privacy.html</string>
+    <string name="url_terms_condition">http://www.seemoreinteractive.com/apps/terms.html</string>
+    <string name="url_how_to">http://www.seemoreinteractive.com/apps/how-to.html</string>
+    <string name="title_activity_friends_list">FriendsListActivity</string>
+    <string name="title_activity_friends_list_iems">FriendsListIems</string>
+    <string name="about_desc">        SeeMore Interactive Inc.
+        SeeMore Interactive @2012.
+        All rights reserved.</string>
+    <string name="about_desc2">        This software has been developed using Metaio Mobile SDK.
+
+        For more information regarding Metaio Mobile SDK license terms please go to:</string>
+    <string name="start">Start Service</string>
+    <string name="stop">Stop Service</string>
+    <string name="service_started">Service started</string>
+    <string name="service_label">Service Label</string>
+    <string name="title_activity_share">ShareActivity</string>
+    <string name="bigImgTouchKeyProdId">productId</string>
+    <string name="bigImgTouchKeyDragDown">ActionDropDown</string>
+    <string name="bigImgTouchKeyDragUp">ActionDropUp</string>
+    <string name="bigImgTouchKeyDragTo">ActionDragTo</string>
+
+    <item name="tag_position" type="id">12</item>
+    <item name="tag_first" type="id">1</item>
+    <item name="tag_second" type="id">2</item>
+    <item name="tag_third" type="id">3</item>
+    <item name="tag_four" type="id">4</item>
+    <item name="idForFlag" type="id">imageVFlag</item>
+
+    <string name="strSelectedDate">%s</string>
+    <string name="productId">productId</string>
+    <string name="offerId">offerId</string>
+    <string name="clientId">clientId</string>
+    <string name="videoId">videoId</string>
+    <string name="title_activity_under_construction">UnderConstruction</string>
+    <string name="title_activity_my_offers">MyOffers</string>
+    <string name="title_activity_my_offers_redeem_offer">MyOffersRedeemOffer</string>
+    <string name="title_activity_my_offers_mark_as_redeemed">MyOffersMarkAsRedeemed</string>
+    <string name="title_activity_facebook">FacebookActivity</string>
+    <string name="title_activity_help_screen">HelpScreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_share_multiple_images">ShareMultipleImages</string>
+    <string name="title_activity_setting_acitivty">SettingAcitivty</string>
+    <string name="title_activity_sign_in">SignInActivity</string>
+    <string name="signup">SIGN UP WITH EMAIL</string>
+    <string name="login">LOG IN</string>
+    <string name="account_label">ALREADY HAVE AN ACCOUNT?</string>
+    <string name="email_label">OR USE YOUR EMAIL</string>
+    <string name="join_label">JOIN SEEMORE TODAY</string>
+    <string name="seemore_logo">Seemore Interactive</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_forgot_password">ForgotPasswordActivity</string>
+    <string name="title_activity_account_settings">AccountSettings</string>
+    <string name="title_activity_find_astore">FindAStore</string>
+    <string name="title_activity_find_astore_item_details">FindAStoreItemDetails</string>
+    <string name="find_prompt">-- Choose --</string>
+
+    <string-array name="spinnerItems">
+        <item>bank</item>
+        <item>food</item>
+        <item>health</item>
+        <item>restaurant</item>
+        <item>store</item>
+    </string-array>
+
+    <string name="title_activity_help">HelpActivity</string>
+    <string name="title_activity_offer_web_url">OfferWebUrlActivity</string>
+    <string name="title_activity_financial">FinancialActivity</string>
+    <string name="title_activity_try_on">TryOn</string>
+    <string name="title_activity_share_try_on">ShareTryOn</string>
+    <string name="try_on_img_pd_id" type="id">ProductId</string>
+    <string name="try_on_img_cl_id" type="id">ClientId</string>
+    <string name="try_on_img_name" type="id">ImageName</string>
+    <string name="try_on_img_price" type="id">ImagePrice</string>
+    <string name="try_on_img_desc" type="id">ImageDesc</string>
+    <string name="see_it_live_multi_line">SEE IT\nLIVE</string>
+    <string name="imgContentDesc">SeeMore Interactive</string>
+    <string name="instructionTitle">Instructions</string>
+    <string name="instructionMsg">Tab the button to shop this product</string>
+    <string name="reference_tag">Reference</string>
+    <string name="title_activity_recently_scanned">Recently Scanned</string>
+    <string name="title_activity_nearbystore">NearbystoreActivity</string>
+    <string name="strProdImageSale">SALE\t</string>
+    <string name="strBtnQuantity">Quantity</string>
+    <string name="strBtnSize">Size</string>
+    <string name="strBtnColor">Color</string>
+    <string name="strBtnBuyMore">Shop</string>
+    <string name="strBtnBuyNow">Add to Cart</string>
+    <string name="strProductsNotAvail">There are no products available.</string>
+    <string name="title_activity_order_confirmation">OrderConfirmation</string>
+    <string name="tableHeadPdImageTitle">Image</string>
+    <string name="tableHeadPdColorTitle">Color</string>
+    <string name="tableHeadPdNameTitle">Product Name</string>
+    <string name="tableHeadPdPriceTitle">Price</string>
+    <string name="tableHeadPdQuantityTitle">Quantity</string>
+    <string name="tableHeadPdTotalTitle">Total</string>
+    <string name="tableHeadPdChangeTitle">Action</string>
+    <string name="tablePdSubTotalTitle">Sub Total\t</string>
+    <string name="tablePdShippingPrice">Shipping\t</string>
+    <string name="tablePdTaxPrice">Tax\t</string>
+    <string name="tablePdTotalPrice">Total\t</string>
+    <string name="btnPdActionText">Edit</string>
+    <string name="strShippingMethod">Shipping Method</string>
+    <string name="zeroPriceVal">$0.00</string>
+    <string name="strBtnAddShippingAddress">Add Shipping Address</string>
+    <string name="title_activity_products">Products</string>
+    <string name="title_activity_shipping_address_form">ShippingAddressForm</string>
+
+    <string-array name="spinnerCountryItems">
+        <item>US</item>
+    </string-array>
+
+    <string name="title_activity_shipping_list_info">ShippingListInfo</string>
+    <string name="change"><b><u>Change/Add</u></b></string>
+    <string name="llForColorBg" type="id">llForColorBg</string>
+    <string name="llForColorBgButton" type="id">llForColorBgButton</string>
+    <string name="dynamicBtnSizeId" type="id">dynamicBtnSizeId</string>
+    <string name="title_activity_products_checkout">ProductsCheckout</string>
+    <string name="title_activity_save_order_information">SaveOrderInformation</string>
+    <string name="title_activity_thank_you_new">ThankYouNew</string>
+    <string name="title_activity_top_menu_info">TopMenuInfo</string>
+
+    <string-array name="spinnerShopparTypeItems">
+        <item>Men</item>
+        <item>Jeans</item>
+        <item>Shoes</item>
+        <item>Women</item>
+        <item>Accessories</item>
+    </string-array>
+
+    <string name="llForSizeBg" type="id">llForSizeBg</string>
+    <string name="llForSizeBgButton" type="id">llForSizeBgButton</string>
+    <string name="llForColorButtonId" type="id">llForColorButtonId</string>
+    <string name="title_activity_video">VideoActivity</string>
+    <string name="title_activity_game">GameActivity</string>
+    <string name="title_activity_scratch_and_win">ScratchAndWin</string>
+    <string name="title_activity_wheel_of_deals">WheelOfDeals</string>
+    <string name="title_activity_game_offer">GameOffer</string>
+    <string name="title_activity_discount_offer">DiscountOffer</string>
+    <string name="title_activity_game_rules">GameRules</string>
+    <string name="scratchID" type="id">scratchID</string>
+    <string name="title_activity_scratch_offer">ScratchOffer</string>
+    <string name="title_activity_spin_wheel">SpinWheel</string>
+ <string name="mainVideo" type="id">mainVideo</string>
+</resources>

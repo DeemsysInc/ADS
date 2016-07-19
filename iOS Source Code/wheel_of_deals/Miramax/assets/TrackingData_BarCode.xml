@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<TrackingData>
+    <Sensors>
+        <Sensor type="BarCodeSensorSource">
+            <SensorID>BarCodeSensor1</SensorID>
+            <Parameters>
+                <BarCodeShowRecognizedPoints />
+                <BarCodeUseCropBox />
+            </Parameters>
+            <SensorCOS>
+                <SensorCosID>id1</SensorCosID>
+            </SensorCOS>
+        </Sensor>
+    </Sensors>
+</TrackingData>

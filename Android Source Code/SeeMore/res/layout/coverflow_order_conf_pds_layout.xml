@@ -1,0 +1,429 @@
+<!-- <LinearLayout android:id="@+id/coverflowLlayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical|center_horizontal"
+    android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/layout_border_gray">
+
+    <RelativeLayout
+        android:id="@+id/coverflowLlayoutImage"
+        android:layout_width="450dp"
+        android:layout_height="510dp" >
+
+        <TextView
+            android:id="@+id/txtLblPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/bigImageWithName"
+            android:layout_centerHorizontal="true"
+            android:text="Price: "
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/BlackColor" />
+
+        <RelativeLayout
+            android:id="@+id/bigImageWithName"
+            android:layout_width="400dp"
+            android:layout_height="450dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/inner_layout_border"
+            android:orientation="vertical" >
+
+            <ScrollView
+                android:id="@+id/scrollViewForPdList"
+                android:layout_width="410dp"
+                android:layout_height="230dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:scrollbars="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/listViewForProds"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical" >
+                </LinearLayout>
+            </ScrollView>
+
+            <View
+                android:id="@+id/separator2"
+                android:layout_width="450dp"
+                android:layout_height="1dip"
+                android:layout_below="@+id/scrollViewForPdList"
+                android:background="#CCCCCC" />
+
+            <TextView
+                android:id="@+id/txtvCartTotalTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/scrollViewForPdList"
+                android:layout_marginTop="10dp"
+                android:layout_toLeftOf="@+id/txtvCartTotalPrice"
+                android:text="Cart total: "
+				android:textSize="20dp"
+                android:textColor="@color/BlackColor" />
+
+            <TextView
+                android:id="@+id/txtvCartTotalPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/txtvShippingMethodTitle"
+                android:layout_alignRight="@+id/separator2"
+                android:layout_marginRight="20dp"
+                android:gravity="left"
+                android:maxLength="12"
+                android:text="$0.00"
+				android:textSize="20dp"
+                android:textColor="@color/BlackColor" />
+
+            <TextView
+                android:id="@+id/txtvShippingMethodTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/txtvCartTotalTitle"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="Shipping Method"
+                android:textColor="@color/BlackColor"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/spinnerForShippingMethod"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/txtvShippingDelivery"
+                android:layout_alignRight="@+id/txtvCartTotalPrice"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/txtvShippingDelivery"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/txtvShippingMethodTitle"
+                android:layout_marginLeft="10dp"
+                android:text="(Delivers in 3-4 Business days)"
+                android:textColor="@color/BlackColor"
+                android:textSize="18sp" />
+
+            <com.seemoreinteractive.seemoreinteractive.helper.PressedBgButton
+                android:id="@+id/btnChangeShippingMethod"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_alignBottom="@+id/txtvShippingDelivery"
+                android:layout_alignRight="@+id/spinnerForShippingMethod"
+                android:background="@drawable/button_border"
+                android:text="Change" />
+
+            <TextView
+                android:id="@+id/txtvShippingSubTotalPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/txtvShippingSubTotalTitle"
+                android:layout_alignBottom="@+id/txtvShippingSubTotalTitle"
+                android:layout_alignLeft="@+id/txtvCartTotalTitle"
+                android:gravity="left"
+                android:maxLength="12"
+                android:text="$0.00"
+                android:textSize="18sp" 
+                android:textColor="@color/BlackColor"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtvShippingCostTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/txtvShippingCostPrice"
+                android:layout_alignBottom="@+id/txtvShippingCostPrice"
+                android:layout_alignLeft="@+id/txtvShippingSubTotalTitle"
+                android:text="Shipping Cost: "
+                android:textSize="20sp" 
+                android:textColor="@color/BlackColor" />
+
+            <TextView
+                android:id="@+id/txtvShippingSubTotalTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="30dp"
+                android:layout_toLeftOf="@+id/txtvShippingSubTotalPrice"
+                android:text="Sub Total: "
+                android:textSize="18sp" 
+                android:textColor="@color/BlackColor"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtvShippingCostPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/txtvShippingSubTotalPrice"
+                android:layout_alignLeft="@+id/btnChangeShippingMethod"
+                android:gravity="left"
+                android:maxLength="12"
+                android:text="$0.00"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/BlackColor" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/btnClientLogoOrName"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_above="@+id/bigImageWithName"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="Seemore "
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+</LinearLayout> -->
+<LinearLayout android:id="@+id/coverflowLlayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical|center_horizontal"
+    android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/layout_border_gray">
+
+    <RelativeLayout
+        android:id="@+id/coverflowLlayoutImage"
+        android:layout_width="450dp"
+        android:layout_height="510dp" >
+
+        <RelativeLayout
+            android:id="@+id/bigImageWithName"
+            android:layout_width="400dp"
+            android:layout_height="450dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/inner_layout_border"
+            android:orientation="vertical" >
+
+             <ScrollView
+                android:id="@+id/scrollViewForPdList"
+                android:layout_width="410dp"
+                android:layout_height="230dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:scrollbars="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/listViewForProds"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical" >
+                </LinearLayout>
+            </ScrollView>
+
+            <View
+                android:id="@+id/separator2"
+                android:layout_width="450dp"
+                android:layout_height="4dip"
+                android:layout_marginTop="2dp"
+                android:layout_below="@+id/scrollViewForPdList"
+                android:background="#CCCCCC" />
+
+            <TextView
+                android:id="@+id/txtvCartTotalTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/scrollViewForPdList"
+                android:layout_marginTop="10dp"
+                android:layout_toLeftOf="@+id/txtvCartTotalPrice"
+                android:text="Cart total: "
+                android:textColor="@color/BlackColor"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/txtvShippingDelivery"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/txtvCartTotalTitle"
+                android:layout_marginLeft="10dp"
+                android:text="( 3-4 Business days)"
+                android:textColor="@color/BlackColor"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtvCartTotalPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/txtvShippingDelivery"
+                android:layout_alignParentRight="true"
+                android:gravity="left"
+                android:maxLength="12"
+                android:text="$0.00"
+                android:textColor="@color/BlackColor"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/txtvShippingSubTotalTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/txtvShippingSubTotalPrice"
+                android:layout_below="@+id/txtofferDiscountTitle"
+                android:text="Sub Total:   "
+                android:textColor="@color/BlackColor"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtofferDiscountTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btnUserOffers"
+                android:layout_toLeftOf="@+id/txtofferDiscountCost"
+                android:text="Discount :  "
+                android:textColor="@color/BlackColor"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <!-- <TextView
+                android:id="@+id/txtvShippingCostPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/txtvShippingCostTitle"
+                android:layout_toRightOf="@+id/txtofferDiscountTitle"
+                android:gravity="right"
+                android:maxLength="12"
+                android:text="$0.00"
+                android:textColor="@color/BlackColor"
+                android:textSize="18sp"
+                android:textStyle="bold" /> -->
+                 <TextView
+                android:id="@+id/txtvShippingCostPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/txtofferDiscountCost"
+                android:layout_alignParentRight="true"
+                android:gravity="left"
+                android:maxLength="12"
+                android:text="$0.00"
+                android:textColor="@color/BlackColor"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:id="@+id/txtvShippingSubTotalPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtofferDiscountTitle"
+                android:layout_alignParentRight="true"
+                android:gravity="left"
+                android:maxLength="12"
+                android:text="$0.00"
+                android:textColor="@color/BlackColor"
+                android:textSize="20dp"  />
+
+            <TextView
+                android:id="@+id/txtofferDiscountCost"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/txtvShippingSubTotalPrice"
+                android:layout_alignParentRight="true"
+                android:gravity="left"
+                android:maxLength="12"
+                android:text="$0.00"
+                android:textColor="@color/BlackColor"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/txtvShippingCostTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/txtofferDiscountCost"
+                android:layout_toLeftOf="@+id/txtvShippingCostPrice"
+                android:gravity="left"
+                android:text="Shipping Cost:  "
+                android:textColor="@color/BlackColor"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/spinnerForShippingMethod"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignTop="@+id/txtvCartTotalTitle"
+                android:visibility="invisible" />
+
+            <com.seemoreinteractive.seemoreinteractive.helper.PressedBgButton
+                android:id="@+id/btnUserOffers"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_alignLeft="@+id/txtvofferName"
+                android:layout_below="@+id/btnChangeShippingMethod"
+                android:background="@drawable/button_border"
+                android:text="User Offer"
+                android:visibility="invisible"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:id="@+id/txtvofferName"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/txtofferDiscountTitle"
+                android:layout_alignBottom="@+id/txtofferDiscountTitle"
+                android:layout_alignLeft="@+id/txtvShippingDelivery"
+                android:maxLength="15"
+                android:text="Scratch and win 10% off"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/txtvofferVal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/txtvShippingSubTotalTitle"
+                android:layout_alignLeft="@+id/txtvofferName"
+                android:maxLength="15"
+                android:text="($10.0% off)"
+                android:textColor="#000000"
+                android:textSize="16sp"  
+                android:visibility="invisible"/>
+
+            <ImageView
+                android:id="@+id/btnChangeShippingMethod"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignBottom="@+id/txtvShippingDelivery"
+                android:layout_toLeftOf="@+id/txtvShippingCostTitle"
+                android:scaleType="fitXY"
+                android:src="@drawable/icon_edit" />
+
+            <ImageView
+                android:id="@+id/imgClose"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignTop="@+id/txtvofferName"
+                android:layout_toRightOf="@+id/txtvofferName"
+                android:src="@drawable/close"
+                android:visibility="invisible" />
+
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/btnClientLogoOrName"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="Seemore "
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+      </RelativeLayout>
+
+</LinearLayout> 

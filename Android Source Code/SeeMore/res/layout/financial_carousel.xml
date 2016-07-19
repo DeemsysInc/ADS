@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/carouselRelativeLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical|center_horizontal" >
+
+    <RelativeLayout
+        android:id="@+id/rlForCarouselRelativeLayout"
+        android:layout_width="400dp"
+        android:layout_height="350dp"
+        android:background="@xml/shape"
+        android:padding="10dp" >
+        
+         <Button
+            android:id="@+id/btnSeeItLive"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/see_it_live"
+            android:gravity="top|right"
+            android:paddingRight="10dp"
+            android:text="@string/see_it_live_multi_line"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/imgForCarousel"
+            android:layout_width="380dp"
+            android:layout_height="330dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:scaleType="fitXY" />
+
+        <LinearLayout
+            android:id="@+id/llOverlayText"
+            android:layout_width="380dp"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:alpha=".95"
+            android:background="@drawable/gray_gradient" >
+
+            <TextView
+                android:id="@+id/txtImageTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center_vertical"
+                android:maxLength="50"
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

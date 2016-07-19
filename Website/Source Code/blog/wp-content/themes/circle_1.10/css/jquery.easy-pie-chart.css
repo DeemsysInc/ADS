@@ -1,0 +1,63 @@
+.easyPieChart {
+    position: relative;
+    text-align: center;
+	display:inline-block;
+	margin-bottom:20px;
+}
+
+.easyPieChart canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.kp-skill {
+	margin-left:10px;
+}
+.kp-skill li {
+	float:left;
+	margin-left:3.5%;
+	margin-bottom:20px;
+	width: calc(89.5% / 3);
+	text-align:center;
+}
+
+.easyPieChart span {
+	color:#212121;
+	font-family: 'Rokkitt',serif;
+	font-size:48px;
+}
+.easyPieChart sup {
+	color:#212121;
+	font-family: 'Rokkitt',serif;
+	font-size:23px;
+}
+.chart .label {
+	background:none;
+	color:#212121;
+	font-family: 'Rokkitt',serif;
+	font-size:18px;
+	text-transform:uppercase;
+	line-height:20px;
+	padding:0;
+	text-shadow:none;
+	font-weight:normal;
+}
+
+.about-skill .kp-skill {
+	margin-left:0;
+}
+.about-skill .kp-skill li {
+    float: left;
+    margin-bottom: 20px;
+    margin-left: 0;
+	padding:0 1%;
+    text-align: center;
+    width: 25%;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+}
+.about-skill .chart .label {
+	margin-bottom:15px;
+}
+

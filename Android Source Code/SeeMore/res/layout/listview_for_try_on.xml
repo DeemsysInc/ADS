@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+	<ImageView
+	    android:id="@+id/imgvForPds"
+	    android:layout_width="300dp"
+	    android:layout_height="300dp"
+	    android:layout_alignParentTop="true"
+	    android:layout_centerHorizontal="true"
+	    android:scaleType="fitCenter" />
+
+	<RelativeLayout
+	    android:id="@+id/rlForTxtOverlay"
+	    android:layout_width="match_parent"
+	    android:layout_height="70dp"
+	    android:layout_alignParentLeft="true"
+	    android:layout_below="@+id/imgvForPds"
+	    android:layout_centerHorizontal="false"
+	    android:layout_centerVertical="false"
+	    android:background="#ff2600" >
+
+	    <TextView
+	        android:id="@+id/txtvPdPrice"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="20dp"
+	        android:textAppearance="?android:attr/textAppearanceLarge"
+	        android:textColor="#FFFFFF"
+	        android:textStyle="bold" />
+
+	    <TextView
+	        android:id="@+id/txtvPdName"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/txtvPdPrice"
+	        android:layout_marginLeft="20dp"
+	        android:textColor="#FFFFFF"
+	        android:textStyle="bold"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+	</RelativeLayout>
+
+</RelativeLayout>

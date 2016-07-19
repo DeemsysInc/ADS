@@ -1,0 +1,20 @@
+[11-Feb-2014 18:22:27 UTC] PHP Fatal error:  Class 'Walker' not found in /home/smadmin/public_html/blog/wp-includes/nav-menu-template.php on line 17
+[11-Feb-2014 18:22:31 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/smadmin/public_html/blog/wp-includes/author-template.php on line 392
+[11-Feb-2014 18:22:32 UTC] PHP Fatal error:  Call to undefined function add_filter() in /home/smadmin/public_html/blog/wp-includes/default-filters.php on line 17
+[11-Feb-2014 18:22:33 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/smadmin/public_html/blog/wp-includes/general-template.php on line 1315
+[11-Feb-2014 18:23:38 UTC] PHP Fatal error:  Class 'WP_Widget' not found in /home/smadmin/public_html/blog/wp-includes/default-widgets.php on line 14
+[11-Feb-2015 06:12:15 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/seemore/public_html/blog/wp-includes/general-template.php on line 1626
+[11-Feb-2015 06:13:17 UTC] PHP Fatal error:  Class 'Walker' not found in /home/seemore/public_html/blog/wp-includes/nav-menu-template.php on line 16
+[11-Feb-2015 06:13:56 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/seemore/public_html/blog/wp-includes/author-template.php on line 471
+[11-Feb-2015 06:15:15 UTC] PHP Fatal error:  Call to undefined function add_filter() in /home/seemore/public_html/blog/wp-includes/default-filters.php on line 17
+[02-Jun-2015 07:04:41 UTC] PHP Fatal error:  Class 'Walker' not found in /home/seemore/public_html/blog/wp-includes/nav-menu-template.php on line 16
+[02-Jun-2015 07:04:44 UTC] PHP Fatal error:  Call to undefined function feed_content_type() in /home/seemore/public_html/blog/wp-includes/feed-rdf.php on line 8
+[02-Jun-2015 07:05:27 UTC] PHP Fatal error:  Class 'WP_Widget' not found in /home/seemore/public_html/blog/wp-includes/default-widgets.php on line 14
+[02-Jun-2015 07:05:30 UTC] PHP Fatal error:  Call to undefined function add_filter() in /home/seemore/public_html/blog/wp-includes/default-filters.php on line 17
+[02-Jun-2015 07:05:59 UTC] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home/seemore/public_html/blog/wp-includes/functions.php on line 8
+[02-Jun-2015 07:05:59 UTC] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/seemore/public_html/blog/wp-includes/functions.php on line 8
+[02-Jun-2015 07:06:19 UTC] PHP Fatal error:  Call to undefined function feed_content_type() in /home/seemore/public_html/blog/wp-includes/feed-rss.php on line 8
+[02-Jun-2015 07:06:28 UTC] PHP Fatal error:  Call to undefined function is_admin() in /home/seemore/public_html/blog/wp-includes/vars.php on line 23
+[02-Jun-2015 07:06:34 UTC] PHP Warning:  require(ABSPATHWPINC/class.wp-dependencies.php): failed to open stream: No such file or directory in /home/seemore/public_html/blog/wp-includes/script-loader.php on line 25
+[02-Jun-2015 07:06:34 UTC] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/class.wp-dependencies.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/seemore/public_html/blog/wp-includes/script-loader.php on line 25
+[02-Jun-2015 07:06:43 UTC] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/seemore/public_html/blog/wp-includes/rss.php on line 19

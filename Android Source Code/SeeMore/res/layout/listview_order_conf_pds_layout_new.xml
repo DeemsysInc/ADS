@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="400dp"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center" >
+
+    <TableLayout
+        android:id="@+id/tablelayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+       android:background="@color/WhiteColor">
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+          android:background="#FFFFFF" 
+         android:showDividers="none">
+             
+
+           <!--  <LinearLayout
+                android:id="@+id/llForProductName"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical" >
+            <TextView
+                android:id="@+id/txtvExpProductName"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:maxLength="30"
+                android:text="         -          "
+                android:textColor="@color/BlackColor"
+                android:textSize="18sp" />
+			</LinearLayout>
+           
+
+            <LinearLayout
+                android:id="@+id/llForPriceQunatity"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/txtvExpProdQuantityWithPrice"
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="(0 X $0.00)"
+                    android:textColor="@color/BlackColor"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+ 			<LinearLayout
+                android:id="@+id/llForPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical" >
+            
+            <TextView
+                android:id="@+id/txtvExpProdPrice"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="$0.00"
+                android:textColor="@color/BlackColor"
+                android:textSize="18sp" />
+            </LinearLayout> -->
+
+          
+                <TextView
+                    android:id="@+id/txtvExpProductName"
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:maxLength="30"
+                    android:text="         -          "
+                    android:textColor="@color/BlackColor"
+                    android:textSize="18sp" />
+           
+
+            <TextView
+                android:id="@+id/txtvExpProdQuantityWithPrice"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="(0 X $0.00)"
+                android:textColor="@color/BlackColor"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtvExpProdPrice"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="$0.00"
+                android:textColor="@color/BlackColor"
+                android:textSize="18sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            
+            >
+
+            <LinearLayout
+                android:id="@+id/llForImgColoSize"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:layout_weight="1"
+                android:gravity="left|center"
+                android:orientation="horizontal" >
+
+                <com.seemoreinteractive.seemoreinteractive.helper.PressedBgImageView
+                    android:id="@+id/imgvExpProdImage"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/pd_blank_img" />
+
+                <RelativeLayout
+                    android:id="@+id/llForColoSize"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal" >
+
+                    <com.seemoreinteractive.seemoreinteractive.helper.PressedBgButton
+                        android:id="@+id/btnExpColorCode"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:background="#FF00FF" />
+
+                    <TextView
+                        android:id="@+id/txtvExpSizeLabel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@+id/btnExpColorCode"
+                        android:text="Size :"
+                        android:textColor="#000000"
+                        android:textSize="15sp"
+                        android:layout_marginTop="5dp" />
+
+                    <TextView
+                        android:id="@+id/txtvExpSize"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBaseline="@+id/txtvExpSizeLabel"
+                        android:layout_alignBottom="@+id/txtvExpSizeLabel"
+                        android:layout_marginLeft="8dp"
+                        android:layout_toRightOf="@+id/txtvExpSizeLabel"
+                        android:text=" - "
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/BlackColor"
+                        android:textSize="15sp" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llForProdActions"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"             
+                android:gravity="right"
+                android:orientation="vertical"
+                android:layout_marginRight="20dp" >
+
+                <TextView
+                    android:id="@+id/imgvEditIcon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:text="Edit"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    android:layout_marginRight="30dp" />
+
+                <TextView
+                    android:id="@+id/imgvRemoveIcon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="10dp"
+                    android:clickable="true"
+                    android:text="Remove"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    android:layout_marginBottom="10dp" />
+
+            </LinearLayout>
+
+        </TableRow>
+        
+    </TableLayout>
+<View   android:id="@+id/firstDivider"
+        android:layout_height="2dp"
+        android:layout_width="fill_parent"
+        android:background="#CCCCCC" 
+        android:layout_below="@+id/tablelayout"/>
+</RelativeLayout>

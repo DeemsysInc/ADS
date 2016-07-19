@@ -1,0 +1,86 @@
+newmtl bush:baked_lambert15SG_pCube69SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd bushTexture.png
+Ni 1.00
+newmtl car:pCube1SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd car_Texture.png
+Ni 1.00
+Ks 0.20 0.29 0.32
+Ns 3.43
+newmtl door:baked_lambert5SG_porchConcreteSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd concrete_door_Texture.png
+Ni 1.00
+newmtl driveway:baked_lambert17SG_pPlane1SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd driveway_Texture.png
+Ni 1.00
+newmtl garageDoor:lambert8SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Pillars_GarageDoor_Texture.png
+Ni 1.00
+newmtl houseMain:lambert3SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd houseMain_Texture.png
+Ni 1.00
+newmtl houseRoof01:lambert4SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd houseRoof03_Texture.png
+Ni 1.00
+newmtl houseRoof02:lambert11SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd houseRoof04_Texture.png
+Ni 1.00
+newmtl pillars:lambert8SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Pillars_GarageDoor_Texture.png
+Ni 1.00
+newmtl porchConcrete:baked_lambert5SG_porchConcreteSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd concrete_door_Texture.png
+Ni 1.00
+newmtl porchRails:baseShadowColor2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd porchRails_Texture.png
+Ni 1.00
+newmtl tires:lambert4SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd carTire_Texture.png
+Ni 1.00

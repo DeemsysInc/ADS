@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <LinearLayout
+        android:id="@+id/appLoginLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical" >
+
+	    <TextView
+	        android:id="@+id/txtvPoweredBy"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Username : "
+	        android:textAppearance="?android:attr/textAppearanceLarge" />
+	
+	    <EditText
+	        android:id="@+id/username"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:inputType="text" >
+	
+	        <requestFocus />
+	    </EditText>
+	
+	    <TextView
+	        android:id="@+id/textView2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Password"
+	        android:textAppearance="?android:attr/textAppearanceLarge" />
+	
+	    <EditText
+	        android:id="@+id/password"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:ems="10"
+	        android:inputType="textPassword" />
+	
+	    <TextView
+	        android:id="@+id/txtvSignUpHere"
+	        android:layout_width="180dp"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="right"
+	        android:background="@drawable/silver_button_normal"
+	        android:gravity="center_vertical|center_horizontal"
+	        android:linksClickable="true"
+	        android:padding="10dp"
+	        android:text="Register"
+	        android:textAppearance="?android:attr/textAppearanceLarge"
+	        android:textColor="#000000" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:text="(OR)"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="30sp" />
+
+    <LinearLayout
+	    android:id="@+id/fbLoginLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/imgvFBLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:scaleType="fitXY"
+            android:src="@drawable/login_fb" />
+	    
+		    <!-- <TextView
+		        android:id="@+id/txtFBLogin"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:background="@drawable/silver_button_normal"
+		        android:gravity="center_vertical|center_horizontal"
+		        android:linksClickable="true"
+		        android:padding="4dp"
+		        android:text="Login with Facebook"
+		        android:textAppearance="?android:attr/textAppearanceLarge"
+		        android:textColor="#000000" /> -->
+		    
+		    <!-- <TextView
+		        android:id="@+id/txtFBLogout"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:background="@drawable/silver_button_normal"
+		        android:gravity="center_vertical|center_horizontal"
+		        android:linksClickable="true"
+		        android:padding="4dp"
+		        android:text="Logout with Facebook"
+		        android:textAppearance="?android:attr/textAppearanceLarge"
+		        android:textColor="#000000" /> -->
+		    
+
+    </LinearLayout>
+
+</LinearLayout>

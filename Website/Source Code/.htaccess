@@ -1,0 +1,8 @@
+RewriteEngine On
+
+RewriteCond %{HTTP_HOST} !^(www\.seemoreinteractive\.com)?$
+RewriteRule (.*) http://www.seemoreinteractive.com/$1 [R=301,L] 
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule (.*)$ index.php?q=$1 [L]

@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+     -->
+    <item android:id="@+id/prodList"  
+	android:title="Product List Page" />
+	
+	<item android:id="@+id/yourCloset"  
+	android:title="Your Closet" />
+	
+	<item android:id="@+id/wishList"  
+	android:title="Wish List" />
+	
+	<item android:id="@+id/options"  
+	android:title="Options" />
+	
+
+</menu>

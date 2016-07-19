@@ -1,0 +1,35 @@
+#home-slider .flex-caption {
+	padding:10px 0;
+	width:100%;
+	text-align:center;
+	bottom:2px;
+}
+#back-top a {
+	background:url(../images/icons/arrow-up.png) no-repeat center center #62ac21;
+}
+.sidebar .widget ul li article, .tab-content-1 ul li article {
+	margin:15px 0 0 -15px;
+}
+.widget_categories ul li {
+	margin-left:-15px !important;
+}
+.kopa-flickr-widget {
+	display:none;
+}
+.tweet_list li span.at,
+.related-widget ul li article,
+.comments-list .comment,
+.comments-list .comment ul li article,
+.kopa-search-list li article,
+.widget_rss ul li .rsswidget, 
+.widget_meta ul li a, 
+.widget_pages ul li a {
+	margin-left:-15px;
+}
+
+blockquote {
+	background:url(../images/icons/quote-icon-big.png) no-repeat left top;
+}
+.newsletter-form .submit {
+	background:url(../images/icons/submit-newsletter-icon.png) no-repeat 0 0;
+}

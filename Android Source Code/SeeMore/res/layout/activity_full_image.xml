@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF" >
+       <include
+        android:id="@+id/include1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        layout="@layout/layout_header" />
+       
+         <include
+        android:id="@+id/include2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        layout="@layout/layout_footer_menu" />
+
+    <com.seemoreinteractive.seemoreinteractive.helper.PressedBgButton
+        android:id="@+id/btnCloseFullImage"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/include1"
+        android:layout_marginRight="26dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/close_red" />
+
+    <com.seemoreinteractive.seemoreinteractive.helper.PressedBgImageView
+        android:id="@+id/full_image_view"
+        android:layout_width="fill_parent"
+        android:layout_height="890dp"
+        android:layout_above="@+id/include2"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/include1" />
+
+</RelativeLayout>

@@ -1,0 +1,141 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentLeft="false"
+    android:layout_alignParentTop="false"
+    android:layout_alignParentBottom="true"
+    android:fillViewport="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginBottom="50dp"
+	android:theme="@style/Theme.Transparent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom|center_horizontal"
+        android:orientation="vertical" >
+
+        <com.seemoreinteractive.seemoreinteractive.helper.PressedBgButton
+            android:id="@+id/btnHowTo"
+            android:layout_width="400dp"
+            android:layout_height="60dp"
+            android:background="@drawable/button_background"
+            android:text="How To"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="35sp"
+            android:layout_marginBottom="10dp" />
+
+	   <com.seemoreinteractive.seemoreinteractive.helper.PressedBgButton
+	       android:id="@+id/btnSettings"
+	       android:layout_width="400dp"
+	       android:layout_height="60dp"
+	       android:layout_marginBottom="10dp"
+	       android:background="@drawable/button_background"
+	       android:text="Settings"
+	       android:textColor="#000000"
+	       android:textSize="35sp"
+	       android:textStyle="bold"
+	       android:visibility="gone" />
+	
+	   <com.seemoreinteractive.seemoreinteractive.helper.PressedBgButton
+	       android:id="@+id/btnTermsConditions"
+	       android:layout_width="400dp"
+	       android:layout_height="60dp"
+	       android:background="@drawable/button_background"
+	       android:textColor="#000000"
+            android:textStyle="bold"
+	       android:textSize="35sp"
+            android:layout_marginBottom="10dp"
+	       android:text="Terms &amp; Conditions" />
+	
+	   <com.seemoreinteractive.seemoreinteractive.helper.PressedBgButton
+	       android:id="@+id/btnPrivacyPolicy"
+	       android:layout_width="400dp"
+	       android:layout_height="60dp"
+	       android:background="@drawable/button_background"
+	       android:textColor="#000000"
+            android:textStyle="bold"
+	       android:textSize="35sp"
+            android:layout_marginBottom="10dp"
+	       android:text="Privacy Policy" />
+	
+	   <com.seemoreinteractive.seemoreinteractive.helper.PressedBgButton
+	       android:id="@+id/btnAbout"
+	       android:layout_width="400dp"
+	       android:layout_height="60dp"
+	       android:background="@drawable/button_background"
+	       android:textColor="#000000"
+            android:textStyle="bold"
+	       android:textSize="35sp"
+            android:layout_marginBottom="10dp"
+	       android:text="About" />
+	   <!-- <Button
+	       android:id="@+id/btnReset"
+	       android:layout_width="400dp"
+	       android:layout_height="60dp"
+	       android:background="@drawable/button_background"
+	       android:textColor="#000000"
+            android:textStyle="bold"
+	       android:textSize="35sp"
+            android:layout_marginBottom="10dp"
+	       android:text="Reset App" /> -->
+
+	   <com.seemoreinteractive.seemoreinteractive.helper.PressedBgButton
+	       android:id="@+id/btnFindAStore"
+	       android:layout_width="400dp"
+	       android:layout_height="60dp"
+	       android:layout_marginBottom="10dp"
+	       android:background="@drawable/button_background"
+	       android:text="Find A Store"
+	       android:textColor="#000000"
+	       android:textSize="35sp"
+	       android:textStyle="bold"
+	       android:visibility="gone" />
+
+	   <!-- <RelativeLayout
+	       android:layout_width="match_parent"
+	       android:layout_height="wrap_content"
+	       android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_marginBottom="10dp" >
+	   
+		   <Button
+		       android:id="@+id/btnLogout"
+		       android:layout_width="400dp"
+		       android:layout_height="60dp"
+		       android:background="@drawable/button_background"
+		       android:textColor="#000000"
+	            android:textStyle="bold"
+	            android:layout_centerHorizontal="true"
+		       android:textSize="35sp"
+		       android:text="Log out" />        
+		           
+		   
+		   <Button
+		       android:id="@+id/btnLogin"
+		       android:layout_width="400dp"
+		       android:layout_height="60dp"
+		       android:background="@drawable/button_background"
+		       android:textColor="#000000"
+	            android:textStyle="bold"
+		       android:textSize="35sp"
+	            android:layout_centerHorizontal="true"
+		       android:visibility="invisible"
+		       android:text="Log in" />
+	   </RelativeLayout> -->
+	           
+	   <com.seemoreinteractive.seemoreinteractive.helper.PressedBgButton
+	       android:id="@+id/btnCancel"
+	       android:layout_width="400dp"
+	       android:layout_height="60dp"
+	       android:background="@drawable/button_background_black"
+	       android:text="Cancel"
+	       android:textColor="#FFFFFF"
+            android:textStyle="bold"
+	       android:textSize="35sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp" />
+        
+    </LinearLayout>
+</ScrollView>

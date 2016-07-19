@@ -1,0 +1,3 @@
+[29-Apr-2015 21:32:23 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/seemore/public_html/blog/wp-content/plugins/hello.php on line 60
+[14-May-2015 23:20:14 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/seemore/public_html/blog/wp-content/plugins/hello.php on line 60
+[23-Jun-2015 01:56:54 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/seemore/public_html/blog/wp-content/plugins/hello.php on line 60

@@ -1,0 +1,45 @@
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!-- stripped down version of original manifest.plist 
+  https://help.apple.com/iosdeployment-apps/?lang=en-us#app43ad78b3
+  for use with DPS apps 
+  follow instructions in comments
+  -->
+<plist version="1.0">
+<dict>
+   <key>items</key>
+   <array>
+       <dict>
+           <key>assets</key>
+           <array>
+               <dict>
+                   <key>kind</key>
+                   <string>software-package</string>
+                   <key>url</key>
+                   <!-- the absolute URL of the .ipa to download -->
+                   <string>http://devarapps.seemoreinteractive.com/mobileapps/web/views/downloads/seemore.ipa</string>
+               </dict>
+               <dict>
+                   <key>kind</key>
+                   <string>display-image</string>
+                   <key>url</key>
+                   <!-- icon -->
+                   <string>http://nybok.de/viewer/apple-adhoc-57.png</string>
+               </dict>
+           </array><key>metadata</key>
+           <dict>
+               <key>bundle-identifier</key>
+               <!-- bundle identifier you find in Viewer Builder -->
+               <string>com.seemoreinteractive.seemoreshowroom</string>
+               <key>bundle-version</key>
+               <!-- any number will do -->
+               <string>1.2.3.4.56789</string>
+               <key>kind</key>
+               <string>software</string>
+               <key>title</key>
+               <!-- title to display during the download -->
+               <string>SeeMore Interactive Direct</string>
+           </dict>
+       </dict>
+   </array>
+</dict>
+</plist>

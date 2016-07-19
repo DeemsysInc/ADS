@@ -1,0 +1,66 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On 
+ RewriteBase /blog/
+
+RewriteRule ^mobile-commerce/mobile-commerce-trends-of-2013.aspx  2013/12/26/mobile-commerce-trends-of-2013 [R=301,NC,L] 
+RewriteRule ^mobile-commerce/social-media-and-mobile-commerce.aspx  2013/08/13/social-media-and-mobile-commerce [R=301,NC,L] 
+
+
+RewriteRule ^mobile-commerce/mobile-commerce-small-businesses.aspx  2013/10/07/mobile-commerce-small-businesses [R=301,NC,L] 
+RewriteRule ^mobile-commerce/mobile-commerce-trends.aspx  2013/12/26/mobile-commerce-trends [R=301,NC,L] 
+RewriteRule ^mobile-commerce/mobile-commerce.aspx  2013/08/13/mobile-commerce [R=301,NC,L] 
+RewriteRule ^retail-marketing/popular-trends-in-retail-marketing.aspx  2013/11/26/popular-trends-in-retail-marketing [R=301,NC,L] 
+RewriteRule ^mobile-commerce/showrooming-how-retailers-can-combat-it.aspx  2013/10/24/showrooming-how-retailers-can-combat-it [R=301,NC,L] 
+RewriteRule ^mobile-commerce/new-research-confirms-increase-of-showrooming.aspx  2013/10/22/new-research-confirms-increase-of-showrooming [R=301,NC,L] 
+RewriteRule ^mobile-commerce/mobile-shopping-opportunities-for-holiday-season.aspx  2013/11/15/mobile-shopping-opportunities-for-holiday-season [R=301,NC,L] 
+RewriteRule ^retail-marketing/retail-marketing-and-augmented-reality.aspx  2013/09/16/retail-marketing-and-augmented-reality [R=301,NC,L] 
+RewriteRule ^retail-marketing/personalized-mobile-marketing-strategies-to-fight-showrooming.aspx  2013/11/21/personalized-mobile-marketing-strategies-to-fight-showrooming [R=301,NC,L] 
+RewriteRule ^mobile-commerce/retailers-need-to-focus-on-m-commerce.aspx  2013/11/01/retailers-need-to-focus-on-m-commerce [R=301,NC,L] 
+RewriteRule ^retail-marketing/its-brown-thursday-for-this-holiday-shopping.aspx  2013/11/29/its-brown-thursday-for-this-holiday-shopping [R=301,NC,L] 
+RewriteRule ^mobile-commerce/touch-devices-facilitate-shopping.aspx  2013/12/30/touch-devices-facilitate-shopping [R=301,NC,L]
+RewriteRule ^mobile-commerce/touchscreen-devices-facilitate-shopping-on-a-whim.aspx  2013/12/30/touch-devices-facilitate-shopping [R=301,NC,L]
+
+RewriteRule ^mobile-commerce/mobile-customer-engagement.aspx  2013/12/13/mobile-customer-engagement [R=301,NC,L] 
+RewriteRule ^mobile-commerce/m-commerce.aspx  2013/12/05/m-commerce [R=301,NC,L] 
+RewriteRule ^news/the-columbus-award-program-recognizes-seemore-interactive-inc.aspx  2013/12/11/the-columbus-award-program-recognizes-seemore-interactive-inc [R=301,NC,L] 
+RewriteRule ^mobile-commerce/the-impact-of-ar-technology-on-retail-marketing.aspx  2013/10/01/the-impact-of-ar-technology-on-retail-marketing [R=301,NC,L] 
+RewriteRule ^retail-marketing/online-shopping-tool.aspx  2013/12/04/online-shopping-tool [R=301,NC,L] 
+RewriteRule ^mobile-commerce/mobile-commerce-success.aspx  2013/12/03/mobile-commerce-success [R=301,NC,L]
+RewriteRule ^mobile-commerce/factors-to-consider-for-your-mobile-commerce-success.aspx  2013/12/03/mobile-commerce-success [R=301,NC,L] 
+RewriteRule ^mobile-commerce/seemore-interactive-augmented-reality.aspx  2013/09/11/seemore-interactive-augmented-reality [R=301,NC,L] 
+RewriteRule ^mobile-commerce/augmented-reality-can-avoid-the-death-of-qr-code.aspx  2013/10/28/augmented-reality-can-avoid-the-death-of-qr-code [R=301,NC,L] 
+RewriteRule ^mobile-commerce/significance-of-mobile-devices-social-media-in-online-shopping.aspx  2013/11/08/significance-of-mobile-devices-social-media-in-online-shopping [R=301,NC,L] 
+RewriteRule ^mobile-commerce/online-sales-on-thanksgiving-is-likely-to-surpass-black-friday.aspx  2013/11/07/online-sales-on-thanksgiving-is-likely-to-surpass-black-friday [R=301,NC,L] 
+RewriteRule ^mobile-commerce/mobile-commerce-sales.aspx  2013/12/16/mobile-commerce-sales [R=301,NC,L] 
+RewriteRule ^mobile-commerce/reinventing-in-store-experience-to-change-the-future-of-retail.aspx  2013/09/26/reinventing-in-store-experience-to-change-the-future-of-retail [R=301,NC,L] 
+
+RewriteRule ^mobile-commerce/mobile-advertising.aspx  2014/01/06/mobile-advertising [R=301,NC,L] 
+RewriteRule ^mobile-commerce/seemore-implements-ar-technology-to-fight-retail-showrooming.aspx  2013/09/11/seemore-implements-ar-technology-to-fight-retail-showrooming [R=301,NC,L] 	
+
+
+RewriteRule ^mobile-commerce/mobile-marketing-or-mobile-advertising-what-do-brands-need.aspx  2013/08/13/mobile-marketing-or-mobile-advertising-what-do-brands-need [R=301,NC,L] 
+RewriteRule ^mobile-commerce/this-christmas-tablets-accounts-for-80-of-mobile-commerce-sales.aspx  2013/12/16/mobile-commerce-sales [R=301,NC,L] 
+RewriteRule ^retail-marketing/reinventing-retail-marketing-through-augmented-reality.aspx  2013/09/16/reinventing-retail-marketing-through-augmented-reality [R=301,NC,L] 
+
+
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /blog/index.php [L]
+
+
+  
+</IfModule>
+
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /blog/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /blog/index.php [L]
+</IfModule>
+
+# END WordPress

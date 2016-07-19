@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dip" >
+
+    
+	 
+
+     <TextView
+         android:id="@+id/txtWishListName"
+         android:layout_width="200dp"
+         android:layout_height="30dp"
+         android:text=""
+         android:textAppearance="?android:attr/textAppearanceLarge"
+         android:textSize="25sp" />
+     <TextView
+         android:id="@+id/txtWishListId"
+         android:layout_width="20dp"
+         android:layout_height="30dp"
+         android:layout_toRightOf="@+id/txtWishListName"
+         android:text=""
+         android:textAppearance="?android:attr/textAppearanceLarge"
+         android:textSize="15sp"
+		 android:visibility="invisible"/>
+
+        <ImageView
+            android:id="@+id/imgarrow"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/txtWishListItemCnt"
+            android:src="@drawable/rightarrow_2x" />
+
+        <TextView
+            android:id="@+id/txtUsername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/txtWishListName"
+            android:layout_below="@+id/txtWishListName"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/txtWishListItemCnt"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/imgarrow"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="20sp"
+             />
+
+</RelativeLayout>

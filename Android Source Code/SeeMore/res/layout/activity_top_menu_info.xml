@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <com.seemoreinteractive.seemoreinteractive.helper.PressedBgButton
+        android:id="@+id/btnRecentlyScanned"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_above="@+id/btnSettings"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="false"
+        android:background="@drawable/round_corners_white_bg"
+        android:text="Recently Scanned"
+        android:textColor="@color/BlackColor"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <com.seemoreinteractive.seemoreinteractive.helper.PressedBgButton
+        android:id="@+id/btnSettings"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_above="@+id/btnFindAStore"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/round_corners_white_bg"
+        android:text="Settings"
+        android:textColor="@color/BlackColor"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <com.seemoreinteractive.seemoreinteractive.helper.PressedBgButton
+        android:id="@+id/btnFindAStore"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/round_corners_white_bg"
+        android:text="Find A Store"
+        android:textColor="@color/BlackColor"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <!-- <com.seemoreinteractive.seemoreinteractive.helper.PressedBgButton
+        android:id="@+id/btnMyOrders"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/btnFindAStore"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/round_corners_white_bg"
+        android:text="My Orders"
+        android:textColor="@color/BlackColor"
+        android:textSize="30sp"
+        android:textStyle="bold" /> -->
+
+     <com.seemoreinteractive.seemoreinteractive.helper.PressedBgButton
+         android:id="@+id/btnCancel"
+         android:layout_width="300dp"
+         android:layout_height="60dp"
+         android:layout_alignLeft="@+id/btnFindAStore"
+         android:layout_below="@+id/btnFindAStore"
+         android:layout_marginTop="20dp"
+         android:background="@drawable/round_corners_white_bg"
+         android:text="Cancel"
+         android:textColor="@color/BlackColor"
+         android:textSize="30sp"
+         android:textStyle="bold" />
+
+   <!--   <com.seemoreinteractive.seemoreinteractive.helper.PressedBgButton
+         android:id="@+id/btnGames"
+         android:layout_width="300dp"
+         android:layout_height="60dp"
+         android:layout_alignLeft="@+id/btnFindAStore"
+         android:layout_below="@+id/btnFindAStore"
+         android:layout_marginTop="20dp"
+         android:background="@drawable/round_corners_white_bg"
+         android:text="Games"
+         android:textColor="@color/BlackColor"
+         android:textSize="30sp"
+         android:textStyle="bold" /> -->
+
+</RelativeLayout>

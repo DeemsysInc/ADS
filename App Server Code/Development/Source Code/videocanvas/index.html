@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Slider - jQuery Mobile Demos</title>
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css">
+    <link rel="stylesheet" href="css/jqm-demos.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">   
+
+</head>
+<body>
+<div>
+
+    <div data-role="header" class="jqm-header">
+       
+    </div><!-- /header -->
+
+    <div role="main" class="ui-content jqm-content">
+        <!-- <div id="imageController">
+
+            <div style="text-align: center;margin-bottom: 20px">
+                <button id="startbutton" style="border-radius: 5px;padding: 10px;background-color: lightsalmon;color: white;border: 0;margin-right: 20px;">Capture</button> 
+                <button id="clearbutton" style="border-radius: 5px;padding: 10px;background-color: lightseagreen;color: white;border: 0">Retake</button> 
+            </div>
+
+            <div id="divSlider">
+                <label>Image Resize</label>
+                <input id="imageWidthSlider" type="range" min="100" max="400" step="1" value="200" class="ui-hidden-accessible"/>
+            </div>
+
+            <div>
+                <label>Rotate Image</label>
+                <button id="btnRotateRight" style="float: left;width: 40%;margin-right: 10px;">Rotate Right </button>
+                <button id="btnRotateLeft" style="float: left;width: 40%;">Rotate Left </button>
+            </div>
+            <div style="clear:both;">&nbsp;</div>
+            <div>
+                <label>Move Image</label>
+                <button id="moveRight" style="float: left;width: 40%;margin-right: 10px;">Move Right </button>
+                <button id="moveLeft" style="float: left;width: 40%;">Move Left </button>
+            </div>
+            <div style="clear:both;">&nbsp;</div>
+            <div>
+                <button id="moveUp" style="float: left;width: 40%;margin-right: 10px;">Move Up </button>
+                <button id="moveDown" style="float: left;width: 40%;">Move Down </button>
+            </div>
+        </div>
+        <div style="clear:both;">&nbsp;</div> -->
+        <div class="mask-container">
+            <!-- <video id="video" width="400" height="300" autoplay style="display:none;"></video> -->
+            <!-- <canvas id="canvas" width="400" height="300"></canvas> -->
+            <!-- <img id="photo">  -->
+            <video id="video" width="400" height="300" autoplay style="display:none;"></video>
+            <canvas id="videoCanvas" width="400" height="300" style="z-index: 1;position:absolute;left:1%;"></canvas>
+             <!-- <div class="picture_canvas_div" style="z-index: 2;position:absolute;left:1%;"> -->
+                <!-- <canvas id="pictureCanvas" width="400" height="300"> -->
+             <!-- </div> -->
+            <!-- <canvas id="pictureCanvas" width="400" height="300" style="z-index: 2;position:absolute;left:1%;"></canvas> -->
+             <canvas id="pictureCanvas" width="400" height="300">
+            <img id="photo"  width="400" height="300" style="z-index: 3;position:absolute;left:1%;"> 
+        </div>
+        <!-- div>
+            <video id="video" width="400" height="300" autoplay style="display:none;"></video>
+            <canvas id="videoCanvas" width="400" height="440" style="z-index: 1;position:absolute;left:0px;top:0px;"></canvas>
+            <canvas id="pictureCanvas" width="400" height="440" style="z-index: 2;position:absolute;left:0px;top:0px;"></canvas>
+            <img id="photo"> 
+        </div> -->
+
+        
+       
+
+<!--        <div id="container"></div> -->
+
+<!-- <button id="scale">Scale *1.10</button> -->
+
+
+            
+    </div><!-- /content -->
+   
+   
+</div><!-- /page -->
+<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="js/video.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>       
+</body>
+</html>

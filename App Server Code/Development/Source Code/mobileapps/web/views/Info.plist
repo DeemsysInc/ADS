@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ApplicationProperties</key>
+	<dict>
+		<key>ApplicationPath</key>
+		<string>Applications/SeeMore Interactive.app</string>
+		<key>CFBundleIdentifier</key>
+		<string>com.seemoreinteractive.seemoreinteractive</string>
+		<key>CFBundleShortVersionString</key>
+		<string>2.8</string>
+		<key>CFBundleVersion</key>
+		<string>2.8</string>
+		<key>IconPaths</key>
+		<array>
+			<string>Applications/SeeMore Interactive.app/SL_Icon-80.png</string>
+			<string>Applications/SeeMore Interactive.app/SL_Icon-120.png</string>
+			<string>Applications/SeeMore Interactive.app/SL_Icon-57.png</string>
+			<string>Applications/SeeMore Interactive.app/SL_Icon-72.png</string>
+			<string>Applications/SeeMore Interactive.app/SL_Icon-Small-50.png</string>
+			<string>Applications/SeeMore Interactive.app/SL_Icon-Small@2x.png</string>
+			<string>Applications/SeeMore Interactive.app/SL_Icon-Small.png</string>
+			<string>Applications/SeeMore Interactive.app/SL_Icon-Small@2x.png</string>
+			<string>Applications/SeeMore Interactive.app/SL_Icon@2x.png</string>
+			<string>Applications/SeeMore Interactive.app/SL_Icon.png</string>
+			<string>Applications/SeeMore Interactive.app/SL_Icon@2x.png</string>
+		</array>
+		<key>SigningIdentity</key>
+		<string>iPhone Developer: Neal Applefeld (36LAY8HJ77)</string>
+	</dict>
+	<key>ArchiveVersion</key>
+	<integer>2</integer>
+	<key>CreationDate</key>
+	<date>2014-06-22T17:10:56Z</date>
+	<key>Name</key>
+	<string>Seemore Showroom</string>
+	<key>SchemeName</key>
+	<string>Seemore Showroom</string>
+</dict>
+</plist>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ 	android:id="@+id/bgRelativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/bg_tab_selection">
+     <include
+                android:id="@+id/include1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                layout="@layout/layout_header" />
+
+    <GridView
+        android:id="@+id/grid_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"    
+        android:gravity="center"
+        android:horizontalSpacing="10dp"
+        android:numColumns="1"
+        android:scrollbars="vertical"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="10dp"
+        android:layout_below="@+id/include1" 
+        android:layout_marginBottom="64dp"
+        >
+        
+    </GridView>
+    
+     <RelativeLayout
+         android:id="@+id/totalnav"
+         android:layout_width="fill_parent"
+         android:layout_height="64dp"
+         android:layout_alignParentBottom="true"
+         android:layout_marginBottom="1dp"
+         android:orientation="horizontal" >
+
+	   <com.seemoreinteractive.seemoreinteractive.helper.PressedBgImageView
+	       android:id="@+id/save_it"
+	       android:layout_width="300dp"
+	       android:layout_height="64dp"
+	       android:layout_alignParentBottom="true"
+	       android:layout_alignParentRight="true"
+	       android:scaleType="fitXY"
+	       android:src="@drawable/btn_saveit" />
+	    <com.seemoreinteractive.seemoreinteractive.helper.PressedBgImageView
+	       android:id="@+id/go_back"
+	       android:layout_width="300dp"
+	       android:layout_height="64dp"
+	       android:layout_alignParentBottom="true"
+	       android:layout_alignParentLeft="true"
+	       android:scaleType="fitXY"
+	       android:src="@drawable/btn_goback"
+	       />
+	   <com.seemoreinteractive.seemoreinteractive.helper.PressedBgImageView
+	       android:id="@+id/imgAddToMyOffers"
+	       android:layout_width="300dp"
+	       android:layout_height="64dp"
+	       android:layout_alignParentBottom="true"
+	       android:layout_alignParentRight="true"
+	       android:scaleType="fitXY"
+	       android:visibility="invisible"
+	       android:src="@drawable/btn_add_to_myoffers" />
+	    <com.seemoreinteractive.seemoreinteractive.helper.PressedBgImageView
+	       android:id="@+id/imgNoThanks"
+	       android:layout_width="300dp"
+	       android:layout_height="64dp"
+	       android:layout_alignParentBottom="true"
+	       android:layout_alignParentLeft="true"
+	       android:scaleType="fitXY"
+	       android:visibility="invisible"
+	       android:src="@drawable/btn_add_no_thanks"
+	       />
+	    
+    </RelativeLayout>
+
+     <!-- <TextView
+         android:id="@+id/txtHeadLbl"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentTop="true"
+         android:layout_centerHorizontal="true"
+         android:text="Calendar Events"
+         android:textAppearance="?android:attr/textAppearanceLarge"
+         android:textSize="30sp" /> -->
+
+      <include
+                android:id="@+id/include_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                layout="@layout/instruction_layout" />
+
+      <ProgressBar
+          android:id="@+id/progressBar"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_centerHorizontal="true"
+          android:layout_centerVertical="true"
+          android:background="@xml/custom_border"
+          android:indeterminateDrawable="@xml/my_progress_indeterminate"     
+          android:visibility="invisible" />
+
+</RelativeLayout>
+        

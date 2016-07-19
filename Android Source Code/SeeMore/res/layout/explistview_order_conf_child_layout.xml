@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:padding="@dimen/padding_large" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/txtvExpProductName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="Product Name"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/BlackColor"
+            android:textSize="25sp" />
+
+        <ImageView
+            android:id="@+id/imgvExpProdImage"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/txtvExpProductName"
+            android:scaleType="fitXY"
+            android:src="@drawable/window1" />
+
+        <ImageView
+            android:id="@+id/imgvExpColorCode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/imgvExpProdImage"
+            android:layout_toRightOf="@+id/imgvExpProdImage"
+            android:background="@color/BlackColor"
+            android:src="@drawable/img_blank" />
+
+        <TextView
+            android:id="@+id/txtvExpSize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgvExpColorCode"
+            android:layout_toRightOf="@+id/imgvExpProdImage"
+            android:text="XXL"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/BlackColor"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtvExpProdQuantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imgvExpColorCode"
+            android:layout_marginLeft="30dp"
+            android:layout_toRightOf="@+id/txtvExpProductName"
+            android:text="1"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/BlackColor"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/txtvExpMultiplySymbol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imgvExpColorCode"
+            android:layout_toRightOf="@+id/txtvExpProdQuantity"
+            android:text=" X "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/BlackColor"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/txtvExpProdPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/txtvExpMultiplySymbol"
+            android:layout_toRightOf="@+id/txtvExpMultiplySymbol"
+            android:text="$149.99"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/BlackColor"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/txtvExpProdTotalPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/txtvExpProdPrice"
+            android:layout_alignBottom="@+id/txtvExpProdPrice"
+            android:layout_marginLeft="30dp"
+            android:layout_toRightOf="@+id/txtvExpProdPrice"
+            android:text="$149.99"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/BlackColor"
+            android:textSize="25sp" />
+
+        <ImageView
+            android:id="@+id/imgvRemoveIcon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/txtvExpProductName"
+            android:src="@drawable/exp_remove_icon" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="50dp"
+            android:layout_height="20dp"
+            android:layout_alignTop="@+id/txtvExpProdTotalPrice"
+            android:layout_toLeftOf="@+id/imgvRemoveIcon"
+            android:scaleType="fitXY"
+            android:src="@drawable/btn_profile_edit" />
+
+    </RelativeLayout>
+
+</ScrollView>

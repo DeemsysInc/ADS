@@ -1,0 +1,269 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#C9C9C9"
+    android:orientation="vertical"
+    android:scrollbars="vertical" >
+
+    <include
+        android:id="@+id/include1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        layout="@layout/layout_header" />
+
+    <com.seemoreinteractive.seemoreinteractive.helper.BounceScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/include1"
+        android:fillViewport="true" >
+
+        <RelativeLayout
+            android:id="@+id/bgRelativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="top"
+            android:orientation="vertical"
+            android:scrollbars="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/basic_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/basic_layout"
+                android:layout_margin="15dp" >
+
+                <RelativeLayout
+                    android:id="@+id/basic_info"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@xml/rounded_edittext" >
+
+                    <ImageView
+                        android:id="@+id/edit_basic"
+                        android:layout_width="65dp"
+                        android:layout_height="65dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="15dp"
+                        android:clickable="true"
+                        android:src="@drawable/btn_profile_edit" />
+
+                    <TextView
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:padding="5dp"
+                        android:text="Basic info"
+                        android:textColor="#000"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+                <View
+                    android:id="@+id/basic_div"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@+id/basic_info" />
+
+                <ListView
+                    android:id="@+id/basic_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/basic_div"
+                    android:background="@xml/rounded_edittext"
+                    android:divider="#D8D8D8"
+                    android:dividerHeight="2px" >
+                </ListView>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/contact_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/basic_layout"
+                android:layout_margin="15dp" >
+
+                <RelativeLayout
+                    android:id="@+id/contact_info"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@xml/rounded_edittext" >
+
+                    <ImageView
+                        android:id="@+id/edit_contact"
+                        android:layout_width="65dp"
+                        android:layout_height="65dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="15dp"
+                        android:clickable="true"
+                        android:src="@drawable/btn_profile_edit" />
+
+                    <TextView
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:padding="5dp"
+                        android:text="Contact info"
+                        android:textColor="#000"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+                <View
+                    android:id="@+id/contact_div"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@+id/contact_info" />
+
+                <ListView
+                    android:id="@+id/contact_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/contact_div"
+                    android:background="@xml/rounded_edittext"
+                    android:divider="#D8D8D8"
+                    android:dividerHeight="2px" >
+                </ListView>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/address_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/contact_layout"
+                android:layout_margin="15dp" >
+
+                <RelativeLayout
+                    android:id="@+id/address_info"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:background="@xml/rounded_edittext" >
+
+                    <ImageView
+                        android:id="@+id/edit_address"
+                        android:layout_width="65dp"
+                        android:layout_height="65dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="15dp"
+                        android:clickable="true"
+                        android:src="@drawable/btn_profile_edit" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:padding="5dp"
+                        android:text="Address"
+                        android:textColor="#000"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+                <View
+                    android:id="@+id/address_div"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@+id/address_info" />
+
+                <ListView
+                    android:id="@+id/address_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="270dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/address_div"
+                    android:background="@xml/rounded_edittext"
+                    android:divider="#D8D8D8"
+                    android:dividerHeight="2px" >
+                </ListView>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/password_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/address_layout"
+                android:layout_margin="15dp" >
+
+                <RelativeLayout
+                    android:id="@+id/password_info"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@xml/rounded_edittext" >
+
+                    <ImageView
+                        android:id="@+id/edit_password"
+                        android:layout_width="65dp"
+                        android:layout_height="65dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="15dp"
+                        android:clickable="true"
+                        android:src="@drawable/btn_profile_edit" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:padding="5dp"
+                        android:text="Password Management"
+                        android:textColor="#000"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+                <View
+                    android:id="@+id/password_div"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@+id/password_info" />
+
+                <RelativeLayout
+                    android:id="@+id/password_list"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/password_div"
+                    android:layout_marginBottom="15dp"
+                    android:background="@xml/rounded_edittext"
+                    android:orientation="horizontal"
+                    android:padding="3dip"
+                    android:textAlignment="viewStart" >
+
+                    <!-- ListRow Left sied Thumbnail image -->
+
+                    <TextView
+                        android:id="@+id/plabel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"
+                        android:text="Update Password"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/BlackColor"
+                        android:textSize="20sp" />
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dp"
+                        android:layout_below="@+id/plabel" />
+                </RelativeLayout>
+            </RelativeLayout>
+                  <include
+        android:id="@+id/include_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        layout="@layout/instruction_layout" />
+        </RelativeLayout>
+    </com.seemoreinteractive.seemoreinteractive.helper.BounceScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/coverflowLlayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical|center_horizontal"
+    android:orientation="vertical" >
+	
+	<!-- <LinearLayout
+	   android:id="@+id/coverflowLlayout"
+	   android:layout_width="400dp"
+	   android:layout_height="400dp"
+	   android:orientation="vertical" 
+	   android:background="@drawable/shape"
+	   android:layout_centerHorizontal="true"
+	   android:layout_centerVertical="true"
+	   android:gravity="top"
+	   android:layout_gravity="center_vertical|center_horizontal">
+
+        <Button
+            android:id="@+id/btnSeeItLive"
+            android:layout_width="159dp"
+            android:layout_height="80dp"
+            android:layout_gravity="right"
+            android:background="@drawable/see_it_live"
+            android:gravity="right|top"
+            android:text="@string/see_it_live_multi_line"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:typeface="serif"
+	        android:visibility="invisible" />
+	   
+		<ImageView
+		    android:id="@+id/coverFlowImage"
+		    android:layout_width="320dp"
+		    android:layout_height="300dp"
+   			android:layout_gravity="center_vertical|center_horizontal"
+		    android:scaleType="fitCenter" />
+	</LinearLayout> -->
+	
+	 
+	<RelativeLayout
+	    android:id="@+id/coverflowLlayoutImage"
+	    android:layout_width="350dp"
+	    android:layout_height="400dp"
+	    android:background="@color/WhiteColor" >
+		
+		<ImageView
+		    android:id="@+id/coverFlowImage"
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:layout_gravity="center_vertical|center_horizontal"
+		    android:scaleType="fitCenter" />
+		
+        <Button
+            android:id="@+id/btnSeeItLive"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="right|top"
+            android:background="@drawable/see_it_live"
+            android:gravity="right|top"
+            android:paddingRight="10dp"
+            android:text="@string/see_it_live_multi_line"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:visibility="invisible" />
+
+	</RelativeLayout>
+	
+</LinearLayout>

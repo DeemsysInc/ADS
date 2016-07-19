@@ -1,0 +1,1 @@
+DROP TABLE wp_posts_sent_to_bli;

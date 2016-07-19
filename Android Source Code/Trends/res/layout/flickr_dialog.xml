@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#ffffff">
+
+    <TextView
+        android:id="@+id/flickr_title_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        android:textColor="#000000"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/flickr_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="title">
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/flickr_title_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        android:textColor="#000000"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/flickr_description"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="description"
+        android:inputType="textPostalAddress" />
+
+</LinearLayout>

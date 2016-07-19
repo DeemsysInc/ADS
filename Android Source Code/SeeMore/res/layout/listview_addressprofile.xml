@@ -1,0 +1,36 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="3dip"
+    android:textAlignment="viewStart"
+    android:layout_marginTop="3dp" >
+
+	<!--  ListRow Left sied Thumbnail image -->
+	     
+        
+     <TextView
+         android:id="@+id/alabel"
+         android:layout_width="120dp"
+         android:layout_height="wrap_content"
+         android:layout_alignParentLeft="true"
+         android:text=""
+         android:textAppearance="?android:attr/textAppearanceLarge"
+         android:textSize="18sp"
+         android:padding="5dp"
+         android:textColor="#d4d4d4"/>
+     
+     <TextView
+         android:id="@+id/avalue"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_toRightOf="@+id/alabel"
+         android:text="0000-00-00 00:00:00"
+         android:textAlignment="center"
+         android:textAppearance="?android:attr/textAppearanceLarge"
+         android:textSize="20sp" 
+         android:padding="5dp"
+         android:textColor="@color/BlackColor"/>
+
+</RelativeLayout>

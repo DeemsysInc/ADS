@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rlForHeaderPanel1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <com.seemoreinteractive.seemoreinteractive.helper.PressedBgImageView
+            android:id="@+id/imgvBtnBack1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/gradient_bg_for_left_right"
+            android:src="@drawable/btn_back" />
+
+        <com.seemoreinteractive.seemoreinteractive.helper.PressedBgImageView
+            android:id="@+id/imgvBtnCart1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/gradient_bg_for_left_right"
+            android:src="@drawable/btn_cart" />
+
+        <RelativeLayout
+            android:id="@+id/rlForHeaderMiddle1"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/gradient_bg_for_middle"
+            android:layout_toLeftOf="@+id/imgvBtnCart1"
+            android:layout_toRightOf="@+id/imgvBtnBack1" >
+
+            <TextView
+                android:id="@+id/txtvHeadTitle1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/stripe_texture"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <ImageView
+                android:id="@+id/imgvHeadTitle1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/stripe_texture"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

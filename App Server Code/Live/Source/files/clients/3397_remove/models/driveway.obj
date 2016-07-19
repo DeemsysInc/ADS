@@ -1,0 +1,20 @@
+# This file uses centimeters as units for non-parametric coordinates.
+
+mtllib driveway.mtl
+g default
+v 2.189755 0.000000 13.270461
+v 7.739838 0.000000 13.270461
+v 2.189755 0.000000 3.633557
+v 7.739838 0.000000 3.633557
+vt 0.276149 0.000000
+vt 0.723851 0.000000
+vt 0.723851 1.000000
+vt 0.276149 1.000000
+vn 0.000000 1.000000 0.000000
+vn 0.000000 1.000000 0.000000
+vn 0.000000 1.000000 0.000000
+vn 0.000000 1.000000 0.000000
+s off
+g driveway1
+usemtl driveway:baked_lambert17SG_pPlane1SG
+f 1/1/1 2/2/2 4/3/3 3/4/4

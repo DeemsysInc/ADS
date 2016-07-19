@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/camera_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/camerafocus" >
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@xml/custom_border"
+        android:indeterminateDrawable="@xml/my_progress_indeterminate"       
+        android:visibility="visible" />
+
+    <include
+        android:id="@+id/include1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        layout="@layout/instruction_layout" />
+
+    <RelativeLayout
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true" >
+
+        <com.seemoreinteractive.seemoreinteractive.helper.PressedBgImageView
+            android:id="@+id/imgvShopNow"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/btn_shop_now" />
+
+        <com.seemoreinteractive.seemoreinteractive.helper.PressedBgImageView
+            android:id="@+id/imgvMyOffers"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_toRightOf="@+id/imgvShopNow"
+            android:src="@drawable/btn_my_offers" />
+
+        <com.seemoreinteractive.seemoreinteractive.helper.PressedBgImageView
+            android:id="@+id/imgvInfoIcon"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/sm_red_icon" />
+
+        <com.seemoreinteractive.seemoreinteractive.helper.PressedBgImageView
+            android:id="@+id/imgvGoToMyCloset"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_toRightOf="@+id/imgvInfoIcon"
+            android:src="@drawable/btn_my_favorites" />
+
+        <com.seemoreinteractive.seemoreinteractive.helper.PressedBgImageView
+            android:id="@+id/imgvShopparVision"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/btn_information" />
+
+    </RelativeLayout>
+
+    <com.seemoreinteractive.seemoreinteractive.helper.PressedBgImageView
+        android:id="@+id/close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/imgContentDesc"
+        android:onClick="closeVideo"
+        android:scaleType="fitXY"
+        android:src="@drawable/btn_closegrey"
+        android:visibility="invisible" />
+
+    <include
+        android:id="@+id/includeNew"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        layout="@layout/layout_header_home" />
+
+    <!-- <SlidingDrawer
+        android:id="@+id/slidingDrawer1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/includeNew"
+        android:content="@+id/content"
+        android:handle="@+id/handle"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <com.seemoreinteractive.seemoreinteractive.helper.PressedBgButton
+                android:id="@+id/btnRecentlyScanned"
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:layout_centerHorizontal="true"
+				android:layout_marginTop="100dp"
+                android:background="@drawable/round_corners_white_bg"
+                android:text="Recently Scanned"
+                android:textColor="@color/BlackColor"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <com.seemoreinteractive.seemoreinteractive.helper.PressedBgButton
+                android:id="@+id/btnSettings"
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:layout_below="@+id/btnRecentlyScanned"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/round_corners_white_bg"
+                android:text="Settings"
+                android:textColor="@color/BlackColor"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <com.seemoreinteractive.seemoreinteractive.helper.PressedBgButton
+                android:id="@+id/btnFindAStore"
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:layout_below="@+id/btnSettings"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/round_corners_white_bg"
+                android:text="Find A Store"
+                android:textColor="@color/BlackColor"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <com.seemoreinteractive.seemoreinteractive.helper.PressedBgButton
+                android:id="@+id/btnMyOrders"
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:layout_below="@+id/btnFindAStore"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/round_corners_white_bg"
+                android:text="My Orders"
+                android:textColor="@color/BlackColor"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/handle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible" />
+    </SlidingDrawer> -->
+
+</RelativeLayout>

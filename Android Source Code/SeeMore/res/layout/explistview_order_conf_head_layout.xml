@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/border_bottom_red"
+    android:padding="@dimen/padding_large" >
+
+    <TextView
+        android:id="@+id/txtvExpGroupHeadClientName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="SeeMore"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FBF0FD"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imgvExpArrowIcon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/txtvExpGroupHeadClientName"
+        android:scaleType="fitXY"
+        android:src="@drawable/arrow_down" />
+
+    <TextView
+        android:id="@+id/txtvExpSubTotalPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtvExpTitleSubTotal"
+        android:layout_alignBottom="@+id/txtvExpTitleSubTotal"
+        android:layout_marginRight="23dp"
+        android:layout_toLeftOf="@+id/imgvExpArrowIcon"
+        android:text="$299.99"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FBF0FD"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtvExpTitleSubTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/txtvExpGroupHeadClientName"
+        android:layout_toLeftOf="@+id/txtvExpSubTotalPrice"
+        android:text="Sub Total: "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FBF0FD"
+        android:textSize="30sp" />
+
+</RelativeLayout>

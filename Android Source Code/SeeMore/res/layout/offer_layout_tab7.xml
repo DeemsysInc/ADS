@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ProgressBar
+        android:id="@+id/progressLoader"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+
+    <com.seemoreinteractive.seemoreinteractive.helper.PressedBgButton
+        android:id="@+id/btnaddoffer"
+        android:layout_width="234dp"
+        android:layout_height="64dp"
+        android:layout_alignLeft="@+id/offerimage"
+        android:layout_below="@+id/offerimage"
+        android:layout_marginTop="23dp"
+		android:background="@drawable/btn_add_to_myoffers"  />
+
+    <com.seemoreinteractive.seemoreinteractive.helper.PressedBgButton
+        android:id="@+id/btnnothanks"
+        android:layout_width="234dp"
+        android:layout_height="64dp"
+        android:layout_alignBaseline="@+id/btnaddoffer"
+        android:layout_alignBottom="@+id/btnaddoffer"
+        android:layout_alignRight="@+id/offerimage"
+        android:background="@drawable/btn_add_no_thanks" />
+
+    <ImageView
+        android:id="@+id/offerimage"
+        android:layout_width="match_parent"
+        android:layout_height="319dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="false"
+        android:layout_marginTop="280dp"
+        android:scaleType="fitCenter" />
+
+</RelativeLayout>

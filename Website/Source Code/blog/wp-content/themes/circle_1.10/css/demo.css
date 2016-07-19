@@ -1,0 +1,4 @@
+#slider-carousel li {margin-right: 5px; margin-bottom:0; border:5px solid #e3e3e3;}
+#slider-carousel img {display: block; opacity: .9; cursor: pointer;}
+#slider-carousel img:hover {opacity: 1;}
+#slider-carousel .flex-active-slide img {opacity: 1; cursor: default;}

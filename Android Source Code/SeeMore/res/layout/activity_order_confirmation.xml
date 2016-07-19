@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bgRelativeLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/WhiteColor"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/include1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        layout="@layout/layout_header_shop" />
+
+    <include
+        android:id="@+id/include2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        layout="@layout/layout_footer_menu" />
+
+    <com.seemoreinteractive.seemoreinteractive.fancycoverflow.FancyCoverFlow
+        android:id="@+id/fancyCoverFlowForCart"
+        android:layout_width="fill_parent"
+        android:layout_height="580dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/include1" />
+
+    <RelativeLayout
+        android:id="@+id/shippingLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/include2"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/fancyCoverFlowForCart" >
+
+        <!--
+             <View
+            android:id="@+id/separator"
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="#000000" />
+        -->
+
+
+        <!--
+             <TextView
+            android:id="@+id/txtvShippingAddressChange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/txtvShippingAddress1"
+            android:layout_marginLeft="59dp"
+            android:layout_toRightOf="@+id/txtvShippingAddress1"
+            android:clickable="true"
+            android:text="@string/change"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#58ACFA"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+        -->
+
+        <com.seemoreinteractive.seemoreinteractive.helper.PressedBgButton
+            android:id="@+id/btnSaveOrder"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:background="#FF2600"
+            android:clickable="true"
+            android:text="Save Order"
+            android:textColor="@color/WhiteColor"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtvOrderTotalPrice"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/txtvOrderTotalTitle"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@+id/txtvOrderTotalTitle"
+            android:maxLength="12"
+            android:text="$0.00"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/BlackColor"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtShippingAddressTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="15dp"
+            android:text="Shipping Address"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/BlackColor"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtvSubOrderTotalPrice"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/btnSaveOrder"
+            android:layout_marginBottom="20dp"
+            android:layout_toRightOf="@+id/btnSaveOrder"
+            android:maxLength="12"
+            android:text=""
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/txtvSalesTaxPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/txtvSalesTaxTitle"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@+id/txtvSalesTaxTitle"
+            android:maxLength="10"
+            android:text="$0.00"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/BlackColor"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/txtvOrderTotalTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/txtvSubOrderTotalPrice"
+            android:layout_alignBottom="@+id/txtvSubOrderTotalPrice"
+            android:layout_alignLeft="@+id/txtvSubOrderTotalPrice"
+            android:text="Total :  "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/BlackColor"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <com.seemoreinteractive.seemoreinteractive.helper.PressedBgButton
+            android:id="@+id/btnCheckout"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_alignLeft="@+id/txtvOrderTotalTitle"
+            android:layout_below="@+id/txtvSubOrderTotalPrice"
+            android:layout_marginLeft="26dp"
+            android:background="#FF2600"
+            android:clickable="true"
+            android:text="Checkout"
+            android:textColor="@color/WhiteColor"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <com.seemoreinteractive.seemoreinteractive.helper.PressedBgButton
+            android:id="@+id/btnShop"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_alignBaseline="@+id/btnSaveOrder"
+            android:layout_alignBottom="@+id/btnSaveOrder"
+            android:layout_alignLeft="@+id/txtvShippingAddress2"
+            android:background="#FF2600"
+            android:clickable="true"
+            android:text="Shop"
+            android:textColor="@color/WhiteColor"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtvShippingAddress1"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/txtShippingAddressTitle"
+            android:layout_below="@+id/txtShippingAddressTitle"
+            android:maxLength="30"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/BlackColor"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txtvSalesTaxTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/txtvOrderTotalPrice"
+            android:layout_toLeftOf="@+id/txtvOrderTotalPrice"
+            android:text="Tax    :  "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/BlackColor"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/txtvShippingAddress2"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/txtvShippingAddress1"
+            android:layout_below="@+id/txtvShippingAddress1"
+            android:maxLength="30"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/BlackColor"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/txtvMessgae"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000000" />
+
+    <com.seemoreinteractive.seemoreinteractive.helper.PressedBgButton
+        android:id="@+id/btnShippingAddressChange"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/fancyCoverFlowForCart"
+        android:layout_marginLeft="82dp"
+        android:layout_toRightOf="@+id/txtvMessgae"
+        android:background="@drawable/button_border"
+        android:clickable="true"
+        android:text="Change"
+		android:textSize="20dp" />
+
+</RelativeLayout>

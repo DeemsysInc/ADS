@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+	
+.boxes {
+position:absolute;
+z-index:1;
+width: 75%;
+font-size: 100%;
+color: #E4E4E4;
+text-align: left;
+margin-left: 10%;
+background-color: transparent;
+border: 0px solid;
+outline:none;
+}
+	
+img
+{
+	width:639px;
+}
+input:focus {
+    outline: none;
+}

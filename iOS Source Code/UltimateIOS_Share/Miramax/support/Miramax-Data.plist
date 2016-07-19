@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Markers</key>
+	<array>
+		<dict>
+			<key>VisualImage</key>
+			<array>
+				<string>VadimKreyninAlciAubriel.png</string>
+				<string>AllisonValentineKelly_James.png</string>
+				<string>GregMartin.png</string>
+				<string>NickiAnders.png</string>
+				<string>ChrisHarvey.png</string>
+				<string>DamianGonzalezGorilla.png</string>
+				<string>DanRodriguez.png</string>
+				<string>ErinShoemaker.png</string>
+				<string>KarenDudas.png</string>
+				<string>LeavinPrak.png</string>
+				<string>MikeTracyLongin.png</string>
+				<string>StephenSzuter.png</string>
+				<string>TinaBrown.png</string>
+			</array>
+			<key>VideoURL</key>
+			<array>
+				<string>VadimKreyninAlciAubriel</string>
+				<string>AllisonValentineKelly</string>
+				<string>GregTroy</string>
+				<string>NickiAnders</string>
+				<string>chris_harvey</string>
+				<string>DamianGonzalezGorilla</string>
+				<string>DanRodriguez</string>
+				<string>ErinShoemaker</string>
+				<string>KarenDudas</string>
+				<string>LeavinPrak</string>
+				<string>MikeTracyLongin</string>
+				<string>StephenSzuter</string>
+				<string>TinaBrown</string>
+			</array>
+			<key>ProductURL</key>
+			<array>
+				<string>http://www.seemoreinteractive.com</string>
+				<string>http://www.seemoreinteractive.com</string>
+				<string>http://www.seemoreinteractive.com</string>
+				<string>http://www.seemoreinteractive.com</string>
+				<string>http://www.seemoreinteractive.com</string>
+				<string>http://www.seemoreinteractive.com</string>
+				<string>http://www.seemoreinteractive.com</string>
+				<string>http://www.seemoreinteractive.com</string>
+				<string>http://www.seemoreinteractive.com</string>
+				<string>http://www.seemoreinteractive.com</string>
+				<string>http://www.seemoreinteractive.com</string>
+				<string>http://www.seemoreinteractive.com</string>
+				<string>http://www.seemoreinteractive.com</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

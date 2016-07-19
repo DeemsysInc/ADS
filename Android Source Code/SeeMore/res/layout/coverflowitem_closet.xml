@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/coverflowLlayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical|center_horizontal"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/coverflowLlayoutText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/txtvProdName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:maxLength="20"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/coverflowLlayoutImage"
+        android:layout_width="400dp"
+        android:layout_height="450dp"
+        android:background="@color/WhiteColor" >
+
+        <ImageView
+            android:id="@+id/coverFlowImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:scaleType="fitCenter" />
+
+        <Button
+            android:id="@+id/btnSeeItLive"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/see_it_live"
+            android:gravity="top|right"
+            android:paddingRight="10dp"
+            android:text="@string/see_it_live_multi_line"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:visibility="invisible" />
+        
+
+          <ImageView
+              android:id="@+id/flag"
+              android:layout_width="60dp"
+              android:layout_height="60dp"
+              android:layout_alignParentBottom="true"
+              android:layout_alignParentLeft="true"
+              android:src="@drawable/icon_wantit" />
+          
+            <Button
+            android:id="@+id/btnSeeVideo"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/see_it_video"
+            android:gravity="center|right"
+            android:paddingRight="10dp"
+            android:paddingTop="25dp"
+            android:text="WATCH"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:visibility="invisible" />
+
+    </RelativeLayout>
+
+</LinearLayout>

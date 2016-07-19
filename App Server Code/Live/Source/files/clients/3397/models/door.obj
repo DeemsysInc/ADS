@@ -1,0 +1,20 @@
+# This file uses centimeters as units for non-parametric coordinates.
+
+mtllib door.mtl
+g default
+v -2.214679 0.320492 2.814880
+v -3.620841 0.320493 2.814880
+v -2.214735 3.077251 2.814880
+v -3.618504 3.077251 2.814880
+vt 0.859133 0.024801
+vt 0.580147 0.026101
+vt 0.863727 0.587460
+vt 0.583136 0.588769
+vn 0.000000 0.000000 1.000000
+vn 0.000000 0.000000 1.000000
+vn 0.000000 0.000000 1.000000
+vn 0.000000 0.000000 1.000000
+s off
+g door1
+usemtl door:baked_lambert5SG_porchConcreteSG
+f 4/4/1 2/2/2 1/1/3 3/3/4

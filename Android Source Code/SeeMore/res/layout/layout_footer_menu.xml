@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rlForFooterPanel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <com.seemoreinteractive.seemoreinteractive.helper.PressedBgImageView
+            android:id="@+id/imgvBtnCloset"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/gradient_bg_for_left_right"
+            android:src="@drawable/btn_heart_icon"
+            android:tag="Closet" />
+
+        <com.seemoreinteractive.seemoreinteractive.helper.PressedBgImageView
+            android:id="@+id/imgvBtnShare"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/gradient_bg_for_left_right"
+            android:src="@drawable/btn_share" 
+            android:tag="Share"/>
+
+        <RelativeLayout
+            android:id="@+id/rlForFooterMiddle"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:gravity="center"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/imgvBtnShare"
+            android:layout_toRightOf="@+id/imgvBtnCloset"
+            android:background="@drawable/gradient_bg_for_middle" >
+
+            <ImageView
+                android:id="@+id/imgvFooterMiddle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/stripe_texture"
+                android:src="@drawable/bar_bottom" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

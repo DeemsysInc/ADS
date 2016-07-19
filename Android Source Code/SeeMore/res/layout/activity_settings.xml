@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bgRelativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_closet"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/include1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        layout="@layout/layout_header" />
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/include1"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="30dp"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <com.seemoreinteractive.seemoreinteractive.helper.PressedBgImageView
+        android:id="@+id/btnLoginOut"
+        android:layout_width="300dp"
+        android:layout_height="64dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="120dp"
+        android:background="@drawable/btn_seemore_login"
+        android:scaleType="fitXY" />
+
+    <com.seemoreinteractive.seemoreinteractive.helper.PressedBgButton
+        android:id="@+id/btnReset"
+        android:layout_width="300dp"
+        android:layout_height="64dp"
+        android:layout_above="@+id/btnLoginOut"
+        android:layout_alignLeft="@+id/btnLoginOut"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/btn_resetapp"
+        android:scaleType="fitXY" />
+
+    <com.seemoreinteractive.seemoreinteractive.helper.PressedBgButton
+        android:id="@+id/btnAccount"
+        android:layout_width="300dp"
+        android:layout_height="64dp"
+        android:layout_above="@+id/btnReset"
+        android:layout_alignLeft="@+id/btnReset"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/btn_account"
+        android:scaleType="fitXY"
+        android:visibility="gone" />
+
+    <!-- <com.seemoreinteractive.seemoreinteractive.helper.PressedBgButton
+        android:id="@+id/btnSaveMyOrder"
+        android:layout_width="300dp"
+        android:layout_height="64dp"
+        android:layout_above="@+id/btnAccount"
+        android:layout_alignLeft="@+id/btnAccount"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/bg_tab_selection"
+        android:scaleType="fitXY"
+        android:text="Save My Order"
+        android:textColor="@color/WhiteColor"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:typeface="sans" /> -->
+
+</RelativeLayout>

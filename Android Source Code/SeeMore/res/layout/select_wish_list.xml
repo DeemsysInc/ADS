@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:background="@drawable/popup_frame" >
+    
+    
+    
+
+   <!--  <RelativeLayout
+	    android:id="@+id/rl1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_tab_selection"
+        android:layout_marginTop="80dp" >
+
+	     <TextView
+	         android:id="@+id/txtSelectWishListBack"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:layout_centerInParent="false"
+	         android:text="Back"
+	         android:textAppearance="?android:attr/textAppearanceLarge"
+	         android:textSize="30sp"
+	         android:textStyle="bold" />
+	
+	     <TextView
+	         android:id="@+id/txtSelectWishList"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:layout_alignParentTop="true"
+	         android:layout_centerHorizontal="true"
+	         android:layout_centerInParent="true"
+	         android:layout_centerVertical="true"
+	         android:text="Select"
+	         android:textAppearance="?android:attr/textAppearanceLarge"
+	         android:textSize="30sp"
+	         android:textStyle="bold" />
+	
+	     <TextView
+	         android:id="@+id/txtSelectWishListAdd"
+	         android:layout_width="40dp"
+	         android:layout_height="40dp"
+	         android:layout_alignParentRight="true"
+	         android:layout_alignParentTop="true"
+	         android:layout_centerVertical="true"
+	         android:background="@drawable/plus_icon"
+	         android:textAppearance="?android:attr/textAppearanceLarge"
+	         android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+	    android:background="@drawable/bg_tab_selection"
+        android:layout_below="@+id/rl1" >
+	     <com.seemoreinteractive.seemoreinteractive.helper.BounceListView
+	        android:id="@+id/selectWishListItems"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_alignParentBottom="true"
+	        android:layout_alignParentLeft="true"
+	        android:background="@drawable/bg_tab_selection" >
+	    </com.seemoreinteractive.seemoreinteractive.helper.BounceListView>
+    </RelativeLayout>
+ -->
+
+      <TextView
+          android:id="@+id/txtSelectWishListBack"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentLeft="true"
+          android:layout_alignParentTop="true"
+          android:layout_marginLeft="66dp"
+          android:layout_marginTop="107dp"
+          android:text="Back"
+          android:textAppearance="?android:attr/textAppearanceLarge"
+          android:textSize="30sp"
+          android:textStyle="bold" />
+		<TextView
+	         android:id="@+id/txtSelectWishList"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+         	 android:layout_alignBottom="@+id/txtSelectWishListBack"
+             android:layout_centerHorizontal="true"
+	         android:text="Select"
+	         android:textAppearance="?android:attr/textAppearanceLarge"
+	         android:textSize="30sp"
+	         android:textStyle="bold" />
+
+      <TextView
+          android:id="@+id/txtSelectWishListAdd"
+          android:layout_width="40dp"
+          android:layout_height="40dp"
+          android:layout_alignBottom="@+id/txtSelectWishList"
+          android:layout_alignParentRight="true"
+          android:layout_marginRight="63dp"
+          android:background="@drawable/plus_icon"
+          android:textAppearance="?android:attr/textAppearanceLarge"
+          android:textStyle="bold" />
+      
+      
+       <com.seemoreinteractive.seemoreinteractive.helper.BounceListView
+	        android:id="@+id/selectWishListItems"
+	        android:layout_width="537dp"
+	        android:layout_height="700dp"   	        
+         	android:layout_below="@+id/txtSelectWishListBack"
+         	android:layout_marginLeft="34dp"
+         	android:layout_marginTop="14dp"         	
+	       android:background="@color/black_overlay" >
+	    </com.seemoreinteractive.seemoreinteractive.helper.BounceListView>
+
+    
+
+</RelativeLayout>

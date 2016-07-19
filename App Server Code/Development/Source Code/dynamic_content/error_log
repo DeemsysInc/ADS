@@ -1,0 +1,3 @@
+[18-Feb-2014 23:52:15 America/Denver] PHP Fatal error:  Call to undefined method mClients::getAllOffersByCID() in /home/devarapp/public_html/dynamic_content/client_stores_related_offers.tpl.php on line 8
+[18-Feb-2014 23:52:36 America/Denver] PHP Fatal error:  Call to undefined method mClients::getRelatedOfferId() in /home/devarapp/public_html/dynamic_content/client_stores_related_offers.tpl.php on line 10
+[18-Feb-2014 23:52:40 America/Denver] PHP Fatal error:  Call to undefined method mClients::getRelatedOfferId() in /home/devarapp/public_html/dynamic_content/client_stores_related_offers.tpl.php on line 10

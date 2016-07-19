@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="ClickableViewAccessibility">
+        <ignore path="src/com/seemoreinteractive/seemoreinteractive/ARDisplayActivity.java" />
+        <ignore path="src/com/seemoreinteractive/seemoreinteractive/AccountSettings.java" />
+        <ignore path="src/com/seemoreinteractive/seemoreinteractive/wheel/SpinCircle.java" />
+    </issue>
+    <issue id="DrawAllocation">
+        <ignore path="src/com/seemoreinteractive/seemoreinteractive/wheel/SpinCircle.java" />
+    </issue>
+    <issue id="InflateParams">
+        <ignore path="src/com/seemoreinteractive/seemoreinteractive/OrderConfirmation.java" />
+        <ignore path="src/com/seemoreinteractive/seemoreinteractive/library/ScracthListAdapter.java" />
+    </issue>
+    <issue id="NewApi">
+        <ignore path="src/com/seemoreinteractive/seemoreinteractive/FullImage.java" />
+        <ignore path="src/com/seemoreinteractive/seemoreinteractive/GameActivity.java" />
+        <ignore path="src/com/seemoreinteractive/seemoreinteractive/GameOffer.java" />
+        <ignore path="src/com/seemoreinteractive/seemoreinteractive/GameRules.java" />
+        <ignore path="src/com/seemoreinteractive/seemoreinteractive/NearbystoreActivity.java" />
+        <ignore path="src/com/seemoreinteractive/seemoreinteractive/ScratchAndWin.java" />
+        <ignore path="src/com/seemoreinteractive/seemoreinteractive/SpinWheel.java" />
+        <ignore path="src/com/seemoreinteractive/seemoreinteractive/VideoActivity.java" />
+        <ignore path="src/com/seemoreinteractive/seemoreinteractive/WheelOfDeals.java" />
+        <ignore path="src/com/seemoreinteractive/seemoreinteractive/calendar/NotifyService.java" />
+    </issue>
+    <issue id="Recycle">
+        <ignore path="src/com/seemoreinteractive/seemoreinteractive/wheel/Carousel.java" />
+    </issue>
+    <issue id="SimpleDateFormat">
+        <ignore path="src/com/seemoreinteractive/seemoreinteractive/ARDisplayActivity.java" />
+        <ignore path="src/com/seemoreinteractive/seemoreinteractive/AccountSettings.java" />
+        <ignore path="src/com/seemoreinteractive/seemoreinteractive/Model/UserOffers.java" />
+        <ignore path="src/com/seemoreinteractive/seemoreinteractive/OrderConfirmation.java" />
+        <ignore path="src/com/seemoreinteractive/seemoreinteractive/helper/Common.java" />
+    </issue>
+    <issue id="ViewHolder">
+        <ignore path="src/com/seemoreinteractive/seemoreinteractive/library/ScracthListAdapter.java" />
+    </issue>
+</lint>

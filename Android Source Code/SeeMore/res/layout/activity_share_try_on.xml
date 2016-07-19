@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainRlLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imgvProdInfoBigImg"
+		android:layout_width="match_parent"  
+		android:layout_height="match_parent"
+		android:scaleType="fitXY"  
+        android:layout_below="@+id/include1" />
+
+    <include
+        android:id="@+id/include1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        layout="@layout/layout_header" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center" >
+
+        <com.seemoreinteractive.seemoreinteractive.helper.PressedBgButton
+            android:id="@+id/btnTryOnSaveImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/try_on_pressed"
+            android:text="Save Image"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="35sp"
+            android:layout_marginBottom="10dp" />
+
+        <com.seemoreinteractive.seemoreinteractive.helper.PressedBgButton
+            android:id="@+id/btnTryOnCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnTryOnSaveImage"
+            android:background="@drawable/try_on_pressed_black"
+            android:text="Cancel"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="35sp"
+            android:layout_marginBottom="10dp" />
+
+    </RelativeLayout>
+
+    <!-- <RelativeLayout
+    	android:id="@+id/rlLayoutForImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/include1" >
+    </RelativeLayout> -->
+    <!-- <include
+        android:id="@+id/include2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        layout="@layout/layout_footer_menu" /> -->
+
+</RelativeLayout>

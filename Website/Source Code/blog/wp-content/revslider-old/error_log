@@ -1,0 +1,1 @@
+[03-Jul-2014 13:16:11 UTC] PHP Fatal error:  Class 'WP_Widget' not found in /home/smadmin/public_html/blog/wp-content/plugins/revslider/inc_php/revslider_widget.class.php on line 3

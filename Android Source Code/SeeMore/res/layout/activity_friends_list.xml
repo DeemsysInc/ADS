@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:id="@+id/bgRelativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:background="@drawable/bg_closet" >
+
+     <include
+            android:id="@+id/include1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            layout="@layout/layout_header" />
+
+
+      <!--   <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/include1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="19dp"
+            android:text="Tap to view Wish List"
+            android:textAppearance="?android:attr/textAppearanceMedium" /> -->
+        
+       
+        <!-- <ListView
+            android:id="@+id/friendsList"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"            
+            android:layout_below="@+id/textView2"
+            android:background="@android:color/transparent"
+			android:cacheColorHint="@android:color/transparent" >
+        </ListView> -->
+
+          <TextView
+              android:id="@+id/txtNotAvail"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_below="@+id/include1"
+              android:layout_centerHorizontal="true"
+              android:layout_centerVertical="true"
+              android:layout_marginTop="245dp"
+              android:text="This page is Under Construction"
+              android:textAppearance="?android:attr/textAppearanceLarge" />
+       
+    </RelativeLayout>

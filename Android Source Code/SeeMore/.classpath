@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="lib" path="libs/activation.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/additionnal.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/IDAutomation_JavaFontEncoder_QRCode.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/IDAutomation_LinearJavaFontEncoder.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/libGoogleAnalyticsServices.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/mail.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/metaiosdk.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/OnBarcode.AndroidBarcode.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/signpost-commonshttp4-1.2.1.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/signpost-core-1.2.1.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/twitter4j-async-4.0.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/twitter4j-core-4.0.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/twitter4j-examples-4.0.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/twitter4j-media-support-4.0.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/twitter4j-stream-4.0.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/android-query-full.0.26.8.jar"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry exported="true" kind="lib" path="libs/QuantcastAndroidSdk.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/PayPalAndroidSDK-2.5.3.jar"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

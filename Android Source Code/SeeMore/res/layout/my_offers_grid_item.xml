@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/myOffersAbtLayoutGrid"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gray_gradient"  >
+
+    <ImageView
+        android:id="@+id/imgGridImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    	android:background="@drawable/gray_gradient"  />
+
+    <LinearLayout
+        android:id="@+id/llOverlayText"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:alpha=".95"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/gray_gradient"
+        android:orientation="vertical" >
+
+	    <TextView
+	        android:id="@+id/txtImageTitle"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+        	android:textColor="#ffffffff"
+	        android:layout_marginLeft="10dp"
+	        android:maxLength="35"
+        	android:textSize="12sp"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+	    <TextView
+	        android:id="@+id/txtImageClientName"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+        	android:textColor="#ffffffff"
+	        android:layout_marginLeft="10dp"
+	        android:maxLength="35"
+	        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+	    <RelativeLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" >
+	    
+		    <TextView
+		        android:id="@+id/txtImagePrice"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+	        	android:textColor="#ffffffff"
+		        android:layout_marginLeft="10dp"
+		        android:maxLength="35"
+        		android:layout_alignParentLeft="true" 
+		        android:textAppearance="?android:attr/textAppearanceSmall" />
+		
+		    <TextView
+		        android:id="@+id/txtImageExpDate"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+        		android:layout_alignParentRight="true" 
+	        	android:textColor="#ffffffff"
+		        android:layout_marginRight="10dp"
+		        android:textAppearance="?android:attr/textAppearanceSmall" />
+	    </RelativeLayout>
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBarForMyOffers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+
+</RelativeLayout>

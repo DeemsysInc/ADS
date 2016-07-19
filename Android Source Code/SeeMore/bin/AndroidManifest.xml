@@ -1,0 +1,381 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="15" android:versionName="1.15" package="com.seemoreinteractive.seemoreinteractive">
+
+    <uses-sdk android:minSdkVersion="14"/>
+
+    <permission android:name="com.seemoreinteractive.seemoreinteractive.permission.MAPS_RECEIVE" android:protectionLevel="signature">
+    </permission>
+
+    <uses-permission android:name="com.seemoreinteractive.seemoreinteractive.permission.MAPS_RECEIVE"/>
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+
+    <uses-feature android:glEsVersion="0x00020000" android:required="true"/>
+
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+
+    <permission android:name="com.seemoreinteractive.seemoreinteractive.permission.C2D_MESSAGE" android:protectionLevel="signature"/>
+
+    <uses-permission android:name="com.seemoreinteractive.seemoreinteractive.permission.C2D_MESSAGE"/>
+
+    <!-- This app has permission to register and receive data message. -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+
+    <uses-feature android:name="android.hardware.telephony" android:required="false"/>
+    <!-- <uses-permission android:name="android.permission.CALL_PHONE"/> -->
+
+    <uses-feature android:name="android.hardware.screen.portrait"/>
+    <uses-feature android:name="android.hardware.camera" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.autofocus" android:required="false"/>
+
+    <!-- Only needed if Visual Search is used -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <!-- These permissions are only needed for debugging -->
+    <uses-permission android:name="android.permission.SET_DEBUG_APP"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.READ_LOGS"/>
+    <uses-permission android:name="android.permission.READ_CALENDAR"/>
+    <uses-permission android:name="android.permission.WRITE_CALENDAR"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+
+    <supports-screens android:anyDensity="true" android:largeScreens="true" android:normalScreens="true" android:resizeable="true" android:smallScreens="true" android:xlargeScreens="true"/>
+
+    <compatible-screens>
+
+        <!-- all small size screens -->
+        <screen android:screenDensity="ldpi" android:screenSize="small"/>
+        <screen android:screenDensity="mdpi" android:screenSize="small"/>
+        <screen android:screenDensity="hdpi" android:screenSize="small"/>
+        <screen android:screenDensity="xhdpi" android:screenSize="small"/>
+        <screen android:screenDensity="213" android:screenSize="small"/>
+        <screen android:screenDensity="240" android:screenSize="small"/>
+        <screen android:screenDensity="320" android:screenSize="small"/>
+        <screen android:screenDensity="480" android:screenSize="small"/>
+        <screen android:screenDensity="640" android:screenSize="small"/>
+        <!-- all normal size screens -->
+        <screen android:screenDensity="ldpi" android:screenSize="normal"/>
+        <screen android:screenDensity="mdpi" android:screenSize="normal"/>
+        <screen android:screenDensity="hdpi" android:screenSize="normal"/>
+        <screen android:screenDensity="xhdpi" android:screenSize="normal"/>
+        <screen android:screenDensity="213" android:screenSize="normal"/>
+        <screen android:screenDensity="240" android:screenSize="normal"/>
+        <screen android:screenDensity="320" android:screenSize="normal"/>
+        <screen android:screenDensity="480" android:screenSize="normal"/>
+        <screen android:screenDensity="640" android:screenSize="normal"/>
+        <!-- all large size screens -->
+        <screen android:screenDensity="ldpi" android:screenSize="large"/>
+        <screen android:screenDensity="mdpi" android:screenSize="large"/>
+        <screen android:screenDensity="hdpi" android:screenSize="large"/>
+        <screen android:screenDensity="xhdpi" android:screenSize="large"/>
+        <screen android:screenDensity="213" android:screenSize="large"/>
+        <screen android:screenDensity="240" android:screenSize="large"/>
+        <screen android:screenDensity="320" android:screenSize="large"/>
+        <screen android:screenDensity="480" android:screenSize="large"/>
+        <screen android:screenDensity="640" android:screenSize="large"/>
+        <!-- all xlarge size screens -->
+        <screen android:screenDensity="ldpi" android:screenSize="xlarge"/>
+        <screen android:screenDensity="mdpi" android:screenSize="xlarge"/>
+        <screen android:screenDensity="hdpi" android:screenSize="xlarge"/>
+        <screen android:screenDensity="xhdpi" android:screenSize="xlarge"/>
+        <screen android:screenDensity="213" android:screenSize="xlarge"/>
+        <screen android:screenDensity="240" android:screenSize="xlarge"/>
+        <screen android:screenDensity="320" android:screenSize="xlarge"/>
+        <screen android:screenDensity="480" android:screenSize="xlarge"/>
+        <screen android:screenDensity="640" android:screenSize="xlarge"/>
+    </compatible-screens>
+
+    <application android:allowBackup="true" android:icon="@drawable/seemore_icon" android:label="@string/app_name" android:theme="@style/Theme.FullScreen">
+        <activity android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen" android:label="@string/app_name" android:launchMode="standard" android:name="com.seemoreinteractive.seemoreinteractive.MainActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Translucent">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <!--
+        <receiver android:name="com.seemoreinteractive.seemoreinteractive.TestBroadcast" >
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_FIRST_LAUNCH" />
+                <action android:name="android.intent.action.PACKAGE_DATA_CLEARED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        -->
+
+        <activity android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen" android:name="com.seemoreinteractive.seemoreinteractive.ARDisplayActivity" android:screenOrientation="portrait" android:theme="@style/Theme.FullScreen">
+        </activity>
+        <activity android:name="com.seemoreinteractive.seemoreinteractive.ProductList" android:screenOrientation="portrait" android:theme="@style/Theme.Translucent">
+        </activity>
+        <activity android:name="com.seemoreinteractive.seemoreinteractive.ProductInfo" android:screenOrientation="portrait" android:theme="@style/Theme.FullScreen">
+        </activity>
+        <activity android:name="com.seemoreinteractive.seemoreinteractive.Closet" android:screenOrientation="portrait" android:theme="@style/Theme.FullScreen">
+        </activity>
+        <activity android:name="com.seemoreinteractive.seemoreinteractive.WishListPage" android:screenOrientation="portrait" android:theme="@style/Theme.FullScreen">
+        </activity>
+        <activity android:name="com.seemoreinteractive.seemoreinteractive.Recommendation" android:screenOrientation="portrait" android:theme="@style/Theme.FullScreen">
+        </activity>
+        <activity android:name="com.seemoreinteractive.seemoreinteractive.ByBrands" android:screenOrientation="portrait" android:theme="@style/Theme.FullScreen">
+        </activity>
+        <activity android:label="@string/title_activity_trigger" android:name="com.seemoreinteractive.seemoreinteractive.TriggerActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Translucent">
+        </activity>
+        <activity android:name="com.seemoreinteractive.seemoreinteractive.OfferViewActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Translucent">
+        </activity>
+        <activity android:name="com.seemoreinteractive.seemoreinteractive.WeburlActivity" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.seemoreinteractive.seemoreinteractive.WishItemSelectionActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Translucent">
+        </activity>
+        <activity android:name="com.seemoreinteractive.seemoreinteractive.WishListSelectionActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Translucent">
+        </activity>
+        <activity android:name="com.seemoreinteractive.seemoreinteractive.OptionsPrivacyPolicy" android:screenOrientation="portrait" android:theme="@style/Theme.FullScreen">
+        </activity>
+        <activity android:name="com.seemoreinteractive.seemoreinteractive.OptionsTermsConditions" android:screenOrientation="portrait" android:theme="@style/Theme.FullScreen">
+        </activity>
+        <activity android:name="com.seemoreinteractive.seemoreinteractive.OptionsHowTo" android:screenOrientation="portrait" android:theme="@style/Theme.FullScreen">
+        </activity>
+        <activity android:name="com.seemoreinteractive.seemoreinteractive.PurchaseProductWithClientUrl" android:screenOrientation="portrait" android:theme="@style/Theme.FullScreen">
+        </activity>
+        <activity android:label="@string/title_activity_friends_list" android:name="com.seemoreinteractive.seemoreinteractive.FriendsListActivity" android:screenOrientation="portrait">
+        </activity>
+        <activity android:label="@string/title_activity_friends_list_iems" android:name="com.seemoreinteractive.seemoreinteractive.FriendsListIems" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.seemoreinteractive.seemoreinteractive.OptionsAbout" android:screenOrientation="portrait" android:theme="@style/Theme.FullScreen">
+        </activity>
+        <activity android:name="com.seemoreinteractive.seemoreinteractive.OptionsShowWebsiteUrls" android:screenOrientation="portrait" android:theme="@style/Theme.FullScreen">
+        </activity>
+        <activity android:label="@string/title_activity_share" android:name="com.seemoreinteractive.seemoreinteractive.ShareActivity" android:screenOrientation="portrait">
+        </activity>
+        <activity android:launchMode="singleTask" android:name="com.seemoreinteractive.seemoreinteractive.TwitterActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+
+                <data android:host="callback" android:scheme="seemore-twitter"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.seemoreinteractive.seemoreinteractive.OfferCalendarActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Translucent">
+        </activity>
+        <activity android:name="com.seemoreinteractive.seemoreinteractive.MenuOptions" android:screenOrientation="portrait" android:theme="@style/Theme.Translucent">
+        </activity>
+
+        <receiver android:name="com.seemoreinteractive.seemoreinteractive.AlarmReceiver" android:process=":remote">
+        </receiver>
+
+        <activity android:label="@string/title_activity_under_construction" android:name="com.seemoreinteractive.seemoreinteractive.UnderConstruction" android:screenOrientation="portrait">
+        </activity>
+        <activity android:label="@string/title_activity_my_offers" android:name="com.seemoreinteractive.seemoreinteractive.MyOffers" android:screenOrientation="portrait">
+        </activity>
+        <activity android:label="@string/title_activity_facebook" android:name="com.seemoreinteractive.seemoreinteractive.FacebookActivity" android:screenOrientation="portrait">
+        </activity>
+        <activity android:label="@string/title_activity_share_multiple_images" android:name="com.seemoreinteractive.seemoreinteractive.ShareMultipleImages" android:screenOrientation="portrait">
+        </activity>
+        <activity android:label="@string/title_activity_setting_acitivty" android:name="com.seemoreinteractive.seemoreinteractive.SettingAcitivty" android:screenOrientation="portrait">
+        </activity>
+        <activity android:label="@string/title_activity_facebook" android:name="com.seemoreinteractive.seemoreinteractive.FacebookMultipleShareActivity" android:screenOrientation="portrait">
+        </activity>
+        <activity android:label="@string/title_activity_sign_in" android:name="com.seemoreinteractive.seemoreinteractive.AccountLaunchActivity" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.seemoreinteractive.seemoreinteractive.RegistrationActivity" android:screenOrientation="portrait">
+        </activity>
+        <activity android:label="@string/title_activity_login" android:name="com.seemoreinteractive.seemoreinteractive.LoginActivity" android:screenOrientation="portrait">
+        </activity>
+        <activity android:label="@string/title_activity_forgot_password" android:name="com.seemoreinteractive.seemoreinteractive.ForgotPasswordActivity" android:screenOrientation="portrait">
+        </activity>
+        <activity android:label="@string/title_activity_account_settings" android:name="com.seemoreinteractive.seemoreinteractive.AccountSettings" android:screenOrientation="portrait">
+        </activity>
+        <!--
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyAiGpgVL8pteKRo5BoZG1USesrhQ7cjKdg" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        -->
+        <meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyA5_UuK9Ct293FhhjTDnUCQyfYIBKocu0E"/>
+
+        <activity android:label="@string/title_activity_find_astore" android:name="com.seemoreinteractive.seemoreinteractive.FindAStore" android:screenOrientation="portrait">
+        </activity>
+
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+
+        <activity android:label="@string/title_activity_help" android:name="com.seemoreinteractive.seemoreinteractive.HelpActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Translucent">
+        </activity>
+        <activity android:label="@string/title_activity_offer_web_url" android:name="com.seemoreinteractive.seemoreinteractive.OfferWebUrlActivity" android:screenOrientation="portrait">
+        </activity>
+        <activity android:label="@string/title_activity_financial" android:name="com.seemoreinteractive.seemoreinteractive.FinancialActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Translucent">
+        </activity>
+        <activity android:label="@string/title_activity_try_on" android:name="com.seemoreinteractive.seemoreinteractive.TryOn" android:screenOrientation="userPortrait">
+        </activity>
+        <activity android:label="@string/title_activity_share_try_on" android:launchMode="standard" android:name="com.seemoreinteractive.seemoreinteractive.ShareTryOn" android:screenOrientation="portrait">
+        </activity>
+        <activity android:label="@string/title_activity_find_astore_item_details" android:name="com.seemoreinteractive.seemoreinteractive.FindAStoreItemDetails" android:screenOrientation="portrait">
+        </activity>
+
+        <!--
+        <service android:name="com.seemoreinteractive.seemoreinteractive.calendar.NotificationService" android:enabled="true">
+            <intent-filter>
+                <action android:name="com.seemoreinteractive.seemoreinteractive.calendar.NotificationService"/>
+            </intent-filter>
+        </service>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        -->
+
+        <service android:name="com.seemoreinteractive.seemoreinteractive.calendar.NotifyService">
+        </service>
+
+        <receiver android:exported="true" android:name="com.quantcast.measurement.service.QCReferrerReceiver">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER"/>
+            </intent-filter>
+        </receiver>
+
+        <activity android:label="@string/app_name" android:name="com.facebook.LoginActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/app_id"/>
+
+        <provider android:authorities="com.facebook.app.NativeAppCallContentProvider141475799356297" android:name="com.facebook.NativeAppCallContentProvider"/>
+
+        <activity android:label="@string/title_activity_recently_scanned" android:name="com.seemoreinteractive.seemoreinteractive.RecentlyScanned" android:screenOrientation="portrait" android:theme="@style/Theme.FullScreen">
+        </activity>
+        <activity android:label="@string/title_activity_nearbystore" android:name="com.seemoreinteractive.seemoreinteractive.NearbystoreActivity" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.seemoreinteractive.seemoreinteractive.ProductDetails" android:screenOrientation="portrait" android:theme="@style/Theme.FullScreen">
+        </activity>
+        <activity android:name="com.seemoreinteractive.seemoreinteractive.FullImage" android:screenOrientation="portrait" android:theme="@style/Theme.Translucent">
+        </activity>
+        <activity android:label="@string/title_activity_order_confirmation" android:name="com.seemoreinteractive.seemoreinteractive.OrderConfirmation" android:screenOrientation="portrait" android:theme="@style/Theme.FullScreen">
+        </activity>
+        <activity android:label="@string/title_activity_products" android:name="com.seemoreinteractive.seemoreinteractive.Products" android:screenOrientation="portrait" android:theme="@style/Theme.FullScreen">
+        </activity>
+        <activity android:label="@string/title_activity_shipping_address_form" android:name="com.seemoreinteractive.seemoreinteractive.ShippingAddressForm" android:screenOrientation="portrait" android:theme="@style/Theme.Translucent">
+        </activity>
+        <activity android:label="@string/title_activity_shipping_list_info" android:name="com.seemoreinteractive.seemoreinteractive.ShippingListInfo" android:screenOrientation="portrait">
+        </activity>
+        <activity android:label="@string/title_activity_products_checkout" android:name="com.seemoreinteractive.seemoreinteractive.ProductsCheckout" android:screenOrientation="portrait" android:theme="@style/Theme.Translucent">
+        </activity>
+        <activity android:label="@string/title_activity_save_order_information" android:name="com.seemoreinteractive.seemoreinteractive.SaveOrderInformation" android:screenOrientation="portrait" android:theme="@style/Theme.Translucent">
+        </activity>
+        <!--
+        <activity
+            android:name="com.seemoreinteractive.seemoreinteractive.ThankYou"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Translucent" >
+        </activity>
+
+
+
+
+
+
+
+
+
+        -->
+
+
+        <!-- paypal -->
+        <service android:exported="false" android:name="com.paypal.android.sdk.payments.PayPalService"/>
+
+        <activity android:name="com.paypal.android.sdk.payments.PaymentActivity"/>
+        <activity android:name="com.paypal.android.sdk.payments.LoginActivity"/>
+        <activity android:name="com.paypal.android.sdk.payments.PaymentMethodActivity"/>
+        <activity android:name="com.paypal.android.sdk.payments.PaymentConfirmActivity"/>
+        <activity android:name="com.paypal.android.sdk.payments.PayPalFuturePaymentActivity"/>
+        <activity android:name="com.paypal.android.sdk.payments.FuturePaymentConsentActivity"/>
+        <activity android:name="com.paypal.android.sdk.payments.FuturePaymentInfoActivity"/>
+        <activity android:name="com.paypal.android.sdk.payments.PayPalProfileSharingActivity"/>
+        <activity android:name="com.paypal.android.sdk.payments.ProfileSharingConsentActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="io.card.payment.CardIOActivity"/>
+        <activity android:name="io.card.payment.DataEntryActivity"/>
+        <activity android:label="@string/title_activity_thank_you_new" android:name="com.seemoreinteractive.seemoreinteractive.ThankYou" android:screenOrientation="portrait" android:theme="@style/Theme.Translucent">
+        </activity>
+        <activity android:label="@string/title_activity_top_menu_info" android:name="com.seemoreinteractive.seemoreinteractive.TopMenuInfo" android:screenOrientation="portrait" android:theme="@style/Theme.Translucent">
+        </activity>
+        <activity android:name="com.seemoreinteractive.seemoreinteractive.ShopparVision" android:screenOrientation="portrait">
+        </activity>
+        <activity android:label="@string/title_activity_save_order_information" android:name="com.seemoreinteractive.seemoreinteractive.ShopparList" android:screenOrientation="portrait">
+        </activity>
+        <activity android:label="@string/title_activity_video" android:name="com.seemoreinteractive.seemoreinteractive.VideoActivity" android:screenOrientation="portrait">
+        </activity>
+        <activity android:label="@string/title_activity_game" android:name="com.seemoreinteractive.seemoreinteractive.GameActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Translucent">
+        </activity>
+        <activity android:label="@string/title_activity_scratch_and_win" android:name="com.seemoreinteractive.seemoreinteractive.ScratchAndWin" android:screenOrientation="portrait">
+        </activity>
+        <activity android:label="@string/title_activity_wheel_of_deals" android:name="com.seemoreinteractive.seemoreinteractive.WheelOfDeals" android:screenOrientation="portrait">
+        </activity>
+        <activity android:label="@string/title_activity_game_offer" android:name="com.seemoreinteractive.seemoreinteractive.GameOffer" android:screenOrientation="portrait">
+        </activity>
+        <activity android:label="@string/title_activity_discount_offer" android:name="com.seemoreinteractive.seemoreinteractive.DiscountOffer" android:screenOrientation="portrait">
+        </activity>
+        <activity android:label="@string/title_activity_game_rules" android:name="com.seemoreinteractive.seemoreinteractive.GameRules" android:screenOrientation="portrait" android:theme="@style/Theme.Translucent">
+        </activity>
+        <activity android:label="@string/title_activity_scratch_offer" android:name="com.seemoreinteractive.seemoreinteractive.ScratchOffer" android:theme="@style/Theme.Translucent">
+        </activity>
+        <activity android:label="@string/title_activity_spin_wheel" android:name="com.seemoreinteractive.seemoreinteractive.SpinWheel">
+        </activity>
+    </application>
+
+</manifest>

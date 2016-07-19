@@ -1,0 +1,21 @@
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
+	<channel>
+		<title>Example media RSS playlist for the JW Player</title>
+		<link>http://wiki.westside-barbell.com/broadcast/videos</link>
+
+		<item>
+			<title>Rain on Stills</title>
+			<media:content url="/low/VTS_01_1.flv" type="video/x-m4v" start="00:30" />
+			<media:thumbnail url="media/video/rain.jpg" />
+			<description>Rain</description>
+			<link>http://stills.org/</link>
+		</item>
+		<item>
+			<title>Waffly Versatile</title>
+			<media:content url="/tv9.flv" type="video/x-m4v" start="00:00" />
+			<media:thumbnail url="media/video/waffles.jpg" />
+			<description>Birds Eye Potato Waffles are Waffly Versatile.</description>
+			<link>http://link.website.com/</link>
+		</item>
+	</channel>
+</rss>

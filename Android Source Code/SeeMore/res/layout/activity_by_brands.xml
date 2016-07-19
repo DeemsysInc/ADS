@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"     	
+    android:id="@+id/bgRelativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_closet"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/include1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        layout="@layout/layout_header" />
+
+    <include
+        android:id="@+id/include2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        layout="@layout/layout_footer_menu" />
+
+	<TextView
+        android:id="@+id/txtvProdNotAvail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="There are no products available."
+        android:textSize="30sp"
+        android:visibility="invisible"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+        
+
+     <com.seemoreinteractive.seemoreinteractive.helper.BounceListView
+         android:id="@+id/listViewBrands"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:layout_above="@+id/include2"
+          android:layout_below="@+id/fancyCoverFlowBrands"
+         android:layout_alignParentLeft="true"
+         android:scrollbars="vertical" >
+     </com.seemoreinteractive.seemoreinteractive.helper.BounceListView>
+
+     <com.seemoreinteractive.seemoreinteractive.fancycoverflow.FancyCoverFlow
+         android:id="@+id/fancyCoverFlowBrands"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="10dp"
+         android:layout_alignParentLeft="true"
+         android:layout_below="@+id/include1"
+         android:spacing="-100dip" />
+
+</RelativeLayout>

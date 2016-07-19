@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dip" >
+
+	<!--  ListRow Left sied Thumbnail image -->
+	<LinearLayout android:id="@+id/thumbnail" 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:padding="3dip"		
+        android:layout_alignParentLeft="true"
+	    android:layout_marginRight="5dip">
+        
+		<ImageView     
+			android:id="@+id/imgarrow"   
+	        android:layout_width="50dip"
+	        android:layout_height="50dip"
+	        android:src="@drawable/rightarrow"
+	        android:visibility="invisible"
+	      />
+        
+	</LinearLayout>
+	<LinearLayout android:id="@+id/deletelayout" 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:padding="3dip"		
+        android:layout_alignParentRight="true"
+	    android:layout_marginRight="5dip"	    
+        android:layout_centerHorizontal="true"        
+         android:layout_centerVertical="true">
+        
+		 <ImageView  android:id="@+id/imgDeleteIcon"
+     	android:src="@drawable/trash"
+     	android:layout_width="30dp"
+		android:layout_height="30dp"
+		android:scaleType="fitXY"
+		/>
+        
+	</LinearLayout>
+
+     <TextView
+         android:id="@+id/txtWishListName"
+         android:layout_width="200dp"
+         android:layout_height="30dp"
+         android:layout_centerHorizontal="true"
+         android:layout_centerVertical="true"
+         android:text="My Offers"
+         android:textAppearance="?android:attr/textAppearanceLarge"
+         android:textSize="25sp" />
+
+</RelativeLayout>

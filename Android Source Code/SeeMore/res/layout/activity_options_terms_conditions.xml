@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      android:id="@+id/bgRelativeLayout"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+     android:background="#FFFFFF"
+      android:orientation="vertical" >
+ 
+     <include
+         android:id="@+id/include1"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentTop="true"
+         layout="@layout/layout_header" />
+
+     <!-- <include
+         android:id="@+id/include2"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_alignParentBottom="true"
+         android:layout_alignParentLeft="true"
+         layout="@layout/layout_footer_menu" /> -->
+
+	<WebView
+	    android:id="@+id/wbvTermsCond"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:scrollbars="vertical"
+	    android:layout_alignParentLeft="true"
+	    android:layout_alignParentRight="true"
+	    android:layout_below="@+id/include1" />
+       
+       
+
+       <ProgressBar
+           android:id="@+id/closetProgressBar"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentRight="true" />
+	
+</RelativeLayout>

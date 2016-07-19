@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bgRelativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_tab_selection">
+    <com.seemoreinteractive.seemoreinteractive.helper.BounceGridView
+        android:id="@+id/grid_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+	    android:columnWidth="120dp"
+	    android:numColumns="auto_fit"
+        android:gravity="center"
+        android:horizontalSpacing="10dp"
+        android:scrollbars="vertical"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="10dp"
+        android:layout_below="@+id/offerLabel">
+    </com.seemoreinteractive.seemoreinteractive.helper.BounceGridView>
+    
+    <RelativeLayout
+        android:id="@+id/totalnav"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/grid_view"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true" >
+	
+	   <com.seemoreinteractive.seemoreinteractive.helper.PressedBgImageView
+	       android:id="@+id/save_it"
+	       android:layout_width="300dp"
+	       android:layout_height="64dp"
+	       android:layout_alignParentBottom="true"
+	       android:layout_alignParentRight="true"
+	       android:scaleType="fitXY"
+	       android:src="@drawable/btn_saveit" />
+	    <com.seemoreinteractive.seemoreinteractive.helper.PressedBgImageView
+	       android:id="@+id/go_back"
+	       android:layout_width="300dp"
+	       android:layout_height="64dp"
+	       android:layout_alignParentBottom="true"
+	       android:layout_alignParentLeft="true"
+	       android:scaleType="fitXY"
+	       android:src="@drawable/btn_goback"
+	       />
+
+	    <TextView
+	        android:id="@+id/txtvMsg"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentTop="true"
+	        android:layout_centerHorizontal="true"
+	        android:layout_centerVertical="true"
+	        android:text="No Offers Available." 
+	        android:visibility="invisible"/>
+
+    </RelativeLayout>
+
+     <TextView
+         android:id="@+id/offerLabel"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_alignParentTop="true"
+         android:layout_centerHorizontal="true"
+         android:gravity="center_horizontal"
+         android:textAppearance="?android:attr/textAppearanceLarge"
+         android:textSize="30sp" 
+         android:text="Offers"/>
+      <include
+                android:id="@+id/include_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                layout="@layout/instruction_layout" />
+
+
+</RelativeLayout>
+        

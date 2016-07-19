@@ -1,0 +1,49 @@
+.kp-dropcap.color,
+.more-link-icon i,
+.hover-effect .mask a.link-detail,
+.hover-effect .mask a.link-gallery,
+.bwWrapper a.kp-pf-detail,
+.socials-link li,
+.search-box .search-form .search-text,
+.search-box .search-form .search-submit,
+.timeline-container .load-more,
+.timeline-item .timeline-icon .circle-outer,
+.timeline-item .timeline-icon .circle-inner,
+.timeline-item .timeline-icon div p,
+.time-to-filter .top-ring,
+.time-to-filter .bottom-ring,
+.kp-tagcloud a .kp-tag-rounded,
+.load-more-gallery,
+.ch-info .ch-info-back a,
+.ch-info .ch-info-front a,
+.bottom-circle,
+.bottom-bullet,
+.kp-our-work .carousel-nav a,
+.kp-our-experient .entry-item .entry-date,
+.kp-testimonial .carousel-nav a,
+.kp-testimonial .testimonial-author img,
+.about-tabs li a,
+#toggle-view li span,
+.pf-detail-nav a,
+.kp-cat-2 .article-list li article .entry-meta-box .entry-meta-icon,
+.kp-cat-2 .article-list li article .entry-meta-box .entry-meta-circle,
+.article-list-wrapper .article-bullet,
+.kp-cat-3 .entry-meta-column p,
+.about-author .avatar-thumb img,
+#comments .comment-avatar img,
+.kp-single-2 .entry-box .entry-meta-icon,
+.kp-single-2 .entry-box .entry-meta-circle,
+.single-bullet,
+.about-list-container .tooltip-inner {
+	behavior: url(js/PIE.htc);
+}
+
+.hover-effect .mask a.link-detail {
+	background-color:#91c448;
+	left:50%;
+}
+.ei-title h3 {
+	background:url(../images/background/caption-bg.png) repeat 0 0;
+}
+
+

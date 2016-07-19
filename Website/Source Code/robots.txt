@@ -1,0 +1,20 @@
+User-agent: URL_Spider_Pro Disallow: / 
+User-agent: WebZip/4.0 Disallow: / 
+User-agent: WebCopier Disallow: / 
+User-agent: WebBandit Disallow: / 
+User-agent: WebBandit/3.50 Disallow: / 
+User-agent: Wget/1.6 Disallow: / 
+User-agent: Wget/1.5.3 Disallow: / 
+User-agent: Offline Explorer Disallow: / 
+User-agent: WebZIP Disallow: /
+
+
+# Applies to all robots
+User-agent: *
+Allow: /
+
+User-agent: *
+Disallow: /views/videos/Seemore_Interactive_%28Internal_Final_Edit%29.mp4
+
+
+Sitemap: http://www.seemoreinteractive.com/sitemap.xml

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>BB1BC7BF-3F30-423A-8A22-0C97FA93D230</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ADSDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>2E9308F0-FA88-42BC-885E-0C56A3D9B3A1</key>
+		<string>http://183.82.0.112:8843/svn/seemore/seemore/ios/</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Seemore Demos/ADS/ADSDemo/ADSDemo.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>2E9308F0-FA88-42BC-885E-0C56A3D9B3A1</key>
+		<string>../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>http://183.82.0.112:8843/svn/seemore/seemore/ios/</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>2E9308F0-FA88-42BC-885E-0C56A3D9B3A1</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2E9308F0-FA88-42BC-885E-0C56A3D9B3A1</string>
+			<key>IDESourceControlWCCName</key>
+			<string>My Projects</string>
+		</dict>
+	</array>
+</dict>
+</plist>

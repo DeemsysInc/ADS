@@ -1,0 +1,66 @@
+# Copyright (C) 2013 
+# This file is distributed under the same license as the  package.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/smart-app-banner\n"
+"POT-Creation-Date: 2013-11-28 20:52:31+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2013-11-29 11:35+0100\n"
+"Last-Translator: Borisa Djuraskovic <borisad@webhostinghub.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: Poedit 1.5.7\n"
+
+#: wsl-smart-app-banner.php:103 wsl-smart-app-banner.php:169
+msgid "Smart App Banner Settings"
+msgstr "Smart App Banner Podesavanja"
+
+#: wsl-smart-app-banner.php:104 wsl-smart-app-banner.php:227
+msgid "Smart App Banner"
+msgstr "Smart App Banner"
+
+#: wsl-smart-app-banner.php:114
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Ne morate imati potrebne dozvole za pristup ovoj stranici ."
+
+#: wsl-smart-app-banner.php:158
+msgid "settings saved."
+msgstr "podesavanja sacuvana"
+
+#: wsl-smart-app-banner.php:178
+msgid ""
+"These values are used on your home page. (Leave blank if no banner is "
+"required.)"
+msgstr ""
+"Ove vrednosti se koriste na vasoj početnoj stranici . ( Ostavite prazno ako "
+"nije potreban baner . )"
+
+#: wsl-smart-app-banner.php:182 wsl-smart-app-banner.php:251
+msgid "App ID:"
+msgstr "App ID:"
+
+#: wsl-smart-app-banner.php:187 wsl-smart-app-banner.php:255
+msgid "App ID (iPad):"
+msgstr "App ID (iPad):"
+
+#: wsl-smart-app-banner.php:188 wsl-smart-app-banner.php:256
+msgid "(optional)"
+msgstr "( opciono )"
+
+#: wsl-smart-app-banner.php:192 wsl-smart-app-banner.php:259
+msgid "Affiliate data:"
+msgstr "Partnerski podaci :"
+
+#: wsl-smart-app-banner.php:197 wsl-smart-app-banner.php:263
+msgid "App argument:"
+msgstr "App argumenti:"
+
+#: wsl-smart-app-banner.php:202
+msgid "Show on all pages:"
+msgstr "Pokažite na svim stranama :"
+
+#: wsl-smart-app-banner.php:210
+msgid "Save Changes"
+msgstr "Sacuvaj Promene"

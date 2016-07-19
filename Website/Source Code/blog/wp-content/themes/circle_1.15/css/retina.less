@@ -1,0 +1,84 @@
+// retina.less
+// A helper mixin for applying high-resolution background images (http://www.retinajs.com)
+
+.at2x(@path, @w: auto, @h: auto) {
+  background-image: url(@path);
+  @at2x_path: ~"'@{path}'.split('.').slice(0, '@{path}'.split('.').length - 1).join('.') + '@2x' + '.' + '@{path}'.split('.')['@{path}'.split('.').length - 1]";
+  @media all and (-webkit-min-device-pixel-ratio : 1.5) {
+    background-image: url(@at2x_path);
+    background-size: @w @h;
+  }  
+}
+
+.sf-arrows li ul li .sf-with-ul:after {
+	.at2x('../images/background/menu-arrow.png',7px, 10px);
+}
+
+.search-box .search-form .search-submit {
+	.at2x('../images/icons/search-icon.png', 20px, 21px);
+}
+
+.kp-filter div > a,
+.isotop-header > a {
+	.at2x('../images/background/filter-arrow.png', 11px, 6px);
+}
+
+#back-top a {
+	.at2x('../images/icons/arrow-up.png', 20px, 20px);
+}
+
+.carousel-nav .carousel-next,
+.kp-our-work .carousel-nav .carousel-next:hover,
+.kp-testimonial .carousel-nav .carousel-next:hover,
+.pf-detail-nav .pf-detail-next:hover {
+	.at2x('../images/slider/carousel-next.png', 6px, 9px);
+}
+
+.carousel-nav .carousel-prev,
+.kp-our-work .carousel-nav .carousel-prev:hover,
+.kp-testimonial .carousel-nav .carousel-prev:hover,
+.pf-detail-nav .pf-detail-prev:hover {
+	.at2x('../images/slider/carousel-prev.png', 6px, 9px);
+}
+
+.carousel-nav .carousel-next:hover,
+.kp-our-work .carousel-nav .carousel-next,
+.kp-testimonial .carousel-nav .carousel-next,
+.pf-detail-nav .pf-detail-next {
+	.at2x('../images/slider/carousel-next-hover.png', 6px, 9px);
+}
+
+.carousel-nav .carousel-prev:hover,
+.kp-our-work .carousel-nav .carousel-prev,
+.kp-testimonial .carousel-nav .carousel-prev,
+.pf-detail-nav .pf-detail-prev {
+	.at2x('../images/slider/carousel-prev-hover.png', 6px, 9px);
+}
+
+.kp-testimonial .testimonial-content .quote-icon {
+	.at2x('../images/icons/dark-quote-icon.png', 21px, 16px);
+}
+
+.bottom-twitter .tweet_list li .tweet_avatar {
+	.at2x('../images/icons/twitter-icon.png', 24px, 19px);
+}
+
+.kp-testimonial .testimonial-content .arrow {
+	.at2x('../images/background/testimonial-arrow.png', 26px, 34px);
+}
+
+.pf-detail-slider .flex-direction-nav .flex-next,
+.blogpost-slider .flex-direction-nav .flex-next,
+.kp-single-slider .flex-direction-nav .flex-next,
+.kp-single-carousel .flex-direction-nav .flex-next,
+.next {
+	.at2x('../images/slider/sequencel-next.png', 10px, 15px);
+}
+
+.pf-detail-slider .flex-direction-nav .flex-prev,
+.blogpost-slider .flex-direction-nav .flex-prev,
+.kp-single-slider .flex-direction-nav .flex-prev,
+.kp-single-carousel .flex-direction-nav .flex-prev,
+.prev {
+	.at2x('../images/slider/sequencel-prev.png', 10px, 15px);
+}

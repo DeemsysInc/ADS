@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fcf="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true" >
+
+    <RelativeLayout
+        android:id="@+id/bgRelativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_closet"
+        android:orientation="vertical" >
+
+        <include
+            android:id="@+id/include1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            layout="@layout/layout_header" />
+
+        <include
+            android:id="@+id/include2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            layout="@layout/layout_footer_menu" />
+
+        <TextView
+            android:id="@+id/txtvProdNotAvail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="There are no products available."
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="30sp"
+            android:visibility="invisible" />
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/include1"
+            android:background="@drawable/bg_tab_selection" >
+
+            <com.seemoreinteractive.seemoreinteractive.helper.PressedBgImageView
+                android:id="@+id/imvBtnOwnIt"
+                android:layout_width="105dp"
+                android:layout_height="63dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/tab_ownit_disable" />
+
+            <com.seemoreinteractive.seemoreinteractive.helper.PressedBgImageView
+                android:id="@+id/imvBtnWantIt"
+                android:layout_width="105dp"
+                android:layout_height="63dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/imvBtnOwnIt"
+                android:background="@drawable/tab_wantit_disable" />
+
+            <com.seemoreinteractive.seemoreinteractive.helper.PressedBgImageView
+                android:id="@+id/imgvBtnAll"
+                android:layout_width="105dp"
+                android:layout_height="63dp"
+                android:layout_alignTop="@+id/imvBtnOwnIt"
+                android:layout_marginRight="10dp"
+           		android:spacing="-100dip"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/imvBtnOwnIt"
+                android:src="@drawable/tab_all_enable"
+                />
+            
+            	<com.seemoreinteractive.seemoreinteractive.helper.PressedBgImageView
+            	    android:id="@+id/imgvHelp"
+            	    android:layout_width="50dp"
+            	    android:layout_height="50dp"          	    
+                	android:layout_centerVertical="true"
+            	    android:src="@drawable/help_icon" 
+            	    android:layout_alignParentRight="true"/>
+
+        </RelativeLayout>
+
+        <com.seemoreinteractive.seemoreinteractive.fancycoverflow.FancyCoverFlow
+            android:id="@+id/fancyCoverFlow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/relativeLayout1"
+            fcf:maxRotation="120"
+            android:spacing="-100dip" />
+
+		<com.seemoreinteractive.seemoreinteractive.helper.PressedBgImageView
+		    android:id="@+id/imgvByBrands"
+		    android:layout_width="280dp"
+		    android:layout_height="64dp"
+		    android:layout_alignParentRight="true"
+		    android:layout_alignTop="@+id/imgvWishList"
+		    android:layout_marginRight="15dp"
+		    android:layout_marginBottom="10dp"
+		    android:scaleType="fitXY"
+		    android:background="@drawable/btn_bybrands" />
+
+		<com.seemoreinteractive.seemoreinteractive.helper.PressedBgImageView
+		    android:id="@+id/imgvMyOffers"
+		    android:layout_width="280dp"
+		    android:layout_height="64dp"
+		    android:layout_alignParentRight="true"
+		    android:layout_below="@+id/imgvByBrands"
+		    android:layout_marginRight="15dp"
+		    android:layout_marginBottom="20dp"
+		    android:scaleType="fitXY"
+		    android:background="@drawable/btn_myoffers_home" />
+
+		<com.seemoreinteractive.seemoreinteractive.helper.PressedBgImageView
+		    android:id="@+id/imgvRecommended"
+		    android:layout_width="280dp"
+		    android:layout_height="64dp"
+		    android:layout_above="@+id/include2"
+		    android:layout_alignParentLeft="true"
+		    android:layout_marginLeft="15dp"
+		    android:layout_marginBottom="20dp"
+		    android:scaleType="fitXY"
+		    android:background="@drawable/btn_shopnow" />
+
+		<com.seemoreinteractive.seemoreinteractive.helper.PressedBgImageView
+		    android:id="@+id/imgvWishList"
+		    android:layout_width="280dp"
+		    android:layout_height="64dp"
+		    android:layout_above="@+id/imgvRecommended"
+		    android:layout_alignParentLeft="true"
+		    android:layout_marginBottom="10dp"
+		    android:layout_marginLeft="15dp"
+		    android:scaleType="fitXY"
+		    android:background="@drawable/btn_wishlist" />
+
+		<com.seemoreinteractive.seemoreinteractive.helper.PressedBgImageView
+		    android:id="@+id/wantit"
+		    android:layout_width="137dp"
+		    android:layout_height="58dp"
+		    android:layout_alignLeft="@+id/imgvByBrands"
+		    android:layout_above="@+id/imgvWishList"
+		    android:layout_marginBottom="30dp"
+		    android:background="@drawable/tab_wantit_ind_enable" />
+
+		<com.seemoreinteractive.seemoreinteractive.helper.PressedBgImageView
+		    android:id="@+id/ownit"
+		    android:layout_width="137dp"
+		    android:layout_height="58dp"
+		    android:layout_alignRight="@+id/imgvWishList"
+		    android:layout_alignTop="@+id/wantit"
+		    android:background="@drawable/tab_ownit_ind_disable" />
+<include
+            android:id="@+id/include_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignTop="@+id/relativeLayout1"
+            layout="@layout/instruction_layout" />
+
+    </RelativeLayout>
+
+</ScrollView>
